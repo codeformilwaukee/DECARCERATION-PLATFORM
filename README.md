@@ -4,3 +4,6 @@ To create a platform  to Aid the Cutting in Half of Wisconsin Prison Population 
 # PRESENTATION
 To view our kick-off presentation guide [click here](https://docs.google.com/presentation/d/1iuYNvc6MhwU4wDS-b4AyR6wJP1i1Y4cq5IbzA30I0X0/edit?usp=sharing)
 
+# User Research
+User Research and be found [here](https://docs.google.com/document/d/1T5tx78YrjtgtUsQMM7hu6QfJPlwbWESn3ZhBSLw504o/edit#heading=h.y6qihjxpo44m)
+
