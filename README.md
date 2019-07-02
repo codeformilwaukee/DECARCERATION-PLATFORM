@@ -7,3 +7,6 @@ To view our kick-off presentation guide [click here](https://docs.google.com/pre
 # User Research
 User Research and be found [here](https://docs.google.com/document/d/1T5tx78YrjtgtUsQMM7hu6QfJPlwbWESn3ZhBSLw504o/edit#heading=h.y6qihjxpo44m)
 
+# Challenges
+
+https://urbanmilwaukee.com/2019/07/01/cruel-and-unusual-evers-faces-hurdles-to-cutting-prisons/
