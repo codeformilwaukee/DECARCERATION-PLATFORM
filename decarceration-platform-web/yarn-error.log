@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /usr/bin/yarnpkg add --exact react react-dom react-scripts --cwd /mnt/c/Users/rinaldip/Documents/Projects/web-projects/DECARCERATION-PLATFORM/dp-web
+  /usr/bin/node /usr/bin/yarnpkg add --exact react react-dom react-scripts --cwd /mnt/c/Users/rinaldip/Documents/Projects/web-projects/DECARCERATION-PLATFORM/decarceration-platform-web
 
 PATH: 
   /home/paulrinaldi/.rbenv/plugins/ruby-build/bin:/home/paulrinaldi/.rbenv/shims:/home/paulrinaldi/.rbenv/bin:/home/paulrinaldi/.rbenv/plugins/ruby-build/bin:/home/paulrinaldi/.rbenv/shims:/home/paulrinaldi/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Python37/Scripts:/mnt/c/Program Files/Python37:/mnt/c/Python27:/mnt/c/Python27/Scripts:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files (x86)/Box/Box Edit:/mnt/c/Program Files/PuTTY:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/MATLAB/R2018b/bin:/mnt/c/Python36:/mnt/c/Python36/Scripts:/mnt/c/Users/rinaldip/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rinaldip/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/rinaldip/AppData/Roaming/npm:/mnt/c/Users/rinaldip/AppData/Local/Box/Box Edit:/snap/bin
@@ -14,11 +14,11 @@ Platform:
   linux x64
 
 Trace: 
-  Error: ENOENT: no such file or directory, lstat '/home/paulrinaldi/.cache/yarn/v4/npm-resolve-1.1.7-203114d82ad2c5ed9e8e0411b3932875e889e97b/node_modules/resolve/test/precedence/bbb.js'
+  Error: ENOENT: no such file or directory, copyfile '/home/paulrinaldi/.cache/yarn/v4/npm-ansi-escapes-4.2.1-4dccdb846c3eee10f6d64dea66273eab90c37228/node_modules/ansi-escapes/package.json' -> '/mnt/c/Users/rinaldip/Documents/Projects/web-projects/DECARCERATION-PLATFORM/decarceration-platform-web/node_modules/jest-watch-typeahead/node_modules/ansi-escapes/package.json'
 
 npm manifest: 
   {
-    "name": "dp-web",
+    "name": "decarceration-platform-web",
     "version": "0.1.0",
     "private": true
   }
