@@ -1,0 +1,10 @@
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: rgb(121, 121, 121);
+    text-align: left;
+    padding-left: 10px;
+  }

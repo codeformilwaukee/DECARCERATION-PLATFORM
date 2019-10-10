@@ -7,6 +7,7 @@ import Navigation from '../Navigation';
 import HomePage from '../HomePage';
 import SignUpPage from '../SignUpPage';
 import Account from '../Account';
+import Footer from '../Footer';
 
 import * as ROUTES from '../../constants/routes';
 
@@ -22,6 +23,7 @@ const App = () => (
             <Route exact path={ROUTES.SIGN_IN} component={SignInPage} />
 
             <Route exact path={ROUTES.ACCOUNT} component={Account} />
+            <Footer />
         </div>
     </Router>
 );
