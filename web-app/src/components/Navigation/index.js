@@ -12,13 +12,13 @@ const Navigation = () => (
     <div>
         <AppBar style={{backgroundColor:"#32a852"}} position="static">
             <Toolbar>
-                <Button edge="start" color="black" aria-label="Menu">
+                <Button style={{left:'0%', marginRight: '5%'}} edge="start" color="black" aria-label="Menu">
                     <MenuIcon />
                 </Button>
                 <Typography variant="h5">
                     Wisonsin Decarceration Platform
                 </Typography>
-                <Button style={{box: '10px', right:'0', color:'black'}} component={Link} to={ROUTES.SIGN_IN} contained color="inherit"><b>Login</b></Button>
+                <Button style={{position: 'fixed', right: '2.5%', color:'black'}} component={Link} to={ROUTES.SIGN_IN} contained color="inherit"><b>Login</b></Button>
             </Toolbar>
         </AppBar>
     </div>
