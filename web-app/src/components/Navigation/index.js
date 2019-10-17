@@ -1,7 +1,7 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
@@ -12,11 +12,13 @@ const Navigation = () => (
     <div>
         <AppBar style={{backgroundColor:"#32a852"}} position="static">
             <Toolbar>
-                <IconButton edge="start" color="inherit" aria-label="Meny" />
+                <Button style={{left:'0%', marginRight: '5%'}} edge="start" color="black" aria-label="Menu">
+                    <MenuIcon />
+                </Button>
                 <Typography variant="h5">
                     Wisonsin Decarceration Platform
                 </Typography>
-                <Button component={Link} to={ROUTES.SIGN_IN} color="inherit">Login</Button>
+                <Button style={{position: 'fixed', right: '2.5%', color:'black'}} component={Link} to={ROUTES.SIGN_IN} contained color="inherit"><b>Login</b></Button>
             </Toolbar>
         </AppBar>
     </div>
