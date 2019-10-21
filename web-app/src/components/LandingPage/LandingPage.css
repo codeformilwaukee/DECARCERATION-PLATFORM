@@ -18,3 +18,22 @@
   overflow:hidden;
 
 }
+
+.loginUser{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  background-color: rgb(61, 192, 79) ;
+
+  color: white;
+  border: 0;
+  outline: 0;
+  padding: 7px 7px;
+}
+
+.loginUser:hover {
+  background-color: rgb(51, 182, 69) ;
+}
+
+.loginUser:active {
+  background-color: rgb(21,152,39) ;
+}
