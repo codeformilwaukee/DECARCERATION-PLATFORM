@@ -21,7 +21,6 @@ const LoginButton = styled(Button)({
     fontSize: '1.5vw',
     textAlign: 'center',
     verticalAlign: 'middle',
-    borderRadius: '3px',
     textDecoration: 'none'
   });
 
@@ -51,29 +50,21 @@ const LandingPage = () => (
         <LoginButton
             className="loginUser"
             component={Link}
-            style = {{left: '40%'}}
-            to={ROUTES.SIGN_IN} >Login As User</LoginButton>
-        <LoginButton
-            className="loginUser"
-            component={Link}
-            style = {{left: '60%'}}
             to={ROUTES.SIGN_IN} >Login As Provider</LoginButton>
 
-
         <LoginButton
             className="loginUser"
+            style = {{top: '70%'}}
             component={Link}
-            style = {{left: '40%', top: '70%'}}
-            to={ROUTES.SIGN_UP} >Sign Up As User</LoginButton>
-
-        <LoginButton
-            className="loginUser"
-            component={Link}
-            style = {{left: '60%', top: '70%'}}
             to={ROUTES.SIGN_UP} >Sign Up As Provider</LoginButton>
 
         </div>
+        <div>
             
+
+        </div>
+
+
     </div>
 );
 
