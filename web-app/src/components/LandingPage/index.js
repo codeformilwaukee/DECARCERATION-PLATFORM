@@ -33,7 +33,8 @@ const LandingPage = () => (
             
         <img src={"images/d.png"}
             stretched = "false"
-            style={{ width: '100%', height: '20%' }}/>
+            style={{ width: '100%', height: '20%' }}
+            alt="TBD WDP Background"/>
           
         <Typography style = {{
             top: '40%',
