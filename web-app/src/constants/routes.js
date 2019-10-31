@@ -1,6 +1,7 @@
 export const LANDING = '/'
 export const SIGN_UP = '/signup';
 export const SIGN_IN = '/signin';
+export const SERVICE_PROVIDER_LIST = '/serviceproviders';
 export const CALENDAR= '/calendar';
 export const HOME_PAGE = '/home';
 export const INSIDE_OUT ='/insideout';
