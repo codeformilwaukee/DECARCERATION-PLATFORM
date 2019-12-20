@@ -8,6 +8,7 @@ import HomePage from '../HomePage';
 import SignUpPage from '../SignUpPage';
 import Account from '../Account';
 import Footer from '../Footer';
+import CalendarPage from '../CalendarPage';
 
 import * as ROUTES from '../../constants/routes';
 
@@ -23,6 +24,7 @@ const App = () => (
             <Route exact path={ROUTES.SIGN_IN} component={SignInPage} />
 
             <Route exact path={ROUTES.ACCOUNT} component={Account} />
+            <Route exact path={ROUTES.CALENDAR} component={CalendarPage} />
             <Footer />
         </div>
     </Router>
