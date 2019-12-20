@@ -16,7 +16,7 @@ const Navigation = () => (
                     <MenuIcon />
                 </Button>
                 <Typography variant="h5">
-                    Wisonsin Decarceration Platform
+                    Wisconsin Decarceration Platform
                 </Typography>
                 <Button style={{position: 'fixed', right: '2.5%', color:'black'}} component={Link} to={ROUTES.SIGN_IN} contained color="inherit"><b>Login</b></Button>
             </Toolbar>
