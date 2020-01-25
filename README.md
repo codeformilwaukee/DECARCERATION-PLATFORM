@@ -10,3 +10,13 @@ User Research and be found [here](https://docs.google.com/document/d/1T5tx78Yrjt
 # Challenges
 
 https://urbanmilwaukee.com/2019/07/01/cruel-and-unusual-evers-faces-hurdles-to-cutting-prisons/
+
+# Standups
+
+Weekly standsup/demo on google hangout.
+
+https://hangouts.google.com/call/hjoEFrcK6Fomvxx9x0EqAEEE
+
+# Roadmap
+
+https://photos.app.goo.gl/KppDeQHb8VUWu9WQ9
