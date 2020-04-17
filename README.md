@@ -13,7 +13,7 @@ https://urbanmilwaukee.com/2019/07/01/cruel-and-unusual-evers-faces-hurdles-to-c
 
 # Standups
 
-Weekly standsup/demo on google hangout.
+Weekly standup/demo on google hangout.
 
 https://hangouts.google.com/call/hjoEFrcK6Fomvxx9x0EqAEEE
 
