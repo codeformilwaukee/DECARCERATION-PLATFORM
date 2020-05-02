@@ -1,5 +1,5 @@
-import React from 'react';
-import { Calendar, momentLocalizer } from 'react-big-calendar';
+import React, {useState} from 'react';
+import { Calendar, momentLocalizer} from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 
@@ -23,6 +23,15 @@ const CalendarPage = () => {
     }
   ];
 
+  const [events, setEvents] = useState(myEvents)
+
+  const handleSelect = ({start, end}) => {
+    const title= window.prompt('New Event Name')
+    if (title) {
+      setEvents([...events,{start,end,title},])
+    }
+  }
+
   return (
     <div style={{
       position: 'absolute', 
@@ -31,8 +40,10 @@ const CalendarPage = () => {
       transform: 'translate(-50%, -50%)',
       marginTop: "200px"}}>
       <Calendar
+        selectable
         localizer={localizer}
-        events={myEvents}
+        events={events}
+        onSelectSlot= {handleSelect}
         startAccessor="start"
         endAccessor="end"
         style={{height: "800px", width: "1200px"}}
