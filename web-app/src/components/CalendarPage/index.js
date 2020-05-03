@@ -1,10 +1,13 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Calendar, momentLocalizer} from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
+import NewCalendarEntryModal from './NewCalendarEntryModal';
 
 const localizer = momentLocalizer(moment);
 const CalendarPage = () => {
+
+  //initialData
   const myEvents = [
       {
       title: 'major hacks 1',
@@ -23,14 +26,43 @@ const CalendarPage = () => {
     }
   ];
 
-  const [events, setEvents] = useState(myEvents)
+  //initialstate
+  const [modal, setModal] = useState(false);
+  const [events, setEvents] = useState(myEvents);
+  const [currEvent, setCurrEvent] = useState({
+    title: "",
+    start: "",
+    end: "",
+    repeat: false,
+    description: "",
+    location: "",
+  });
+  
+  //functions
+  const toggle = () => {setModal(!modal)}
 
   const handleSelect = ({start, end}) => {
-    const title= window.prompt('New Event Name')
-    if (title) {
-      setEvents([...events,{start,end,title},])
-    }
+    
+    setCurrEvent({...currEvent,start:start,end:end})
+    toggle();
   }
+
+ 
+  const handleCreate =  (event) => {
+    setCurrEvent({
+      ...currEvent,
+      title:event.title,
+      location:event.location,
+      repeat:event.repeat,
+      description:event.description
+    })
+  }
+
+       //this makes sure that currevent isn't added to events before currEvents receives data from child
+  useEffect(()=>{
+    setEvents([...events,currEvent])
+    setCurrEvent({})
+  },[currEvent])
 
   return (
     <div style={{
@@ -43,11 +75,12 @@ const CalendarPage = () => {
         selectable
         localizer={localizer}
         events={events}
-        onSelectSlot= {handleSelect}
+        onSelectSlot = {handleSelect}
         startAccessor="start"
         endAccessor="end"
         style={{height: "800px", width: "1200px"}}
       />
+      <NewCalendarEntryModal modal={modal} toggle={toggle}  create={handleCreate} />
     </div>
 );
 }
