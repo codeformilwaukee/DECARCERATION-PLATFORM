@@ -73,11 +73,6 @@ const CalendarPage = () => {
   },[currEvent.title])
 
   
-
-  const eventSetter = () => {
-    console.log("event Setter", events)
-    
-  }
   return (
     <div style={{
       position: 'absolute', 
