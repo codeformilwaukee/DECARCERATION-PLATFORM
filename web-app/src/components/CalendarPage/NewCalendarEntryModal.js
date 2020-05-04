@@ -34,13 +34,17 @@ const NewCalendarEntryModal = (props) => {
         console.log(e)
         e.preventDefault()
         console.log(title,description,location,repeat)
-        props.create({
+        props.handleCreate({
             title: title,
             repeat: repeat,
             description: description,
             location: location
         })
         props.toggle();
+        setTitle("")
+        setDescription("")
+        setLocation("")
+        setRepeat("")
     }
     
     return (

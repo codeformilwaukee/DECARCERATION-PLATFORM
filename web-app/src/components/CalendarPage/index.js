@@ -5,6 +5,7 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 import NewCalendarEntryModal from './NewCalendarEntryModal';
 
 const localizer = momentLocalizer(moment);
+
 const CalendarPage = () => {
 
   //initialData
@@ -27,16 +28,18 @@ const CalendarPage = () => {
   ];
 
   //initialstate
-  const [modal, setModal] = useState(false);
-  const [events, setEvents] = useState(myEvents);
-  const [currEvent, setCurrEvent] = useState({
+
+  const initialCurrEvent = {
     title: "",
     start: "",
     end: "",
     repeat: false,
     description: "",
     location: "",
-  });
+  }
+  const [modal, setModal] = useState(false);
+  const [events, setEvents] = useState(myEvents);
+  const [currEvent, setCurrEvent] = useState(initialCurrEvent);
   
   //functions
   const toggle = () => {setModal(!modal)}
@@ -55,15 +58,26 @@ const CalendarPage = () => {
       location:event.location,
       repeat:event.repeat,
       description:event.description
+      
     })
+    console.log(currEvent)
+    
   }
 
-       //this makes sure that currevent isn't added to events before currEvents receives data from child
+    //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
+    
+    
     setEvents([...events,currEvent])
-    setCurrEvent({})
-  },[currEvent])
+    setCurrEvent(initialCurrEvent)
+  },[currEvent.title])
 
+  
+
+  const eventSetter = () => {
+    console.log("event Setter", events)
+    
+  }
   return (
     <div style={{
       position: 'absolute', 
@@ -75,12 +89,12 @@ const CalendarPage = () => {
         selectable
         localizer={localizer}
         events={events}
-        onSelectSlot = {handleSelect}
+        onSelectSlot={handleSelect}
         startAccessor="start"
         endAccessor="end"
         style={{height: "800px", width: "1200px"}}
       />
-      <NewCalendarEntryModal modal={modal} toggle={toggle}  create={handleCreate} />
+      <NewCalendarEntryModal modal={modal} toggle={toggle}  handleCreate={handleCreate} />
     </div>
 );
 }
