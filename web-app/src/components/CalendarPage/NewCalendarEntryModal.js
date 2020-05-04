@@ -88,7 +88,7 @@ const NewCalendarEntryModal = (props) => {
                     </label>
                     <br/><br/>
                     <label htmlFor="location">
-                        Event description: &nbsp;
+                        Event location: &nbsp;
                         <input
                         type="text"
                         placeholder="location"
