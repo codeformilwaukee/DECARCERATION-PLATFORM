@@ -70,7 +70,7 @@ const CalendarPage = () => {
     
     setEvents([...events,currEvent])
     setCurrEvent(initialCurrEvent)
-  },[currEvent.title])
+  },[currEvent, events, initialCurrEvent])
 
   
   return (
