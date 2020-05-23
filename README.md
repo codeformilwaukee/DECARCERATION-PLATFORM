@@ -1,20 +1,48 @@
 # DECARCERATION-PLATFORM
-To create a platform  to Aid the Cutting in Half of Wisconsin Prison Population by 2030 by creating and maintaining a common online platform to amplify, unify, and aggregate people, organizations, and information, as well as disseminate communication and steps to end the incarceration problem in Wisconsin.
+# What
+(1) Equip service providers with the tools they need to have a positive network effect and build and maintain awesome impact within and across communities, AND (2) to equip post incarcerated individuals with a single tool that guides their reentry journey so they can lead lives of purpose and positivity in their communities and families.
 
-# PRESENTATION
-To view our kick-off presentation guide [click here](https://docs.google.com/presentation/d/1iuYNvc6MhwU4wDS-b4AyR6wJP1i1Y4cq5IbzA30I0X0/edit?usp=sharing)
+# Why
+We believe that many reentry organizations nationally could have a more transformative impact on mass incarceration if they are provided with more incentives, reminders, and notices to collaborate as well as if they had fewer gates to reach the individuals they wish to help. We also believe many people formerly incarcerated can and will lead law-abiding lives if their reentry journeys were filled with less hurdles, more positivity, and clearer tasks. Therefore, we seek to create a platform that meets those needs.
+
+# How
+With you.
+With Scrum.
+With Best Practices.
+By starting your first issue!
+
+```
+do {
+    do {
+        Fork -> Code -> PR -> Review -> Test
+    } while (FeaturesOfSprint == Incomplete)
+    Show users (soft release)
+    features#--
+} while (features# > 0)
+Launch()
+```
 
 # User Research
 User Research and be found [here](https://docs.google.com/document/d/1T5tx78YrjtgtUsQMM7hu6QfJPlwbWESn3ZhBSLw504o/edit#heading=h.y6qihjxpo44m)
 
-# Challenges
+# Revered Contributors
+These contributors have submitted PRs and stayed in touch week after week
+@kaftan - David Kaftand
 
-https://urbanmilwaukee.com/2019/07/01/cruel-and-unusual-evers-faces-hurdles-to-cutting-prisons/
+These contributors were instrumental in our initial progress (as early as September 2019)
+@kaftan - David Kaftand
+@flurmbo - Luke Iceonogle
+@paul-rinaldi
+@romkedehaan
+
+These contributors helped recently
+@gordoncaister - Gordon Caister
+
+Thank you all for your dedication and applied passion!
 
 # Standups
 
-Weekly standup/demo on google hangout.
-
+Weekly standup/demo 9AM US CDT on google hangouts
 https://hangouts.google.com/call/hjoEFrcK6Fomvxx9x0EqAEEE
 
 # Roadmap
@@ -36,4 +64,3 @@ https://hangouts.google.com/call/hjoEFrcK6Fomvxx9x0EqAEEE
 ## VIII - Lernaean Hydra 4 - Defect fixes + Feature Evolution (2 weeks)
     5 User Interviews
 ## IX - Zeus 1.0 - Launch
-
