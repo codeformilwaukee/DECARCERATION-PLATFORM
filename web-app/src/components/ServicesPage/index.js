@@ -67,6 +67,7 @@ const ServicesPage = () => {
               <div>{currService.title}</div>
               <FormControlLabel control={<Checkbox name="favorite" />} label="Favorite" />
             </Box>
+            <div>Address: {currService.address}</div>
           </Box>
         </Box>
       </Box>
