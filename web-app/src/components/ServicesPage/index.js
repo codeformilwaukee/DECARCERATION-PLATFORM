@@ -6,6 +6,7 @@ import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
 const ServicesPage = () => {
 
   //initialstate
+  /*
   const myServices = [
       {
       title: 'major hacks 1',
@@ -17,6 +18,7 @@ const ServicesPage = () => {
       title: 'major hacks 3',
     }
   ];
+  */
 
   const initialCurrService = {
     title: "",
@@ -33,8 +35,9 @@ const ServicesPage = () => {
     description: "",
     services: [],
   }
-  const [services, setServices] = useState(myServices);
-  const [currService, setCurrService] = useState(initialCurrService);  
+  //const [services, setServices] = useState(myServices);
+  //const [currService, setCurrService] = useState(initialCurrService);  
+  const [currService] = useState(initialCurrService);  
   
   //functions
   useEffect(()=>{
