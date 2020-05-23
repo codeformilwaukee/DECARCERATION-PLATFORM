@@ -1,43 +1,27 @@
 import React, {useState, useEffect} from 'react';
 
-import { Box, Checkbox, FormControlLabel } from '@material-ui/core';
+import { Box, Container } from '@material-ui/core';
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
+
+import Service from './Service';
 
 const ServicesPage = () => {
 
   //initialstate
-  /*
   const myServices = [
       {
-      title: 'major hacks 1',
+      title: 'Provider 1',
     },
     {
-      title: 'major hacks 2',
+      title: 'Provider 2',
     },
     {
-      title: 'major hacks 3',
+      title: 'Provider 3',
     }
   ];
-  */
 
-  const initialCurrService = {
-    title: "",
-    address: "",
-    unit: "",
-    city: "",
-    state: "",
-    zip: "",
-    lat: 0.0,
-    lng: 0.0,
-    phone: "",
-    email: "",
-    website: "",
-    description: "",
-    services: [],
-  }
   //const [services, setServices] = useState(myServices);
-  //const [currService, setCurrService] = useState(initialCurrService);  
-  const [currService] = useState(initialCurrService);  
+  const [services] = useState(myServices);
   
   //functions
   useEffect(()=>{
@@ -45,34 +29,23 @@ const ServicesPage = () => {
 
   
   return (
-    <div style={{
-      position: 'absolute', 
-      left: '50%', 
-      top: '50%',
-      transform: 'translate(-50%, -50%)',
-      marginTop: "200px"}}>
-      <Box class="services">
-        <Box class="left sidebar">
-          <Box class="segments">
-            <ToggleButtonGroup>
-              <ToggleButton>Food</ToggleButton>
-              <ToggleButton>Health</ToggleButton>
-              <ToggleButton>Jobs</ToggleButton>
-              <ToggleButton>Housing</ToggleButton>
-              <ToggleButton>Reentry</ToggleButton>
-            </ToggleButtonGroup>
-          </Box>
-          <Box class="service detail">
-            <Box class="title">
-              <div>{currService.title}</div>
-              <FormControlLabel control={<Checkbox name="favorite" />} label="Favorite" />
-            </Box>
-            <div>Address: {currService.address}</div>
-          </Box>
+    <Container className="services" style={{marginTop: "200px"}}>
+      <Box className="left sidebar">
+        <Box className="segments">
+          <ToggleButtonGroup>
+            <ToggleButton value="food">Food</ToggleButton>
+            <ToggleButton value="health">Health</ToggleButton>
+            <ToggleButton value="jobs">Jobs</ToggleButton>
+            <ToggleButton value="housing">Housing</ToggleButton>
+            <ToggleButton value="reentry">Reentry</ToggleButton>
+          </ToggleButtonGroup>
         </Box>
+        {services.map((service, i) => {
+          return (<Service key={i} title={service.title} />)
+        })}
       </Box>
-    </div>
-);
+    </Container>
+  );
 }
 
 export default ServicesPage;
