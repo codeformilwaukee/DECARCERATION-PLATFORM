@@ -6,10 +6,12 @@ name: Congressional Scraper Node.js CI
 on:
   push:
     branches: [ master ]
-    paths: [ 'congressional-updates/*' ]
+    paths:
+      - 'congressional-updates/*'
   pull_request:
     branches: [ master ]
-    paths: [ 'congressional-updates/*' ]
+    paths:
+      - 'congressional-updates/*'
 
 jobs:
   build:

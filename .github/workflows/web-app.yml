@@ -6,10 +6,12 @@ name: Web App Node.js CI
 on:
   push:
     branches: [ master ]
-    paths: [ 'web-app/*' ]
+    paths:
+      - 'web-app/*'
   pull_request:
     branches: [ master ]
-    paths: [ 'web-app/*' ]
+    paths:
+      - 'web-app/*'
 
 jobs:
   build:
