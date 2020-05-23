@@ -3,6 +3,17 @@ import React, {useState, useEffect} from 'react';
 const ServicesPage = () => {
 
   //initialstate
+  const myServices = [
+      {
+      title: 'major hacks 1',
+    },
+    {
+      title: 'major hacks 2',
+    },
+    {
+      title: 'major hacks 3',
+    }
+  ];
 
   const initialCurrService = {
     title: "",
@@ -19,6 +30,8 @@ const ServicesPage = () => {
     description: "",
     services: [],
   }
+  const [services, setServices] = useState(myServices);
+  const [currService, setCurrService] = useState(initialCurrService);  
   
   //functions
   useEffect(()=>{
