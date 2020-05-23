@@ -27,22 +27,22 @@ User Research and be found [here](https://docs.google.com/document/d/1T5tx78Yrjt
 
 # Revered Contributors
 These contributors have submitted PRs and stayed in touch week after week
-**
-    * @kaftand - David Kaftand
-    * @paul-rinaldi - Paul Rinaldi
-**
+
+* @kaftand - **David Kaftand**
+* @paul-rinaldi - **Paul Rinaldi**
+    
 These contributors were instrumental in our initial progress (as early as September 2019)
-**
-    * @kaftan - David Kaftand
-    * @flurmbo - Luke Iceonogle
-    * @paul-rinaldi
-    * @romkedehaan
-    * @aycrazy
-**
+
+* @kaftan - **David Kaftand**
+* @flurmbo - **Luke Iceonogle**
+* @paul-rinaldi - **Paul Rinaldi**
+* @romkedehaan - **Romke De Haan**
+* @aycrazy - **Andrew Yaspan**
+
 New contributors who helped recently
-**
-    * @gordoncaister - Gordon Caister
-**
+
+* @gordoncaister - **Gordon Caister**
+
 Thank you all for your dedication and applied passion!
 
 # Standups
