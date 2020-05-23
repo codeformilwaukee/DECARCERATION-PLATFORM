@@ -27,16 +27,17 @@ User Research and be found [here](https://docs.google.com/document/d/1T5tx78Yrjt
 
 # Revered Contributors
 These contributors have submitted PRs and stayed in touch week after week
-@kaftan - David Kaftand
+    @kaftand - David Kaftand
 
 These contributors were instrumental in our initial progress (as early as September 2019)
-@kaftan - David Kaftand
-@flurmbo - Luke Iceonogle
-@paul-rinaldi
-@romkedehaan
+    @kaftan - David Kaftand
+    @flurmbo - Luke Iceonogle
+    @paul-rinaldi
+    @romkedehaan
+    @aycrazy
 
-These contributors helped recently
-@gordoncaister - Gordon Caister
+New contributors who helped recently
+    @gordoncaister - Gordon Caister
 
 Thank you all for your dedication and applied passion!
 
