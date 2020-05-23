@@ -32,5 +32,5 @@ jobs:
       working-directory: web-app
     - run: npm run build --if-present
       working-directory: web-app
-    - run: npm test --passWithNoTests
+    - run: npm test
       working-directory: web-app
