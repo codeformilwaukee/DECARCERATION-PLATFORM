@@ -24,14 +24,21 @@ class Service extends React.Component {
         className="service detail"
         expanded={this.props.expanded === this.id}
         onChange={this.props.handleExpand(this.id)}>
-        <ExpansionPanelSummary className="title">
+        <ExpansionPanelSummary className="title" style={{
+          position: "relative",
+        }}>
           <div>{this.data.title}</div>
           <FormControlLabel
             control={<Checkbox name="favorite" onClick={this.handleClick} />}
             label="Favorite"
+            style={{
+              position: "absolute",
+              right: "5px",
+              top: "5px",
+            }}
             />
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails>
+        <ExpansionPanelDetails style={{flexDirection: "column"}}>
           <Address address={this.data.address}
                    unit={this.data.unit}
                    city={this.data.city}
@@ -42,11 +49,13 @@ class Service extends React.Component {
           {this.data.email && <div className="email">Email: {this.data.email}</div>}
           {this.data.website && <div className="website">Website: {this.data.website}</div>}
           {this.data.description && <div className="description">{this.data.description}</div>}
-          {this.data.services && <ul className="service-list">
-            {this.data.services.map((service, i) =>
-              <li key={i}>{service}</li>
-            )}
-          </ul>}
+          {this.data.services && <div className="service-list">
+            <ul>
+              {this.data.services.map((service, i) =>
+                <li key={i}>{service}</li>
+              )}
+            </ul>
+          </div>}
         </ExpansionPanelDetails>
       </ExpansionPanel>
     );

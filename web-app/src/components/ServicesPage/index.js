@@ -57,8 +57,14 @@ const ServicesPage = () => {
 
   
   return (
-    <Container className="services" style={{marginTop: "200px"}}>
-      <Box className="left sidebar">
+    <Container className="services" style={{
+      display: "flex",
+      marginTop: "200px",
+    }}>
+      <Box className="left sidebar" style={{
+        flex: "1",
+        paddingRight: "5%",
+      }}>
         <Box className="segments">
           <ToggleButtonGroup onChange={handleSegments} value={segments}>
             <ToggleButton value="food">Food</ToggleButton>
@@ -77,6 +83,11 @@ const ServicesPage = () => {
             data={service}
             />)
         })}
+      </Box>
+      <Box className="map" style={{
+        flex: "2",
+      }}>
+        <div>map goes here</div>
       </Box>
     </Container>
   );
