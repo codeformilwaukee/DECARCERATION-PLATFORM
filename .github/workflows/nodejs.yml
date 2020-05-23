@@ -24,6 +24,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }} 
-    - run: git://github.com/codeformilwaukee/DECARCERATION-PLATFORM/tree/master/web-app#master web-app/ npm ci
+    - run: git://github.com/codeformilwaukee/DECARCERATION-PLATFORM/master/web-app#master web-app/ npm ci
     - run: npm run build --if-present
     - run: npm test
