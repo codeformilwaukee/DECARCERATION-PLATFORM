@@ -7,11 +7,11 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'congressional-updates/*'
+      - 'congressional-updates/**'
   pull_request:
     branches: [ master ]
     paths:
-      - 'congressional-updates/*'
+      - 'congressional-updates/**'
 
 jobs:
   build:

@@ -7,11 +7,11 @@ on:
   push:
     branches: [ master ]
     paths:
-      - 'web-app/*'
+      - 'web-app/**'
   pull_request:
     branches: [ master ]
     paths:
-      - 'web-app/*'
+      - 'web-app/**'
 
 jobs:
   build:
