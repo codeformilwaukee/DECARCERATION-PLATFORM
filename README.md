@@ -34,7 +34,7 @@ These contributors have submitted PRs and stayed in touch week after week
 These contributors were instrumental in our initial progress (as early as September 2019)
 
 * @kaftan - **David Kaftand**
-* @flurmbo - **Luke Iceonogle**
+* @flurmbo - **Phil Marshall**
 * @paul-rinaldi - **Paul Rinaldi**
 * @romkedehaan - **Romke De Haan**
 * @aycrazy - **Andrew Yaspan**
@@ -51,21 +51,14 @@ Weekly standup/demo 9AM US CDT on google hangouts
 https://hangouts.google.com/call/hjoEFrcK6Fomvxx9x0EqAEEE
 
 # Roadmap
-
-## I - Chimera (2 weeks)
+2 Week Sprints
+## Sprint I (Chimera)
     5 User Interviews
-## II - Lernaean Hydra 1- Defect fixes + Feature Evolution (2 weeks)
+## Sprint II (Hydra) : Defect fixes + Feature Evolution (2 weeks)
     5 User Interviews
-## III - Briareus  (2 weeks)
+## Sprint III (Briareus)
     5 User Interviews
-## IV - Lernaean Hydra 2 - Defect fixes + Feature Evolution (2 weeks)
+## Sprint IV (Atlas) : Defect fixes + Feature Evolution (2 weeks)
     5 User Interviews
-## V - Atlas (2 weeks)
+## Sprint V (Zeus) : Launch
     5 User Interviews
-## VI - Lernaean Hydra 3 - Defect fixes + Feature Evolution (2 weeks)
-    5 User Interviews
-## VII - Ares (2 weeks)
-    5 User Interviews
-## VIII - Lernaean Hydra 4 - Defect fixes + Feature Evolution (2 weeks)
-    5 User Interviews
-## IX - Zeus 1.0 - Launch
