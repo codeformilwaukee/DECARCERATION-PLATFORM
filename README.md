@@ -19,4 +19,21 @@ https://hangouts.google.com/call/hjoEFrcK6Fomvxx9x0EqAEEE
 
 # Roadmap
 
-https://photos.app.goo.gl/KppDeQHb8VUWu9WQ9
+## I - Chimera (2 weeks)
+    5 User Interviews
+## II - Lernaean Hydra 1- Defect fixes + Feature Evolution (2 weeks)
+    5 User Interviews
+## III - Briareus  (2 weeks)
+    5 User Interviews
+## IV - Lernaean Hydra 2 - Defect fixes + Feature Evolution (2 weeks)
+    5 User Interviews
+## V - Atlas (2 weeks)
+    5 User Interviews
+## VI - Lernaean Hydra 3 - Defect fixes + Feature Evolution (2 weeks)
+    5 User Interviews
+## VII - Ares (2 weeks)
+    5 User Interviews
+## VIII - Lernaean Hydra 4 - Defect fixes + Feature Evolution (2 weeks)
+    5 User Interviews
+## IX - Zeus 1.0 - Launch
+
