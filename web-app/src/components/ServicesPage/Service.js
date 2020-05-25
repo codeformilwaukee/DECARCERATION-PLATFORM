@@ -25,26 +25,25 @@ class Service extends React.Component {
         expanded={this.props.expanded === this.id}
         onChange={this.props.handleExpand(this.id)}>
         <ExpansionPanelSummary className="title" style={{
-          position: "relative",
+          display: "flex",
         }}>
-          <div>{this.data.title}</div>
+          <div style={{
+            display: "inline-block",
+            flex: "4",
+            height: "42px",
+            lineHeight: "42px",
+          }}>{this.data.title}</div>
           <FormControlLabel
             control={<Checkbox name="favorite" onClick={this.handleClick} />}
             label="Favorite"
             style={{
-              position: "absolute",
-              right: "5px",
-              top: "5px",
+              flex: "1",
+              height: "42px",
             }}
             />
         </ExpansionPanelSummary>
         <ExpansionPanelDetails style={{flexDirection: "column"}}>
-          <Address address={this.data.address}
-                   unit={this.data.unit}
-                   city={this.data.city}
-                   state={this.data.state}
-                   zip={this.data.zip}
-                   />
+          <Address data={this.data} />
           {this.data.phone && <div className="phone">Phone: {this.data.phone}</div>}
           {this.data.email && <div className="email">Email: {this.data.email}</div>}
           {this.data.website && <div className="website">Website: {this.data.website}</div>}

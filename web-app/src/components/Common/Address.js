@@ -1,35 +1,39 @@
 import React from 'react';
 
 const Address = (props) => {
-
-  function isMultiLine(props) {
-    return (props.city && props.city.trim().length > 0)
-      || (props.state && props.state.trim().length > 0)
-      || (props.zip && props.zip.trim().length > 0);
+  const data = props.data;
+  if (!data) {
+    return "";
   }
 
-  function citySegment(props) {
-    if (!props.city) {
+  function isMultiLine() {
+    return (data.city && data.city.trim().length > 0)
+      || (data.state && data.state.trim().length > 0)
+      || (data.zip && data.zip.trim().length > 0);
+  }
+
+  function citySegment() {
+    if (!data.city) {
       return "";
     }
-    if (props.city.trim().length > 0
-      && (!props.state || props.state.trim().length === 0)) {
-      return props.city;
+    if (data.city.trim().length > 0
+      && (!data.state || data.state.trim().length === 0)) {
+      return data.city;
     }
-    return props.city + ", ";
+    return data.city + ", ";
   }
 
   return (
     <div className="address">
-      Address: {props.address}
-      {props.unit && props.unit.trim().length > 0 && <br />}
-      {props.unit && props.unit.trim().length > 0 && props.unit }
-      {isMultiLine(props) && <br />}
-      { isMultiLine(props) &&
+      Address: {data.address}
+      {data.unit && data.unit.trim().length > 0 && <br />}
+      {data.unit && data.unit.trim().length > 0 && data.unit }
+      {isMultiLine() && <br />}
+      { isMultiLine() &&
         <span>
-        { citySegment(props) }
-        {props.state && props.state.trim().length > 0 && props.state }
-        {props.zip && props.zip.trim().length > 0 && <span> {props.zip}</span> }
+        { citySegment() }
+        {data.state && data.state.trim().length > 0 && data.state }
+        {data.zip && data.zip.trim().length > 0 && <span> {data.zip}</span> }
         </span>
       }
     </div>
