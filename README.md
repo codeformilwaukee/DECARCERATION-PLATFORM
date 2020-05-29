@@ -41,21 +41,21 @@ User Research and be found [here](https://docs.google.com/document/d/1T5tx78Yrjt
 # Credits
 These contributors have submitted PRs and stayed in touch week after week
 
-* @kaftand - **David Kaftand**
-* @paul-rinaldi - **Paul Rinaldi**
+* @[kaftand](https://github.com/kaftand) - **David Kaftand**
+* @[paul-rinaldi](https://github.com/paul-rinaldi) - **Paul Rinaldi**
     
 These contributors were instrumental in our initial progress (as early as September 2019)
 
-* @kaftan - **David Kaftand**
-* @flurmbo - **Phil Marshall**
-* @paul-rinaldi - **Paul Rinaldi**
-* @romkedehaan - **Romke De Haan**
-* @aycrazy - **Andrew Yaspan**
+* @[kaftan](https://github.com/kaftand) - **David Kaftand**
+* @[flurmbo](https://github.com/flurmbo) - **Phil Marshall**
+* @[paul-rinaldi](https://github.com/paul-rinaldi) - **Paul Rinaldi**
+* @[romkedehaan](https://github.com/romkedehaan) - **Romke De Haan**
+* @[aycrazy](https://github.com/aycrazy) - **Andrew Yaspan**
 
 New contributors who helped recently
 
-* @gordoncaister - **Gordon Caister**
-* @knutsoned = **Ed Knutson**
+* @[gordoncaister](https://github.com/gordoncaister) - **Gordon Caister**
+* @[knutsoned](https://github.com/knutsoned) - **Ed Knutson**
 
 Thank you all for your dedication and applied passion!
 
