@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { Box, Container, Typography } from "@material-ui/core";
+import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
 
 import Service from "./Service";
