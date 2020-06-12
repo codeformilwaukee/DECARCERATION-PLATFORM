@@ -1,6 +1,8 @@
 import React from 'react';
 import './HomePage.css'
 import { Typography } from '@material-ui/core';
+import { List } from '@material-ui/core';
+import { ListItem } from '@material-ui/core';
 
 const HomePage = () => (
     <div className="external-links">
@@ -10,8 +12,8 @@ const HomePage = () => (
           marginTop: '20px'}}>
           External Links
       </Typography>
-      <ul>
-        <li>
+      <List>
+        <ListItem>
           <a href="https://211wisconsin.communityos.org/guided-search">
             <Typography style = {{
                 color: 'black',
@@ -21,8 +23,8 @@ const HomePage = () => (
                 211 Madison Basic Needs Search
             </Typography>
           </a>
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
           <a href="https://www.mkehometostay.org/">
             <Typography style = {{
                 color: 'black',
@@ -31,8 +33,8 @@ const HomePage = () => (
                 Home to Stay
             </Typography>
           </a>
-        </li>
-      </ul>
+        </ListItem>
+      </List>
     </div>
 );
 
