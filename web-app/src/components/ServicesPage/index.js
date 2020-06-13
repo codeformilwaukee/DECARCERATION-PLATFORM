@@ -30,6 +30,9 @@ const ServicesPage = () => {
 
   const [expanded, setExpanded] = useState("service0");
   const [segments, setSegments] = useState([]);
+  const [currentServiceExpanded, setCurrentService] = useState(
+    "No service selected"
+  );
 
   // TODO load list of services from data
   //const [services, setServices] = useState(myServices);
@@ -44,6 +47,7 @@ const ServicesPage = () => {
 
   const handleExpand = (service) => (event, isExpanded) => {
     setExpanded(isExpanded ? service : false);
+    setCurrentService(service);
   };
 
   const handleSegments = (event, newSegments) => {
@@ -94,13 +98,15 @@ const ServicesPage = () => {
           );
         })}
       </Box>
+      <div>{currentServiceExpanded}</div>
       <Box
         className="map"
         style={{
           flex: "2",
+          border: "5px",
         }}
       >
-        <div>map goes here</div>
+        {/* map goes here */}
       </Box>
     </Container>
   );
