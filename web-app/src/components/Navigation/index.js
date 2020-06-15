@@ -5,9 +5,36 @@ import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
-
+import './navigation.css'
+import '../../index.css'
 import * as ROUTES from '../../constants/routes';
 
+
+const Navigation = () => (
+    <div class="nav">
+        <ul>
+            <Link to={"/"}>
+                <li>Home</li>
+            </Link>
+            <Link to={"/"}>
+                <li>Reentry Services</li>
+            </Link>
+            <Link to={"/"}>
+                <li>Events</li>
+            </Link>
+            <Link to={"/"}>
+                <li>Help</li>
+            </Link>
+            <Link to={"/signin"}>
+                <li class="login">(Sign In/Up)</li>
+            </Link>
+        </ul>
+    </div>
+);
+
+
+
+/*
 const Navigation = () => (
     <div>
         <AppBar style={{backgroundColor:"#32a852"}} position="static">
@@ -23,5 +50,6 @@ const Navigation = () => (
         </AppBar>
     </div>
 );
+*/
 
 export default Navigation;

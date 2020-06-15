@@ -1,0 +1,28 @@
+.nav{
+  background-color: #45D176;
+  position: relative;
+  color: #39AD41;
+  font-family: hwt-artz, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+.nav a{
+  color: #39AD41;
+}
+
+.nav ul{
+  width: 100%;
+  font-size: 1.2em;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style:none;
+  position: absolute;
+  padding: inherit;
+  box-sizing: border-box;
+  left: 0;
+  top:50%;
+  padding-top: 0;
+  margin-top: 0;
+  transform: translateY(-50%);
+}
