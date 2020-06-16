@@ -1,55 +1,52 @@
-import React from 'react';
+import React, {Component} from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import MenuIcon from '@material-ui/icons/Menu';
 import Typography from '@material-ui/core/Typography';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, withRouter } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
 import './navigation.css'
 import '../../index.css'
-import * as ROUTES from '../../constants/routes';
+import * as LINKS from '../../constants/navlinks';
 
+class Navigation extends Component {
 
-const Navigation = () => (
-    <div class="nav">
-        <ul>
-            <Link to={"/"}>
-                <li>Home</li>
-            </Link>
-            <Link to={"#"}>
-                <li>Reentry Services</li>
-            </Link>
-            <Link to={"#"}>
-                <li>Events</li>
-            </Link>
-            <Link to={"#"}>
-                <li>Help</li>
-            </Link>
-            <Link to={"/signin"}>
-                <li class="login">(Sign In/Up)</li>
-            </Link>
-        </ul>
-    </div>
-);
+    // Control appearance of menu on phone-size screens
+    constructor(props) {
+        super(props)
+        this.state = {
+            toggle: 0
+        }
+    }
 
+    render() {
 
+        let path = this.props.location.pathname;
 
-/*
-const Navigation = () => (
-    <div>
-        <AppBar style={{backgroundColor:"#32a852"}} position="static">
-            <Toolbar style={{position:"relative"}}>
-                <Button style={{left:'0%', marginRight: '5%'}} edge="start" color="black" aria-label="Menu">
-                    <MenuIcon />
-                </Button>
-                <Typography variant="h5">
-                    Wisconsin Decarceration Platform
-                </Typography>
-                <Button style={{position: 'absolute', right: '2.5%', color:'black'}} component={Link} to={ROUTES.SIGN_IN} contained color="inherit"><b>Login</b></Button>
-            </Toolbar>
-        </AppBar>
-    </div>
-);
-*/
+        // If there are specific page links use those, else use defaults
+        var links = Object.keys(LINKS.PAGE_LINKS).indexOf(path) == -1 ? LINKS.DEFAULTS : LINKS.PAGE_LINKS[path]
+  
+        return (
+            <div className="nav">
+                <MenuIcon onClick={()=>this.setState({toggle: 1 - this.state.toggle})}/>
+                <ul className={this.state.toggle? "show": ""}>
+                    {links.map(link => (
+                        <li>
+                            {link[0] != path &&
+                                <Link to={link[0]}>
+                                    {link[1]}
+                                </Link>}
 
-export default Navigation;
+                            {link[0] == path &&
+                                <span>{link[1]}</span>
+                            }
+                        </li>
+                        
+                    ))}
+                </ul>
+            </div>
+        )
+    }
+};
+
+export default withRouter(Navigation);
