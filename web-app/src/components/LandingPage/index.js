@@ -28,11 +28,6 @@ const LandingPage = () => (
                 </li>
             </ul>
         </div>
-        <div id="message">
-            <span>
-                Everyone has a role to play in decarceration
-            </span>
-        </div>
     </div>
 
 )
