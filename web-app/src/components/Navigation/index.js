@@ -18,7 +18,7 @@ const Navigation = () => (
                 <Typography variant="h5">
                     Wisconsin Decarceration Platform
                 </Typography>
-                <Button style={{position: 'fixed', right: '2.5%', color: 'black'}} component={Link} to={ROUTES.SIGN_IN} contained="true" color="inherit"><b>Login</b></Button>
+                <Button style={{position: 'absolute', right: '2.5%', color: 'black'}} component={Link} to={ROUTES.SIGN_IN} contained="true" color="inherit"><b>Login</b></Button>
             </Toolbar>
         </AppBar>
     </div>
