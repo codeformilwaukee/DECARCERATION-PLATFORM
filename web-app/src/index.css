@@ -4,6 +4,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -17,18 +18,18 @@ code {
 
 .nav{
   width: 100%;
-  padding: 0 10%;
+  padding: 0 20%;
   box-sizing: border-box;
   height: 6vh;
 }
 .main{
-  padding: 0 10%;
+  padding: 0 20%;
   box-sizing: border-box;
   width: 100%;
   height: 94vh;
 }
 .footer{
-  padding: 1em 10%;
+  padding: 1em 20%;
   box-sizing: border-box;
   width: 100%;
   height: auto;
@@ -42,5 +43,57 @@ a{
 a:hover{
   text-decoration: underline;
 }
+
+/*
+Media Size Adjustments
+480px.600px.768px.900px.1024px.1200px.
+*/
+@media screen and (max-width: 1024px) {
+  .nav{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .main{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .footer{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .main{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .footer{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+  .nav{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px !important;
+  }
+  .main{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px !important;
+  }
+  .footer{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14px !important;
+  }
+}
+
 
 

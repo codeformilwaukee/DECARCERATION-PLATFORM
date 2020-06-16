@@ -16,13 +16,32 @@
   padding-bottom:0em;
   line-height: 1em;
   display: inline-block;
-  border-bottom: 5px solid #45D176;
-  -webkit-box-shadow: 0 8px 6px -6px black;
-	-moz-box-shadow: 0 8px 6px -6px black;
-	box-shadow: 0 8px 6px -6px rgba(0,0,0,0.5);
   text-shadow: 0px 4px 4px rgba(0,0,0, 0.4);
 }
-
+.welcome h2::after{
+  display: block;
+  content: "";
+  height: 5px;
+  width: 100%;
+  padding-top: 0em;
+  margin-top: 0;
+  background-color: #45D176;
+  border-radius: 2.5px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 4px 4px 1px rgba(0,0,0,0.2);
+}
+/*
+.welcome h2::after{
+  content: "wisconsin decarceration platform";
+  width: 100%;
+  display:block;
+  font-size: 0.2em;
+  margin-top: 0.1em;
+  text-shadow: 0px 3px 3px rgba(0,0,0, 0.4);
+  text-align: justify;
+}
+*/
 .welcome span{
   width: 100%;
   display:block;
@@ -38,8 +57,9 @@
 .icons ul{
   display:flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style:none;
+  padding-left: 0;
 }
 
 .icons li{
@@ -66,6 +86,12 @@
   bottom: 1em;
   left: 0;
 }
+
+/*
+Media Size Adjustments
+480px.600px.768px.900px.1024px.1200px.
+*/
+
 
 
 
