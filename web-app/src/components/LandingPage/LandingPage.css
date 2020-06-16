@@ -1,4 +1,4 @@
-.main{
+.main.landing{
   background-image: url("/images/bg-main.jpg");
   background-size: cover;
   background-position: bottom;
@@ -8,6 +8,7 @@
   font-weight: 500;
 
   text-align:center;
+  height: 94vh;
 }
 
 .welcome h2{
@@ -91,9 +92,32 @@
 Media Size Adjustments
 480px.600px.768px.900px.1024px.1200px.
 */
+@media screen and (max-width: 768px) {
+  .icons{
+    margin-top:13em;
+  }
+}
 
 
+@media screen and (max-width: 480px) {
+  .welcome h2{
+    font-size: 6em;
+  }
+  .welcome span{
+    font-size: 1.5em;
+  }
+  .icons{
+    margin-top: 4em;
+  }
+  .icons ul{
+    flex-direction: column;
+  }
+  .icons li{
+    padding-bottom: 1em;
 
+  }
+
+}
 
 /*
 .welcomeWrapper {

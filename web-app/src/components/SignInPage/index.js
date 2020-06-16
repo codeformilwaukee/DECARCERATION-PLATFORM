@@ -24,7 +24,7 @@ export default function Login(props) {
   }
 
   return (
-    <div className="Login" align='center'>
+    <div className="Login main" align='center'>
 
         <form onSubmit={handleSubmit}>
           <div>

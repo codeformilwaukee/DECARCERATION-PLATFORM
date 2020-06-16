@@ -27,7 +27,7 @@ const LoginButton = styled(Button)({
 
 
 const LandingPage = () => (
-    <div class="main">
+    <div class="main landing">
         <div class="welcome">
             <h2>Welcome</h2>
             <span>Wisconsin Decarceration Platform</span>

@@ -11,6 +11,12 @@ body {
   max-width: 100vw;
 }
 
+.main-container{
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -23,10 +29,10 @@ code {
   height: 6vh;
 }
 .main{
+  flex-grow:1;
   padding: 0 20%;
   box-sizing: border-box;
   width: 100%;
-  height: 94vh;
 }
 .footer{
   padding: 1em 20%;

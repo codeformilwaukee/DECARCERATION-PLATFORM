@@ -16,13 +16,13 @@ const Navigation = () => (
             <Link to={"/"}>
                 <li>Home</li>
             </Link>
-            <Link to={"/"}>
+            <Link to={"#"}>
                 <li>Reentry Services</li>
             </Link>
-            <Link to={"/"}>
+            <Link to={"#"}>
                 <li>Events</li>
             </Link>
-            <Link to={"/"}>
+            <Link to={"#"}>
                 <li>Help</li>
             </Link>
             <Link to={"/signin"}>
