@@ -1,3 +1,5 @@
+![](https://github.com/codeformilwaukee/DECARCERATION-PLATFORM/workflows/.github/workflows/web-app.yml/badge.svg)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

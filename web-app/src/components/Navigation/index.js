@@ -27,7 +27,7 @@ class Navigation extends Component {
         var links = Object.keys(LINKS.PAGE_LINKS).indexOf(path) == -1 ? LINKS.DEFAULTS : LINKS.PAGE_LINKS[path]
   
         return (
-            <div className="nav">
+            <div className="nav" onMouseOut={()=> this.setState({toggle: 0})}>
                 <MenuIcon onClick={()=>this.setState({toggle: 1 - this.state.toggle})}/>
                 <ul className={this.state.toggle? "show": ""}>
                     {links.map(link => (
