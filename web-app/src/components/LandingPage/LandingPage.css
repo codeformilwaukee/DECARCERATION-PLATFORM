@@ -1,5 +1,5 @@
 .main.landing{
-  height: 94vh;
+  min-height: 94vh;
 
   background-image: url("/images/bg-main.jpg");
   background-size: cover;
