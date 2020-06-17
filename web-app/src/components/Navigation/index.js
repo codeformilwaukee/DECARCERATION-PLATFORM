@@ -24,7 +24,7 @@ class Navigation extends Component {
         let path = this.props.location.pathname;
 
         // If there are specific page links use those, else use defaults
-        var links = Object.keys(LINKS.PAGE_LINKS).indexOf(path) == -1 ? LINKS.DEFAULTS : LINKS.PAGE_LINKS[path]
+        var links = Object.keys(LINKS.PAGE_LINKS).indexOf(path) === -1 ? LINKS.DEFAULTS : LINKS.PAGE_LINKS[path]
   
         return (
             <div className="nav">
@@ -37,7 +37,7 @@ class Navigation extends Component {
                                     {link[1]}
                                 </Link>}
 
-                            {link[0] == path &&
+                            {link[0] === path &&
                                 <span>{link[1]}</span>
                             }
                         </li>
