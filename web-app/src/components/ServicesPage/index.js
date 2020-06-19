@@ -2,52 +2,43 @@ import React, { useState, useEffect } from "react";
 
 import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
+import { GoogleApiWrapper, Map, Marker } from "google-maps-react"
 
 import Service from "./Service";
+import { myServices } from "../../constants/services"
 
-const ServicesPage = () => {
-  //initialstate
-  const myServices = [
-    {
-      title: "Provider 1",
-      address: "123 Main St",
-      services: ["Food", "Jobs"],
-    },
-    {
-      title: "Provider 2",
-      address: "411 E Wisconsin Ave",
-      unit: "9th Fl",
-      zip: "53202",
-    },
-    {
-      title: "Provider 3",
-      address: "808 N 3rd St",
-      city: "Milwaukee",
-      state: "WI",
-      zip: "53203",
-    },
-  ];
-
-  const [expanded, setExpanded] = useState("service0");
+const ServicesPage = (props) => {
+  const [expanded, setExpanded] = useState(1);
   const [segments, setSegments] = useState([]);
-  const [currentServiceExpanded, setCurrentService] = useState(
-    "No service selected"
-  );
 
   // TODO load list of services from data
   //const [services, setServices] = useState(myServices);
   const [services] = useState(myServices);
+  const [selectedServices, setSelectedServices] = useState([]);
 
   //functions
   const handleCheck = (service) => (event) => {
     event.stopPropagation();
+    if (event.target.checked) {
+      if (!selectedServices.includes(service)) {
+        setSelectedServices(prevSelected => ([...prevSelected, service]));
+      }
+    } else {
+      const idx = selectedServices.indexOf(service);
+      if (idx > -1) {
+        setSelectedServices((prevSelected) => {
+          const newSelected = [...prevSelected];
+          newSelected.splice(idx, 1);
+          return newSelected;
+        });
+      }
+    }
     // TODO event.target.checked contains state of checkbox with id of service param
     // service param will be "service0", "service1", etc based on position in list
   };
 
   const handleExpand = (service) => (event, isExpanded) => {
     setExpanded(isExpanded ? service : false);
-    setCurrentService(service);
   };
 
   const handleSegments = (event, newSegments) => {
@@ -55,7 +46,7 @@ const ServicesPage = () => {
     // TODO filter services by segment
   };
 
-  useEffect(() => {}, [expanded]);
+  useEffect(() => {}, [expanded, selectedServices]);
 
   return (
     <Container
@@ -90,15 +81,13 @@ const ServicesPage = () => {
             <Service
               key={i}
               expanded={expanded}
-              handleCheck={handleCheck}
-              handleExpand={handleExpand}
-              id={"service" + i}
+              handleCheck={() => handleCheck(service.id)}
+              handleExpand={() => handleExpand(service.id)}
               data={service}
             />
           );
         })}
       </Box>
-      <div>{currentServiceExpanded}</div>
       <Box
         className="map"
         style={{
@@ -106,10 +95,35 @@ const ServicesPage = () => {
           border: "5px",
         }}
       >
-        {/* map goes here */}
+      <Map
+        google = {props.google}
+        zoom = { 10 }
+        xs = { 12 }
+        item
+        initialCenter = {{ lat: 43.057806, lng: -88.1075128 }}
+        style = {{
+          width: "50%",
+          height: "70%",
+        }}
+      >
+        { 
+          selectedServices.map(serviceId => {
+            const currService = myServices.filter(service => service.id === serviceId)[0];
+            return (
+              <Marker
+                title = { currService.title }
+                position = {{ lat: currService.lat, lng: currService.long }}
+                key = { serviceId }
+              />
+            );
+          })
+        }
+      </Map>
       </Box>
     </Container>
   );
 };
 
-export default ServicesPage;
+export default GoogleApiWrapper({
+  apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY
+})(ServicesPage);

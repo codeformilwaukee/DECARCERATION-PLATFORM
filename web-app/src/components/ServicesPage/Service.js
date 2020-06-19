@@ -8,7 +8,7 @@ import Address from '../Common/Address';
 class Service extends React.Component {
   constructor(props) {
     super(props);
-    this.id = props.id;
+    this.id = props.data.id;
     this.data = props.data;
     this.handleClick = this.handleClick.bind(this);
   }
