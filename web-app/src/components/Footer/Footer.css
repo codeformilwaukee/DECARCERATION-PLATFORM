@@ -1,10 +1,25 @@
 .Footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-    color: rgb(121, 121, 121);
-    text-align: left;
-    padding-left: 10px;
-  }
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: rgb(121, 121, 121);
+  text-align: left;
+  padding: 10px;
+
+  /* Position child elements in a grid. */
+  display: grid;
+  grid-template-rows: 2em 1fr 2em;
+  grid-row-gap: 1rem;
+}
+
+.linksContainer {
+  /* Align to the horizontal center of our parent grid container. */
+  justify-self: center;
+
+  /* The links container centers its children. */
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 2rem;
+}

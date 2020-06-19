@@ -14,3 +14,5 @@ export const MAP = '/map';
 export const legislation = '/legislation';
 export const ACCOUNT = '/myaccount';
 export const SERVICES = '/services';
+export const PRIVACY_POLICY = '/privacypolicy';
+export const TERMS_AND_CONDITIONS = '/termsandconditions';
