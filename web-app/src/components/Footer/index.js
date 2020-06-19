@@ -1,16 +1,20 @@
 import React from 'react';
-import '../Footer/Footer.css';
+import { Link } from 'react-router-dom';
 
-import PrivacyPolicy from './PrivacyPolicy';
-import TermsAndConditions from './TermsAndConditions';
+import * as ROUTES from '../../constants/routes';
+import './Footer.css';
 
 const Footer = () => (
     <div className='Footer'>
         <div>Social Links TBD</div>
         <div>Newsletter Sign Up TBD</div>
         <div className="linksContainer">
-            <PrivacyPolicy />
-            <TermsAndConditions />
+            <Link to={ROUTES.PRIVACY_POLICY}>
+                Privacy Policy
+            </Link>
+            <Link to={ROUTES.TERMS_AND_CONDITIONS}>
+                Terms and Conditions
+            </Link>
         </div>
     </div>
 )
