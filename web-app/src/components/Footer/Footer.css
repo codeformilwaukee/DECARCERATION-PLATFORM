@@ -10,7 +10,7 @@
 
   /* Position child elements in a grid. */
   display: grid;
-  grid-template-rows: 2em 1fr 2em;
+  grid-template-rows: 2rem 1fr 2rem;
   grid-row-gap: 1rem;
 }
 

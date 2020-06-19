@@ -10,10 +10,10 @@ import Account from '../Account';
 import Footer from '../Footer';
 import CalendarPage from '../CalendarPage';
 import ServicesPage from '../ServicesPage';
-
-import * as ROUTES from '../../constants/routes';
 import PrivacyPolicyPage from '../PrivacyPolicyPage';
 import TermsAndConditionsPage from '../TermsAndConditionsPage';
+
+import * as ROUTES from '../../constants/routes';
 
 const App = () => (
     <Router>
