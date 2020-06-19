@@ -3,7 +3,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 
 import { useHistory, useLocation } from "react-router-dom";
-import classes from './tabs.css';
 
 /**
  * @type {Array<TabData>}
@@ -75,7 +74,7 @@ const TabNavigation = () => {
         return <Tab key={data.value} value={data.value} label={data.label} />
     })
     return (
-        <Tabs style={classes.root} value={value} onChange={handleChange} aria-label="Tabs list">
+        <Tabs value={value} onChange={handleChange} aria-label="Tabs list">
             {tabList}
         </Tabs>
     )
