@@ -3,6 +3,7 @@ import { Calendar, momentLocalizer} from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import NewCalendarEntryModal from './NewCalendarEntryModal';
+import ExistingCalendarEntryModal from './ExistingCalendarEntryModal';
 
 const localizer = momentLocalizer(moment);
 
@@ -37,20 +38,21 @@ const CalendarPage = () => {
     description: "",
     location: "",
   }
-  const [modal, setModal] = useState(false);
+  const [newEventModal, setNewEventModal] = useState(false);
+  const [existingEventModal, setExistingEventModal] = useState(false);
   const [events, setEvents] = useState(myEvents);
   const [currEvent, setCurrEvent] = useState(initialCurrEvent);
+  const [selectedEvent, setSelectedEvent] = useState(initialCurrEvent);
   
   //functions
-  const toggle = () => {setModal(!modal)}
+  const toggleNew = () => {setNewEventModal(!newEventModal)}
+  const toggleExisting = () => {setExistingEventModal(!existingEventModal)}
 
-  const handleSelect = ({start, end}) => {
-    
+  const handleSelectNew = ({start, end}) => {
     setCurrEvent({...currEvent,start:start,end:end})
-    toggle();
+    toggleNew();
   }
 
- 
   const handleCreate =  (event) => {
     setCurrEvent({
       ...currEvent,
@@ -58,16 +60,15 @@ const CalendarPage = () => {
       location:event.location,
       repeat:event.repeat,
       description:event.description
-      
     })
-    console.log(currEvent)
-    
   }
 
+  const handleSelectExisting = event => {
+    setSelectedEvent(event)
+    toggleExisting(); 
+  }
     //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
-    
-    
     setEvents([...events,currEvent])
     setCurrEvent(initialCurrEvent)
   },[currEvent.title])
@@ -84,12 +85,14 @@ const CalendarPage = () => {
         selectable
         localizer={localizer}
         events={events}
-        onSelectSlot={handleSelect}
+        onSelectSlot={handleSelectNew}
+        onSelectEvent={handleSelectExisting}
         startAccessor="start"
         endAccessor="end"
         style={{height: "800px", width: "1200px"}}
       />
-      <NewCalendarEntryModal modal={modal} toggle={toggle}  handleCreate={handleCreate} />
+      <NewCalendarEntryModal modal={newEventModal} toggle={toggleNew}  handleCreate={handleCreate} />
+      <ExistingCalendarEntryModal modal={existingEventModal} toggle={toggleExisting} event={selectedEvent}/>
     </div>
 );
 }
