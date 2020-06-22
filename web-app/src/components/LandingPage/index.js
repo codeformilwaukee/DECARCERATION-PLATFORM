@@ -1,7 +1,11 @@
 /** Landing Page for Website */
 import React from 'react';
+import {Link} from 'react-router-dom'
+import * as ROUTES from '../../constants/routes'
 import '../../index.css'
 import './LandingPage.css'
+
+
 
 const LandingPage = () => (
     <div class="main landing">
@@ -12,17 +16,19 @@ const LandingPage = () => (
         <div class="icons">
             <ul>
                 <li>
-                    <img src="images/organised.png" />
+                    <img src="images/organised.png" alt="People protesting icon" />
                     <br />
-                    <span>&middot;&nbsp;Get Organised&nbsp;&middot;</span>
+                    <span>&middot;&nbsp;Get Involved&nbsp;&middot;</span>
                 </li>
                 <li>
-                    <img src="images/help.png" />
+                    <Link to={ROUTES.SERVICES}>
+                        <img src="images/help.png" alt="Helpful hand icon" />
+                    </Link>
                     <br />
                     <span>&middot;&nbsp;Get Help&nbsp;&middot;</span>
                 </li>
                 <li>
-                    <img src="images/informed.png" />
+                    <img src="images/informed.png" alt="Open book icon" />
                     <br />
                     <span>&middot;&nbsp;Get Informed&nbsp;&middot;</span>
                 </li>

@@ -1,10 +1,6 @@
 import React, {Component} from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
 import MenuIcon from '@material-ui/icons/Menu';
-import Typography from '@material-ui/core/Typography';
-import { Link, useLocation, withRouter } from 'react-router-dom';
-import Button from '@material-ui/core/Button';
+import { Link, withRouter } from 'react-router-dom';
 import './navigation.css'
 import '../../index.css'
 import * as LINKS from '../../constants/navlinks';
