@@ -59,7 +59,7 @@ const ServicesPage = () => {
 
   return (
     <Container
-      className="services"
+      className="services main"
       style={{
         display: "flex",
         marginTop: "200px",
