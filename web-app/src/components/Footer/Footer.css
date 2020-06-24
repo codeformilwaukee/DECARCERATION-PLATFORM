@@ -12,13 +12,9 @@
 }
 
 .linksContainer {
-  /* Align to the horizontal center of our parent grid container. */
-  justify-self: center;
-
-  /* The links container centers its children. */
   display: grid;
   grid-auto-flow: column;
-  column-gap: 2rem;
+  justify-content: space-evenly;
 }
 
 .footer p {
