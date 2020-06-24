@@ -1,17 +1,14 @@
-.Footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: rgb(121, 121, 121);
-  text-align: left;
-  padding: 10px;
+.footer {
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    color: rgb(121, 121, 121);
+    text-align: left;
 
-  /* Position child elements in a grid. */
-  display: grid;
-  grid-template-rows: 2rem 1fr 2rem;
-  grid-row-gap: 1rem;
+    /* Position child elements in a grid. */
+    display: grid;
+    grid-template-rows: 2rem 1fr 2rem;
+    grid-row-gap: 1rem;
 }
 
 .linksContainer {
@@ -22,4 +19,12 @@
   display: grid;
   grid-auto-flow: column;
   column-gap: 2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: cornflowerblue;
 }

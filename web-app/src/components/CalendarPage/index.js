@@ -74,12 +74,12 @@ const CalendarPage = () => {
 
   
   return (
-    <div style={{
-      position: 'absolute', 
-      left: '50%', 
-      top: '50%',
-      transform: 'translate(-50%, -50%)',
-      marginTop: "200px"}}>
+    <div 
+      class="main"
+      style={{
+        marginBottom: "1em",
+        marginTop: "1em"
+    }}>
       <Calendar
         selectable
         localizer={localizer}
@@ -87,7 +87,7 @@ const CalendarPage = () => {
         onSelectSlot={handleSelect}
         startAccessor="start"
         endAccessor="end"
-        style={{height: "800px", width: "1200px"}}
+        style={{height: "800px", width: "100%"}}
       />
       <NewCalendarEntryModal modal={modal} toggle={toggle}  handleCreate={handleCreate} />
     </div>
