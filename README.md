@@ -17,6 +17,8 @@ Currently implemented routes:
 * /calendar
 * /home
 * /services
+* /privacypolicy
+* /termsandconditions
 
 Screenshots will be included in the next sprint.
 
