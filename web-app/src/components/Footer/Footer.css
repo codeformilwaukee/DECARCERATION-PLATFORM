@@ -4,7 +4,23 @@
     margin: 0;
     color: rgb(121, 121, 121);
     text-align: left;
-  }
-.footer p{
+
+    /* Position child elements in a grid. */
+    display: grid;
+    grid-template-rows: 2rem 1fr 2rem;
+    grid-row-gap: 1rem;
+}
+
+.linksContainer {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
+}
+
+.footer p {
   margin: 0;
+}
+
+.footer a {
+  color: cornflowerblue;
 }
