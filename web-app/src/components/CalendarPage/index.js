@@ -3,54 +3,56 @@ import { Calendar, momentLocalizer} from 'react-big-calendar';
 import moment from 'moment';
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import NewCalendarEntryModal from './NewCalendarEntryModal';
+import ExistingCalendarEntryModal from './ExistingCalendarEntryModal';
 
 const localizer = momentLocalizer(moment);
+//initialData
+const myEvents = [
+  {
+  title: 'major hacks 1',
+  start: new Date('January 1, 2020 08:24:00'),
+  end: new Date('January 7, 2020 12:24:00'),
+},
+{
+  title: 'major hacks 2',
+  start: new Date('January 8, 2020 08:24:00'),
+  end: new Date('January 25, 2020 12:24:00'),
+},
+{
+  title: 'major hacks 3',
+  start: new Date('January 26, 2020 08:24:00'),
+  end: new Date('February 4, 2020 12:24:00'),
+}
+];
 
+//initialstate
+
+const initialCurrEvent = {
+title: "",
+start: "",
+end: "",
+repeat: false,
+description: "",
+location: "",
+}
 const CalendarPage = () => {
 
-  //initialData
-  const myEvents = [
-      {
-      title: 'major hacks 1',
-      start: new Date('January 1, 2020 08:24:00'),
-      end: new Date('January 7, 2020 12:24:00'),
-    },
-    {
-      title: 'major hacks 2',
-      start: new Date('January 8, 2020 08:24:00'),
-      end: new Date('January 25, 2020 12:24:00'),
-    },
-    {
-      title: 'major hacks 3',
-      start: new Date('January 26, 2020 08:24:00'),
-      end: new Date('February 4, 2020 12:24:00'),
-    }
-  ];
-
-  //initialstate
-
-  const initialCurrEvent = {
-    title: "",
-    start: "",
-    end: "",
-    repeat: false,
-    description: "",
-    location: "",
-  }
-  const [modal, setModal] = useState(false);
+  
+  const [newEventModal, setNewEventModal] = useState(false);
+  const [existingEventModal, setExistingEventModal] = useState(false);
   const [events, setEvents] = useState(myEvents);
   const [currEvent, setCurrEvent] = useState(initialCurrEvent);
+  const [selectedEvent, setSelectedEvent] = useState(initialCurrEvent);
   
   //functions
-  const toggle = () => {setModal(!modal)}
+  const toggleNew = () => {setNewEventModal(!newEventModal)}
+  const toggleExisting = () => {setExistingEventModal(!existingEventModal)}
 
-  const handleSelect = ({start, end}) => {
-    
+  const handleSelectNew = ({start, end}) => {
     setCurrEvent({...currEvent,start:start,end:end})
-    toggle();
+    toggleNew();
   }
 
- 
   const handleCreate =  (event) => {
     setCurrEvent({
       ...currEvent,
@@ -58,19 +60,22 @@ const CalendarPage = () => {
       location:event.location,
       repeat:event.repeat,
       description:event.description
-      
     })
-    console.log(currEvent)
-    
   }
 
+  const handleSelectExisting = event => {
+    setSelectedEvent(event)
+    toggleExisting(); 
+  }
+  console.log(events)
     //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
-    
-    
-    setEvents([...events,currEvent])
-    setCurrEvent(initialCurrEvent)
-  },[currEvent, events, initialCurrEvent])
+    if( currEvent.title !== initialCurrEvent.title){
+      let joined = events.concat(currEvent)
+      setEvents(joined)
+      setCurrEvent(initialCurrEvent)
+    }
+  },[events,currEvent])
 
   
   return (
@@ -83,13 +88,15 @@ const CalendarPage = () => {
       <Calendar
         selectable
         localizer={localizer}
-        events={events}
-        onSelectSlot={handleSelect}
+        events={events} 
+        onSelectSlot={handleSelectNew}
+        onSelectEvent={handleSelectExisting}
         startAccessor="start"
         endAccessor="end"
         style={{height: "800px", width: "100%"}}
       />
-      <NewCalendarEntryModal modal={modal} toggle={toggle}  handleCreate={handleCreate} />
+      <NewCalendarEntryModal modal={newEventModal} toggle={toggleNew}  handleCreate={handleCreate} />
+      <ExistingCalendarEntryModal modal={existingEventModal} toggle={toggleExisting} event={selectedEvent}/>
     </div>
 );
 }
