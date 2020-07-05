@@ -69,9 +69,9 @@ const CalendarPage = () => {
   }
     //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
-    setEvents([...events,currEvent])
+    setEvents(e => [...events,currEvent])
     setCurrEvent(initialCurrEvent)
-  },[currEvent, events, initialCurrEvent])
+  },[currEvent])
 
   
   return (
@@ -84,7 +84,7 @@ const CalendarPage = () => {
       <Calendar
         selectable
         localizer={localizer}
-        events={events}
+        events={events} 
         onSelectSlot={handleSelectNew}
         onSelectEvent={handleSelectExisting}
         startAccessor="start"
