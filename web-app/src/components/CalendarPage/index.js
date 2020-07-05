@@ -70,8 +70,8 @@ const CalendarPage = () => {
     //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
     setEvents(e => [...events,currEvent])
-    setCurrEvent(initialCurrEvent)
-  },[currEvent])
+    setCurrEvent(e => initialCurrEvent)
+  },[currEvent, events, initialCurrEvent])
 
   
   return (
