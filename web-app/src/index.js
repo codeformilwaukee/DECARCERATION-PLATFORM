@@ -6,6 +6,8 @@ import './index.css';
 import Amplify from 'aws-amplify';
 import config from './config';
 
+require('dotenv').config()
+
 Amplify.configure({
     Auth: {
       mandatorySignIn: true,
