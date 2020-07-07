@@ -36,7 +36,6 @@ description: "",
 location: "",
 }
 const CalendarPage = () => {
-  
   const [newEventModal, setNewEventModal] = useState(false);
   const [existingEventModal, setExistingEventModal] = useState(false);
   const [events, setEvents] = useState(myEvents);
@@ -66,7 +65,6 @@ const CalendarPage = () => {
     setSelectedEvent(event)
     toggleExisting(); 
   }
-
   console.log(events)
     //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
