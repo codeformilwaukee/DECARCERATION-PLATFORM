@@ -36,6 +36,8 @@ description: "",
 location: "",
 }
 const CalendarPage = () => {
+  
+  
   const [newEventModal, setNewEventModal] = useState(false);
   const [existingEventModal, setExistingEventModal] = useState(false);
   const [events, setEvents] = useState(myEvents);
