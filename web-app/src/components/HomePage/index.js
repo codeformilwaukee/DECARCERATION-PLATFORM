@@ -5,7 +5,7 @@ import { List } from '@material-ui/core';
 import { ListItem } from '@material-ui/core';
 
 const HomePage = () => (
-    <div className="external-links">
+    <div className="external-links main">
       <Typography style = {{
           color: 'black',
           fontSize: '1.5vw',

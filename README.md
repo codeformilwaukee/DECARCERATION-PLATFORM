@@ -17,6 +17,8 @@ Currently implemented routes:
 * /calendar
 * /home
 * /services
+* /privacypolicy
+* /termsandconditions
 
 Screenshots will be included in the next sprint.
 
@@ -56,6 +58,10 @@ New contributors who helped recently
 
 * @[gordoncaister](https://github.com/gordoncaister) - **Gordon Caister**
 * @[knutsoned](https://github.com/knutsoned) - **Ed Knutson**
+* @[hdenisenko](https://github.com/hdenisenko)
+* @[rohanrk](https://github.com/rohanrk) - **Rohan**
+* @[rs6713](https://github.com/rs6713) 0 **Becks Simpson**
+
 
 Thank you all for your dedication and applied passion!
 
