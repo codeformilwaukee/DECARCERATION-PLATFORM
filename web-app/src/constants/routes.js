@@ -2,7 +2,6 @@ export const LANDING = '/'
 export const SIGN_UP = '/signup';
 export const SIGN_IN = '/signin';
 export const CALENDAR= '/calendar';
-export const HOME_PAGE = '/home';
 export const INSIDE_OUT ='/insideout';
 export const DATA = '/data';
 export const ABOUT = '/about';

@@ -1,7 +1,6 @@
 import * as ROUTES from './routes';
 
 export const DEFAULTS = [
-  [ROUTES.HOME_PAGE, "Home"],
   [ROUTES.SERVICES, "Reentry Services"],
   [ROUTES.CALENDAR, "Events"],
   ["#", "Help"],
