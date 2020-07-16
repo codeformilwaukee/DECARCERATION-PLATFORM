@@ -60,7 +60,7 @@ New contributors who helped recently
 * @[knutsoned](https://github.com/knutsoned) - **Ed Knutson**
 * @[hdenisenko](https://github.com/hdenisenko)
 * @[rohanrk](https://github.com/rohanrk) - **Rohan**
-* @[rs6713](https://github.com/rs6713) 0 **Becks Simpson**
+* @[rs6713](https://github.com/rs6713) - **Becks Simpson**
 
 
 Thank you all for your dedication and applied passion!
