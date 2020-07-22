@@ -23,7 +23,7 @@ Currently implemented routes:
 Screenshots will be included in the next sprint.
 
 # Contributing
-See /CONTRIBUTING.md
+See [./CONTRIBUTING.md](https://github.com/codeformilwaukee/DECARCERATION-PLATFORM/blob/master/CONTRIBUTING.md)
 
 # Credits
 These contributors have submitted PRs and stayed in touch week after week
