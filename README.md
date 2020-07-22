@@ -7,7 +7,7 @@ We believe that many reentry organizations nationally could have a more transfor
 # Installation
 This project uses NPM and was started with create-react-app.
 
-Once cloned, running a ```npm install``` in ```web-app/``` followed by ```npm start```, a development version of the website app will open in your browser.   
+Once cloned, running a ```npm install``` in ```web-app/``` followed by ```npm start``` will start and open a development version of the website app in your browser (by your localhost).   
 
 # Usage
 Navigation can be done by appending routes to the end of the url in browser currently, those routes are defined in ```web-app/src/routes.js```.
