@@ -16,19 +16,19 @@ const LandingPage = () => (
         <div class="icons">
             <ul>
                 <li>
-                    <img src="images/organised.png" alt="People protesting icon" />
+                    <img src="images/organised.png" alt="Redirects to sign-up sheet." />
                     <br />
                     <span>&middot;&nbsp;Get Involved&nbsp;&middot;</span>
                 </li>
                 <li>
                     <Link to={ROUTES.SERVICES}>
-                        <img src="images/help.png" alt="Helpful hand icon" />
+                        <img src="images/help.png" alt="Redirects to services that we offer." />
                     </Link>
                     <br />
                     <span>&middot;&nbsp;Get Help&nbsp;&middot;</span>
                 </li>
                 <li>
-                    <img src="images/informed.png" alt="Open book icon" />
+                    <img src="images/informed.png" alt="Redirects to our mission statement." />
                     <br />
                     <span>&middot;&nbsp;Get Informed&nbsp;&middot;</span>
                 </li>
