@@ -1,17 +1,22 @@
-import React,{ useState } from 'react';
+import React,{ useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import { useInput } from '../../hooks/useInput';
-
-
+import moment from 'moment';
 
 const NewCalendarEntryModal = (props) => {
-
     //state using custom hooks
     const [title, setTitle,handleTitle] = useInput("");
     const [description,setDescription, handleDescription] = useInput("");
     const [location,setLocation, handleLocation] = useInput("");
     const [repeat,setRepeat] = useState(false);
+    const [startTime, setStartTime] = useState("");
+    const [endTime, setEndTime] = useState("");
+
+    useEffect(() => {
+        setStartTime(props.start);
+        setEndTime(props.end);
+    }, [props.start, props.end]);
 
     //modal setup
     const useStyles = makeStyles((theme) => ({
@@ -31,20 +36,29 @@ const NewCalendarEntryModal = (props) => {
 
     //submit function, sends state to parent and into currEvent state on paren
     const handleSubmit =(e) => {
-        console.log(e)
         e.preventDefault()
-        console.log(title,description,location,repeat)
         props.handleCreate({
             title: title,
             repeat: repeat,
             description: description,
-            location: location
+            location: location,
+            start: startTime,
+            end: endTime
         })
         props.toggle();
         setTitle("")
         setDescription("")
         setLocation("")
         setRepeat("")
+        setStartTime("");
+        setEndTime("");
+    }
+
+    const handleTimeUpdate = (newTime, currTime, updateTime) => {
+        const editedTime = currTime;
+        const [hour, min] = newTime.split(':');
+        editedTime.setHours(hour, min);
+        updateTime(new Date(editedTime));
     }
     
     return (
@@ -95,6 +109,26 @@ const NewCalendarEntryModal = (props) => {
                         name="location"
                         onChange={e=>handleLocation(e.target.value)}
                         value={location}
+                        />
+                    </label>
+                    <br/><br/>
+                    <label htmlFor="startTime">
+                        Event start time: &nbsp;
+                        <input
+                        type="time"
+                        name="Start Time"
+                        onChange={e=>handleTimeUpdate(e.target.value, startTime, setStartTime)}
+                        value={moment(startTime.toString()).format("HH:mm")}
+                        />
+                    </label>
+                    <br/><br/>
+                    <label htmlFor="endTime">
+                        Event end time: &nbsp;
+                        <input
+                        type="time"
+                        name="End Time"
+                        onChange={e=>handleTimeUpdate(e.target.value, endTime, setEndTime)}
+                        value={moment(endTime.toString()).format("HH:mm")}
                         />
                     </label>
                     <br/><br/>
