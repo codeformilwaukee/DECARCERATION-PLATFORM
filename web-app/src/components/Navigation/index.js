@@ -33,7 +33,7 @@ class Navigation extends Component {
           onMouseLeave={() => this.setState({ toggle: 0 })}
         >
           {links.map((link) => (
-            <li>
+            <li key={link[0]}>
               {link[0] !== path && <Link to={link[0]}>{link[1]}</Link>}
 
               {link[0] === path && <span>{link[1]}</span>}
