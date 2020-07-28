@@ -1,6 +1,7 @@
 import React,{ useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
+import TextField from '@material-ui/core/TextField';
 import { useInput } from '../../hooks/useInput';
 import moment from 'moment';
 
@@ -31,6 +32,9 @@ const NewCalendarEntryModal = (props) => {
             boxShadow: theme.shadows[5],
             padding: theme.spacing(2, 4, 3),
         },
+        timeInput: {
+            marginTop: "-0.25rem"
+        }
     }));
     const classes = useStyles();
 
@@ -60,7 +64,7 @@ const NewCalendarEntryModal = (props) => {
         editedTime.setHours(hour, min);
         updateTime(new Date(editedTime));
     }
-    
+
     return (
         < Modal
             open={props.modal}
@@ -114,21 +118,23 @@ const NewCalendarEntryModal = (props) => {
                     <br/><br/>
                     <label htmlFor="startTime">
                         Event start time: &nbsp;
-                        <input
-                        type="time"
-                        name="Start Time"
-                        onChange={e=>handleTimeUpdate(e.target.value, startTime, setStartTime)}
-                        value={moment(startTime.toString()).format("HH:mm")}
+                        <TextField
+                            className={classes.timeInput}
+                            type="time"
+                            name="startTime"
+                            onChange={e=>handleTimeUpdate(e.target.value, startTime, setStartTime)}
+                            value={moment(startTime.toString()).format("HH:mm")}
                         />
                     </label>
                     <br/><br/>
                     <label htmlFor="endTime">
                         Event end time: &nbsp;
-                        <input
-                        type="time"
-                        name="End Time"
-                        onChange={e=>handleTimeUpdate(e.target.value, endTime, setEndTime)}
-                        value={moment(endTime.toString()).format("HH:mm")}
+                        <TextField
+                            className={classes.timeInput}
+                            type="time"
+                            name="endTime"
+                            onChange={e=>handleTimeUpdate(e.target.value, endTime, setEndTime)}
+                            value={moment(endTime.toString()).format("HH:mm")}
                         />
                     </label>
                     <br/><br/>
