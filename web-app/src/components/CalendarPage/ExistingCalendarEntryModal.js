@@ -17,7 +17,7 @@ const ExistingCalendarEntryModal = props => {
         },
     }));
     const classes = useStyles();
-    console.log(props.event.start)
+    
     return (
         < Modal
             open={props.modal}
