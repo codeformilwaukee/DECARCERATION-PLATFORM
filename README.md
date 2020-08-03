@@ -1,8 +1,8 @@
 # DECARCERATION-PLATFORM
 # Live Deployed Previews
-[https://master.d1mlp6mhc4eut2.amplifyapp.com/](https://master.d1mlp6mhc4eut2.amplifyapp.com/)
-[https://reentry.netlify.app](https://reentry.netlify.app)
-[https://decarceration-platform.vercel.app/](https://decarceration-platform.vercel.app/)
+* [https://master.d1mlp6mhc4eut2.amplifyapp.com/](https://master.d1mlp6mhc4eut2.amplifyapp.com/)
+* [https://reentry.netlify.app](https://reentry.netlify.app)
+* [https://decarceration-platform.vercel.app/](https://decarceration-platform.vercel.app/)
 
 # Description
 This project (1) equips service providers with the tools they need to have a positive network effect and build and maintain awesome impact within and across communities, AND (2) to equip post incarcerated individuals with a single tool that guides their reentry journey so they can lead lives of purpose and positivity in their communities and families.
