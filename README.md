@@ -4,6 +4,8 @@
 * [https://reentry.netlify.app](https://reentry.netlify.app)
 * [https://decarceration-platform.vercel.app/](https://decarceration-platform.vercel.app/)
 
+# NOTE: WE ARE CONDUCTING USER INTERVIEWS WITH LIVED EXPERIENCE BEFORE NEW ISSUES ARE CREATED (human centered design/codevelopment). Approx will resume 8/19/2020.
+
 # Description
 This project (1) equips service providers with the tools they need to have a positive network effect and build and maintain awesome impact within and across communities, AND (2) to equip post incarcerated individuals with a single tool that guides their reentry journey so they can lead lives of purpose and positivity in their communities and families.
 
