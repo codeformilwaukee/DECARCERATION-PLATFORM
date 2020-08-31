@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
 import { GoogleApiWrapper, Map, Marker } from "google-maps-react"
+import { API, graphqlOperation } from 'aws-amplify'
 
 import Service from "./Service";
 import { myServices } from "../../constants/services"
@@ -46,7 +47,7 @@ const ServicesPage = (props) => {
     // TODO filter services by segment
   };
 
-  useEffect(() => {}, [expanded, selectedServices]);
+  useEffect(() => { }, [expanded, selectedServices]);
 
   return (
     <Container
@@ -95,30 +96,30 @@ const ServicesPage = (props) => {
           border: "5px",
         }}
       >
-      <Map
-        google = {props.google}
-        zoom = { 10 }
-        xs = { 12 }
-        item
-        initialCenter = {{ lat: 43.057806, lng: -88.1075128 }}
-        style = {{
-          width: "50%",
-          height: "70%",
-        }}
-      >
-        { 
-          selectedServices.map(serviceId => {
-            const currService = myServices.filter(service => service.id === serviceId)[0];
-            return (
-              <Marker
-                title = { currService.title }
-                position = {{ lat: currService.lat, lng: currService.long }}
-                key = { serviceId }
-              />
-            );
-          })
-        }
-      </Map>
+        <Map
+          google={props.google}
+          zoom={10}
+          xs={12}
+          item
+          initialCenter={{ lat: 43.057806, lng: -88.1075128 }}
+          style={{
+            width: "50%",
+            height: "70%",
+          }}
+        >
+          {
+            selectedServices.map(serviceId => {
+              const currService = myServices.filter(service => service.id === serviceId)[0];
+              return (
+                <Marker
+                  title={currService.title}
+                  position={{ lat: currService.lat, lng: currService.long }}
+                  key={serviceId}
+                />
+              );
+            })
+          }
+        </Map>
       </Box>
     </Container>
   );
