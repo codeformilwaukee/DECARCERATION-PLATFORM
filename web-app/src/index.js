@@ -6,6 +6,7 @@ import './index.css';
 import Amplify from 'aws-amplify';
 import awsExports from "./aws-exports";
 import config from './config';
+import * as AWS from 'aws-sdk';
 
 require('dotenv').config()
 
@@ -17,6 +18,13 @@ Amplify.configure({
     identityPoolId: config.cognito.IDENTITY_POOL_ID,
     userPoolWebClientId: config.cognito.APP_CLIENT_ID
   }
+});
+
+AWS.config.update({
+  region: 'us-east-1',
+  endpoint: 'dynamodb.us-east-1.amazonaws.com',
+  accessKeyId: SERVICE_PROVIDER_READ_ACCESS_KEY_ID,
+  secretAccessKey: SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY
 });
 
 ReactDOM.render(<App />, document.getElementById('root'));
