@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
-import { GoogleApiWrapper, Map, Marker } from "google-maps-react"
-import { API, graphqlOperation } from 'aws-amplify';
-import { listServiceProviders } from '../../graphql/queries';
+import { GoogleApiWrapper, Map, Marker } from "google-maps-react";
+import { API, graphqlOperation } from "aws-amplify";
+import { listServiceProviders } from "../../graphql/queries";
 
 import Service from "./Service";
 // import { myServices } from "../../constants/services"
@@ -18,24 +18,29 @@ const ServicesPage = (props) => {
   const [selectedServices, setSelectedServices] = useState([]);
 
   useEffect(() => {
-    fetchServices()
-  }, [])
+    fetchServices();
+  }, []);
 
   const fetchServices = async () => {
     try {
-      const serviceProviderData = await API.graphql(graphqlOperation(listServiceProviders));
-      const serviceProviders = serviceProviderData.data.listServiceProviders.items;
+      const serviceProviderData = await API.graphql(
+        graphqlOperation(listServiceProviders)
+      );
+      const serviceProviders =
+        serviceProviderData.data.listServiceProviders.items;
       console.log("services:", serviceProviders);
       setServices(serviceProviders);
-
-    } catch (err) { alert('error fetching service providers'); console.log(err); }
-  }
+    } catch (err) {
+      alert("error fetching service providers");
+      console.log(err);
+    }
+  };
 
   const handleCheck = (service) => (event) => {
     event.stopPropagation();
     if (event.target.checked) {
       if (!selectedServices.includes(service)) {
-        setSelectedServices(prevSelected => ([...prevSelected, service]));
+        setSelectedServices((prevSelected) => [...prevSelected, service]);
       }
     } else {
       const idx = selectedServices.indexOf(service);
@@ -49,6 +54,7 @@ const ServicesPage = (props) => {
     }
     // TODO event.target.checked contains state of checkbox with id of service param
     // service param will be "service0", "service1", etc based on position in list
+    console.log("checked", service, setSelectedServices);
   };
 
   const handleExpand = (service) => (event, isExpanded) => {
@@ -58,9 +64,10 @@ const ServicesPage = (props) => {
   const handleSegments = (event, newSegments) => {
     setSegments(newSegments);
     // TODO filter services by segment
+    console.log("handleSegments", event, newSegments);
   };
 
-  useEffect(() => { }, [expanded, selectedServices]);
+  useEffect(() => {}, [expanded, selectedServices]);
 
   return (
     <Container
@@ -120,18 +127,18 @@ const ServicesPage = (props) => {
             height: "70%",
           }}
         >
-          {
-            selectedServices.map(serviceId => {
-              const currService = services.filter(service => service.id === serviceId)[0];
-              return (
-                <Marker
-                  title={currService.title}
-                  position={{ lat: currService.lat, lng: currService.long }}
-                  key={serviceId}
-                />
-              );
-            })
-          }
+          {selectedServices.map((serviceId) => {
+            const currService = services.filter(
+              (service) => service.id === serviceId
+            )[0];
+            return (
+              <Marker
+                title={currService.title}
+                position={{ lat: currService.lat, lng: currService.long }}
+                key={serviceId}
+              />
+            );
+          })}
         </Map>
       </Box>
     </Container>
@@ -139,5 +146,5 @@ const ServicesPage = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY
+  apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
 })(ServicesPage);
