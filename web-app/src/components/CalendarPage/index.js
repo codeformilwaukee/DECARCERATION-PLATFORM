@@ -59,7 +59,9 @@ const CalendarPage = () => {
       title:event.title,
       location:event.location,
       repeat:event.repeat,
-      description:event.description
+      description:event.description,
+      start:event.start,
+      end:event.end
     })
   }
 
@@ -67,7 +69,7 @@ const CalendarPage = () => {
     setSelectedEvent(event)
     toggleExisting(); 
   }
-  console.log(events)
+
     //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(()=>{
     if( currEvent.title !== initialCurrEvent.title){
@@ -77,7 +79,6 @@ const CalendarPage = () => {
     }
   },[events,currEvent])
 
-  
   return (
     <div 
       class="main"
@@ -95,7 +96,7 @@ const CalendarPage = () => {
         endAccessor="end"
         style={{height: "800px", width: "100%"}}
       />
-      <NewCalendarEntryModal modal={newEventModal} toggle={toggleNew}  handleCreate={handleCreate} />
+      <NewCalendarEntryModal modal={newEventModal} toggle={toggleNew}  handleCreate={handleCreate} start={currEvent.start} end={currEvent.end} />
       <ExistingCalendarEntryModal modal={existingEventModal} toggle={toggleExisting} event={selectedEvent}/>
     </div>
 );
