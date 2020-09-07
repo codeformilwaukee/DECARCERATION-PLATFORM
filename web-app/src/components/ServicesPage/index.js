@@ -3,21 +3,34 @@ import React, { useState, useEffect } from "react";
 import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
 import { GoogleApiWrapper, Map, Marker } from "google-maps-react"
-import { API, graphqlOperation } from 'aws-amplify'
+import { API, graphqlOperation } from 'aws-amplify';
+import { listServiceProviders } from '../../graphql/queries';
 
 import Service from "./Service";
-import { myServices } from "../../constants/services"
+// import { myServices } from "../../constants/services"
 
 const ServicesPage = (props) => {
   const [expanded, setExpanded] = useState(1);
   const [segments, setSegments] = useState([]);
 
-  // TODO load list of services from data
-  //const [services, setServices] = useState(myServices);
-  const [services] = useState(myServices);
+  const [services, setServices] = useState([]);
+  // const [services] = useState(myServices);
   const [selectedServices, setSelectedServices] = useState([]);
 
-  //functions
+  useEffect(() => {
+    fetchServices()
+  }, [])
+
+  const fetchServices = async () => {
+    try {
+      const serviceProviderData = await API.graphql(graphqlOperation(listServiceProviders));
+      const serviceProviders = serviceProviderData.data.listServiceProviders.items;
+      console.log("services:", serviceProviders);
+      setServices(serviceProviders);
+
+    } catch (err) { alert('error fetching service providers'); console.log(err); }
+  }
+
   const handleCheck = (service) => (event) => {
     event.stopPropagation();
     if (event.target.checked) {
@@ -109,7 +122,7 @@ const ServicesPage = (props) => {
         >
           {
             selectedServices.map(serviceId => {
-              const currService = myServices.filter(service => service.id === serviceId)[0];
+              const currService = services.filter(service => service.id === serviceId)[0];
               return (
                 <Marker
                   title={currService.title}
