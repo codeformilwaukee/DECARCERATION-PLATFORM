@@ -1,7 +1,6 @@
 # DECARCERATION-PLATFORM
 # Live Deployed Previews
 * [https://master.d1mlp6mhc4eut2.amplifyapp.com/](https://master.d1mlp6mhc4eut2.amplifyapp.com/)
-* [https://reentry.netlify.app](https://reentry.netlify.app)
 * [https://decarceration-platform.vercel.app/](https://decarceration-platform.vercel.app/)
 
 # Description
