@@ -13,7 +13,7 @@ enum TypeOfOrg {
 type ServiceProvider @model {
   id: ID!
   name: String!
-  typeOfOrg: TypeOfOrg
+  typeOfOrg: String
   programmingAndServices: String
   description: String
   tag1: String

@@ -1,0 +1,429 @@
+{
+    "ServiceProvider-yoruyjsfane6zfwi54uakwddje-dev": [
+        {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Alma Center" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Men Ending Violence" },
+                  "Description": {"S": "\"Trauma and healing-informed program focusing on:\nTrauma resolution and education program that explores the \nroot causes of intimate partner violence. \nFocuses on healing past trauma and developing attitudes \nand behavior that will support respectful intimate partner \nrelationships in the future. \nDirectly works with men (partners, husbands, fathers) the \ngoal is to help their children.\nPrevent the men from transferring their pain to the next \ngeneration of children.\"" },
+                  "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+                  "Address": {"S": "2821 N. Vel R. Phillips \nAve. 3rd Floor, \nMilwaukee, WI 53212" },
+                  "Phone": {"S": "(414) 344-6111" },
+                  "Fax": {"S": "(414) 344-2191" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.wcs.org" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Alma Center" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Restorative Fatherhood" },
+                  "Description": {"S": "Fatherhood education program helps men who have been abusive recognize, acknowledge and, when safe and possible, ameliorate the trauma they have caused their own children.\nFocuses on exploring personal experiences of fathering to learn compassion, forgiveness, responsibility, and to build positive, trauma – informed and developmentally appropriate nurturing fathering and co-parenting values, attitudes, and skills." },
+                  "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+                  "Address": {"S": "2821 N. Vel R. Phillips \nAve. 3rd Floor, \nMilwaukee, WI 53212" },
+                  "Phone": {"S": "(414) 344-6111" },
+                  "Fax": {"S": "(414) 344-2191" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.wcs.org" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Alma Center" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Wisdom Walk to Self-Mastery" },
+                  "Description": {"S": "Therapeutic techniques with indigenous healing wisdom.\nParticipants progress through the healing circle as if they are on a journey through the five elemental landscapes (fire, water, earth, nature, mineral).\nExercises, activities and rituals focus on cognitive, affective and behavioral recovery/ restoration to transform the debility of trauma to strength that can help men assume their full responsibilities in their families and communities." },
+                  "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+                  "Address": {"S": "2821 N. Vel R. Phillips \nAve. 3rd Floor, \nMilwaukee, WI 53212" },
+                  "Phone": {"S": "(414) 344-6111" },
+                  "Fax": {"S": "(414) 344-2191" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.wcs.org" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Alma Center" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Reentry Services" },
+                  "Description": {"S": "Healing – focused services to individuals who are returning to the community from incarceration.\nAlma Brothers – an offender reentry project designed to address unresolved underlying trauma that predicts anti-social and criminal behavior and heightens the risk for ongoing criminal system involvement. \nSmart Reentry – an innovative reentry employment program for high-risk offenders returning from imprisonment to the Center Street Corridor, an area of Milwaukee plagued by gun violence." },
+                  "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+                  "Address": {"S": "2821 N. Vel R. Phillips \nAve. 3rd Floor, \nMilwaukee, WI 53212" },
+                  "Phone": {"S": "(414) 344-6111" },
+                  "Fax": {"S": "(414) 344-2191" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.wcs.org" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Wisconsin Community Services (WCS)" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Assertive Community Treatment (ACT)" },
+                  "Description": {"S": "\"The Community Support Program (CSP) - provides coordinated care and a range of treatment, rehabilitation and support services for individuals living in the community with severe and persistent mental illness with possible challenges related to abusing alcohol and other drugs. CSP provides services utilizing the evidence-based practice, Assertive Community Treatment (ACT) and Tools for Measurement of Assertive Community treatment (TMACT). Using the ACT model, a multidisciplinary intensive team-based approach provides participants services that are long-term, but with the ability to transition. These services include stage-wise interventions based on the participant’s wants and needs, including individual and group therapy along with other interventions to promote health. These services include: \n• Advocacy\n• Assessment\n• Benefit assistance\n• Psychiatry\n• Nursing\n• Case management/care coordination\n• Supportive groups\n• Medication assistance\n• Money management\n• On-site Pharmacy\n• Social support network\n\nTo be eligible for participation in the Assertive Community Treatment program, a consumer must:\n\n• Be 18 or older\n• Have a severe mental illness such as schizophrenia, bi-polar disorder or major depression\n• Have experienced difficulties in the last six months with housing, employment, medication management, legal issues, money management, or a worsening of symptoms that required emergency intervention or hospitalization\"" },
+                  "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+                  "Address": {"S": "3734 West Wisconsin Avenue\nMilwaukee, WI 53208" },
+                  "Phone": {"S": "(414) 344-6111" },
+                  "Fax": {"S": "(414) 344-2191" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.wcs.org" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Wisconsin Community Services (WCS)" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Community Case Management" },
+                  "Description": {"S": "\"Targeted Case Management (TCM) \nThe Targeted Case Management Program (TCM) program assesses individual’s needs by working together with the individual to create a treatment plan. This assessment can include physical, psychological and social environment needs with the goal of facilitating personal health, community involvement, and empowerment while supporting the individual’s recovery. Some of the services provided through the TCM include:\n\n• Advocacy\n• Assessment\n• Benefit Assistance\n• Psychiatry\n• Individual Service Plan development\n• Care coordination\n• Crisis assistance planning\n• Medication Assistance\n• Money Management\n• On-site Pharmacy\n• Social Support Network\"" },
+                  "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+                  "Address": {"S": "3732 West Wisconsin Avenue, Suite 310 \nMilwaukee, WI 53208 \n\nHours: 8:30am – 4:30pm Monday - Friday \n" },
+                  "Phone": {"S": "(414) 343-3569" },
+                  "Fax": {"S": "(414) 343-3598" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://www.wiscs.org/programs/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Wisconsin Community Services (WCS)" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"WIser Choice Programming" },
+                  "Description": {"S": "WCS is a provider of Wisconsin Supports Everyone´s Recovery Choice (WIser Choice) services. This programming provides individuals that need drug and alcohol treatment vouchers to pay for a range of appropriate community-based services. The Wiser Choice programming serves individuals that reside in Milwaukee County, are at least 18 years old, and do not have insurance. These strength-based services are person centered with a team approach that is outcome oriented. The WCS programs included in this area are Access Point (AP) and the Recovery Support Coordination Unit (RSC).\n\nAccess Point\nWCS operates an Access Point unit that will screen individuals to help determine the AODA needs as well as the options available to best meet these needs. This program gives individuals the opportunity to not only deal substance use concerns, but also access to many other supportive services. The WCS Access Point unit is mobile. The Access Point screener can see individuals at the WCS office, or we will travel to homes, correctional institutions, Department of Correction’s offices, and other locations that will meet the individual’s needs.\n\nRecovery Support Coordination (RSC)\nThe Recovery Support Coordination (RSC) Program provides Care Coordination services for adults with substance abuse and co-occurring mental health and substance abuse needs. With the support of a team, individuals create a Recovery Plan. We also provide Recovery Support Coordination services for a specialized group, Family Drug Treatment Court. Individuals interested in this program must be screened through Access Point, which can be done at the same location as our RSC program. Through the RSC program an individual will also have access to supportive services for employment, housing, transportation, medical treatment, and more." },
+                  "Tags": {"SS": [ "Behavioral and Mental Health", "Employment", "Housing" ] },
+                  "Address": {"S": "3732 West Wisconsin Avenue, Suite 310 \nMilwaukee, WI 53208 \n\nHours: 8:30am – 4:30pm Monday - Friday \n" },
+                  "Phone": {"S": "(414) 343-3569" },
+                  "Fax": {"S": "(414) 343-3598" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://www.wiscs.org/programs/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Wisconsin Community Services (WCS)" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Joshua Glover Residential Reentry Center" },
+                  "Description": {"S": "GOAL\nThe goal of the Joshua Glover Residential Reentry Center (RRC) is to effectively supervise and treat residents of the 36 male bed facility by addressing their identified criminogenic risks and needs. Ultimately, Joshua Glover RRC strives to reduce recidivism and to promote public safety through an array of therapeutic interventions.\n\nPROGRAM METHOD\nJoshua Glover RRC incorporates Evidence-Based Practices (EBP) into its service delivery to effectively address criminogenic risks and needs that were identified on the COMPASS for each resident. An individualized service plan is created with the input of the resident, Department of Corrections Probation Officer, AODA Counselor/Case Manager, and Mental Health Counselor, which is utilized by the staff to assist the resident with accomplishing his goals while at Joshua Glover RRC.\n\nPROGRAMS AND SERVICES\nResidents are assessed, referred to any identified services that are needed, and given support to successfully complete the program. The programs and services offered at the Joshua Glover RRC include:\n• Case management\n• Substance abuse individual/group counseling\n• Mental Health counseling\n• Cognitive Intervention group counseling\n• Employment Counseling\n• Fatherhood\n• Community Building Workshops\n\nVALUE ADDED SERVICES\nThe current value-added services include:\n• Mindfulness\n• Nutrition\n• Hero’s Journey\n• Beginner Computers\n• Dollars and Sense\n• Journaling\n\n" },
+                  "Tags": {"SS": [ "Behavioral and Mental Health", "Employment" ] },
+                  "Address": {"S": "Joshua Glover Residential Reentry Center (Wisconsin DOC)\n2404 North 50th Street\nMilwaukee, WI 53210\n\n" },
+                  "Phone": {"S": "(414) 442-3700 \n" },
+                  "Fax": {"S": "(414) 442-6466" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://www.wiscs.org/programs/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Wisconsin Community Services (WCS)" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Parsons House Residential Center" },
+                  "Description": {"S": "GOAL\nThe overall goal of the Federal Residential Reentry Center is to provide a successful community transition for Federal Bureau of Prisons inmates completing the last six months of their sentence.\n\nPROGRAM METHOD\nA case plan is developed and implemented by Parsons House staff based on individual assessed needs and sentence conditions with input from the resident, the Bureau of Prisons, the U.S. Probation Office and the Parsons House case manager.\n\nPROGRAM SERVICES\nThis WCS Federal Residential Reentry Center provides community re-entry services to Federal Bureau of Prison inmates who are within six months of their sentence completion. Residents are guided through cognitive, behavioral-based programs that emphasize personal accountability, responsibility, employment, reintegration with family and release planning. Specifically, the Center provides:\n► Case Management\n► Monitoring Services\n► Treatment Services\n► Job Development\n► Job Placement\n► Counseling\n► Discharge Planning\nFACILITY\nWCS began serving Federal Bureau of Prison inmates at Parsons House in 1994. "},
+                  "Tags": {"SS": [ "Behavioral Health", "Employment" ] },
+                  "Address": {"S": "Parsons House (Federal Residential Reentry Center) \n2930 N. 25th Street \nMilwaukee, WI 53206 \n" },
+                  "Phone": {"S": "(414) 445-3301" },
+                  "Fax": {"S": "(414) 445-8053" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://www.wiscs.org/programs/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "Label": {"S": "Justice Point Milwaukee" },
+                  "Type": { "N": "0" },
+                  "Program and Services": {"S":"Jail Release Preparation" },
+                  "Description": {"S": "JusticePoint staff coordinate the release of defendants ordered to Pretrial Supervision by a judicial official. Staff work to ensure that the person's release occurs in a timely and expeditious manner once cash bond obligations have been met and the defendant no longer has any incarceration holds from another law enforcement agency or other component of the justice system. Additionally, staff work to ensure that the defendant has an identified safe place to reside upon release from jail and coordinate as necessary for medical or mental health needs to be addressed quickly upon release from custody." },
+                  "Tags": {"SS": [ "Medical", "Mental Health" ] },
+                  "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+                  "Phone": {"S": "414.908.0282" },
+                  "Fax": {"S": "" },
+                  "Email": {"S": "info@justicepoint.org" },
+                  "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"Drug Treatment Court Case Management" },
+            "Description": {"S": "JusticePoint provides Case Management services for the Milwaukee County Drug Treatment Court. JusticePoint provides Case Management services for participants of the Milwaukee County Drug Treatment Court - working with clients two to four times per week to identify treatment and other needs necessary for them to achieve and maintain sobriety.\n\nCase Managers monitor all court-ordered conditions of release as well as provide referral services to programming aimed at addressing risk and need areas that are identified as possibly contributing to future justice system involvement if not properly addressed. Staff provide regular reporting to the court on compliance and non-compliance with court ordered conditions and apply incentives or sanctions to pro- or anti-social actions according to a behavior-response matrix.\n\n" },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"Drug Treatment Court Enhancement - Cognitive Behavioral and Trauma Therapies" },
+            "Description": {"S": "JusticePoint staff provide Cognitive Behavioral Therapy using the National Institute of Correction's 'Thinking for a Change' curriculum to participants of the Milwaukee County Drug Treatment Court whose risk assessments identified anti-social thoughts, beliefs, and attitudes to be likely contributors to future criminal activity. In addition, JusticePoint provides group programming to address trauma issues in male and female participants of the Milwaukee County Drug Treatment Court using the 'Trauma Recovery and Empowerment Model' ('TREM' and it's male counterpart, 'M-TREM'). Funds for these group programs was received through a Bureau of Justice Assistance grant after academic evaluators of the MCDTC identified cognition and trauma issues as being highly prevalent throughout the MCDTC population." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"COMPREHENSIVE COMMUNITY SERVICES PROGRAM (CCS)" },
+            "Description": {"S": "This is a recovery focused behavioral health program for adults with severe mental illness and/or substance use disorders. This program provides a coordinated and comprehensive array of recovery services, treatment, and psychosocial rehabilitation services that assist individuals to utilize professional, community, and natural supports to address their needs. The program is person-centered and uses client-directed service plans to describe the individualized services that will support the client to achieve their recovery goals." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"RECOVERY SUPPORT COORDINATION" },
+            "Description": {"S": "JusticePoint's Drug Treatment Court Case Management team serve as Recovery Support Coordinators for participants of the MCDTC program. As Recovery Support Coordinators, JusticePoint staff provide access to treatment and other ancillary services provided by Milwaukee County through the WIser Choice program of the Behavioral Health Division - Community Access to Recovery Services (CARS) division. Without this crucial connection, recovery for participants of the Milwaukee County Drug Treatment Court would be all but impossible." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"ACCESS POINT SCREENING/ ASSESSMENT" },
+            "Description": {"S": "JusticePoint employs several staff who are trained and certified to provide Access Point screening and assessment services to uninsured individuals who are involved in the Milwaukee Justice System. Utilizing the Addiction Severity Index ('ASI') and American Society of Addiction Medicine Patient Placement Criteria II ('ASAM-PPC-II)'), staff identify an individual's clinical need for AODA treatment services as well as the appropriate level of treatment necessary to adequately address the severity of their addiction." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S": "TRAUMA INFORMED CARE PROGRAMMING | EXPOSED TO VIOLENCE (M-TREM)" },
+            "Description": {"S": "Violence, either past or present, is a reality that is difficult to escape because it may result in painful thoughts, feelings, and memories. While many individuals have learned how to survive despite the pain, they may come to the realization that survival is not enough. \n\nThe Men’s Trauma Recovery and Empowerment Model (M-TREM) is a psychoeducational and cognitive-behavioral approach to trauma recovery skills development and enhancement. The group is divided into three parts: Part One focuses on Male Messages, Emotions, and Relationships. Part Two involves discussions on Trauma Recovery and focuses on emotional, physical and sexual abuse and their relationships to psychological symptoms, substance use, and relationship patterns. Part Three is all about developing Recovery Skills and emphasizes the development and strengthening of interpersonal, problem-solving and life planning skills. \n\nExposed to Violence (M-TREM) is a men’s group designed for individuals who have been exposed to any type of violence in their lives. The group provides members with an opportunity to share and learn from their experiences so they can empower themselves and others to thrive as opposed to simply survive. \n\nM-TREM is 24 sessions and meets weekly for 90 minutes." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"TRAUMA-INFORMED CARE PROGRAMMING | SEEKING SAFETY" },
+            "Description": {"S": "Seeking Safety allows participants to address trauma and substance abuse issues simultaneously, but is present-focused, meaning that participants are not encouraged to share detailed accounts of past traumas. Seeking Safety is appropriate for participants who have experienced any type of trauma including natural disasters, combat or exposure to a war-zone, physical assault, sexual assault and/or sudden violent death. Seeking Safety’s curriculum is flexible and was designed to be safe for participants and facilitators.\n\nSeeking Safety is a highly flexible program that can be conducted in a group setting or in an individual format, and can be conducted in open or closed group settings. The dosage of Seeking Safety can vary depending on the needs of the participants. Seeking Safety is appropriate for both men and women. Seeking Safety has been successfully implemented across vulnerable populations including homeless, criminal justice, domestic violence, those with severe and persistent mental illness, veterans and military, and others. Seeking Safety is an appropriate group for any participant struggling with any type of addiction and any type of trauma.\n\nSeeking Safety has a few key principles to their program. Safety is the first overarching goal for the program – helping participants attain safety in their relationships, thinking, behavior, and emotions. Seeking Safety also utilizes an integrated treatment approach by working on trauma and substance abuse at the same time. Seeking Safety strives to have participants focus on their ideals to counteract the loss of ideals in their experiences of substance abuse and trauma. Seeking Safety stresses the importance of focusing on the Facilitator’s self-care throughout this program. The content for Seeking Safety focuses on four ideals: cognitive, behavioral, interpersonal and case management. The lessons include interventions such as problem solving, role playing, learning coping skills and skill building through worksheets.\n\nSeeking Safety includes 25 sessions in its curriculum that can be conducted in any order." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"COGNITIVE-BEHAVIORAL PROGRAMMING  | THINKING FOR A CHANGE (T4C)" },
+            "Description": {"S": "Thinking for a Change is a cognitive behavioral intervention that was developed for individuals involved with the criminal and juvenile justice systems. The cognitive behavioral program focuses on cognitive restructuring aimed at addressing individuals’ thoughts, feelings, attitudes, and beliefs. T4C has been the subject of many studies and has routinely proven to be effective in reducing recidivism when implemented with integrity. \n\nThe three components of T4C are: cognitive self-change, social skills, and problem solving skills. Cognitive self-change teaches individuals a concrete process for self-reflection aimed at uncovering antisocial thoughts, feelings, attitudes, and beliefs. Social skills instruction prepares group members to engage in pro-social interactions based on self-understanding and consideration of the impact of their actions on others. Problem solving skills integrates the two previous interventions to provide group members with an explicit step-by-step process for addressing challenging and stressful real life situations. \n\nT4C sessions are typically one to two hours long and they take place twice per week, for a total of 25 sessions. \n\nCurrently, JusticePoint offers Thinking for a Change to individuals on Probation or Parole (with a referral from their agent). T4C is also offered to individuals who are on a Deferred Prosecution Agreement, Diversion, or a participant of the Drug Treatment Court." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Milwaukee" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"COGNITIVE-BEHAVIORAL PROGRAMMING  | COGNITIVE BEHAVIORAL INTERVENTIONS FOR SUBSTANCE ABUSE (CBI-SA)" },
+            "Description": {"S": "CBI-SA is a curriculum designed for individuals who are moderate to high need in the area of substance abuse and well suited for criminal justice populations. The program places heavy emphasis on skill-building activities to assist with cognitive, social, emotional, and coping skills development. CBI includes therapeutic strategies designed to change the cognitions that influence maladaptive behavior. The group is action-oriented which means participants have to engage in many activities, such as role-play, as part of the therapeutic process. The CBI approach is focused on the present, aimed at changing current risk factors that impact participants’ behavior. Clients spend a significant amount of time in this group learning and practicing new methods of handling risky situations. \n\nCognitive Restructuring is used to allow participants to learn new behaviors and break from habitual behaviors. This has shown to increase success and goal achievement in the target population. \n\nSkills Training is used to help participants “unlearn” old, ineffective and/or risky behavior and “learn” new behaviors that can help them make pro-social choices and reach their personal life goals. \n\nProblem Solving is considered an essential skill. Techniques are taught in order to enhance cognitive and behavioral abilities. The primary focus is helping participants learn not to react emotionally in problem situations. \n\nMotivational Engagement is used throughout all sessions. The main goal of the motivational interviewing style is to elicit change by helping participants explore and resolve ambivalence. \n\nCBI-SA is a one and a half hour group that is run twice per week." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health"] },
+            "Address": {"S": "United House Milwaukee\n2500 W Center St, Milwaukee, WI 53206" },
+            "Phone": {"S": "414.908.0282" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Adams County" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"ADAMS COUNTY DRUG TREATMENT COURT" },
+            "Description": {"S": "The Adams County Treatment Court Program’s mission is to reduce recidivism and the social and economic cost of criminal activity through a judicially-supervised, collaborative treatment program that is focused on offender accountability and empowering participants to achieve lifelong recovery from substance abuse. This is accomplished through comprehensive assessment and treatment (chemical and mental health), intensive supervision, random drug testing, regular court appearances, and immediate incentives and sanctions. Other components of the abstinence-based program include: participation in cognitive learning groups and mental health interventions, participation in community support groups, obtain employment or pursue educations and participate in prosocial activities. Honesty and individual accountability are at the heart of the program. \n\nAdams County Treatment Court fully integrates evidence-based practices in its delivery of services and works in collaboration with Adams County Health and Human Services Department for treatment services. Cognitive behavioral programming and enhanced mental health services are inherent pieces of the program. The program is a minimum of 14 months and is a 5-phase program. Movement through the phases is accomplished by meeting phase requirements and goals. \n\nThe goals of the Adams County Treatment Court are to help participants break the cycle of substance abuse and empower participants to become productive and responsible members of the community. In return, lowering the number of contacts with the criminal justice system will reduce the cost associated with criminal activity and recidivism and increase public safety." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "108 E North St, Friendship, WI 53934" },
+            "Phone": {"S": "608-339-4313" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Dodge & Fond Du Lac Counties" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"OPIOID TREATMENT CENTER" },
+            "Description": {"S": "Dodge & Fond Du Lac Counties are working together to provide a Solution Focus Program to address the ongoing needs of individuals dealing with Opioid Use Disorder. At The Opioid Treatment Center (OTC) our goal is to provide a comprehensive array of recovery treatments, and psycho-social rehabilitation services to assist individuals in utilizing professional, community, and natural support systems to address their needs. We cannot achieve these goals alone, our community is in need and together we can effect change. For more information or to make referrals, visit www.otcwisconsin.com." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "Opioid Treatment Center Dodge/Fond du Lac County\n199 County Rd D F, Juneau, WI 53039" },
+            "Phone": {"S": "920-386-4329" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Manitowoc County" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"Youth Wellness Center" },
+            "Description": {"S": "While at the center, staff work with youth to address their various criminogenic needs as well as to begin to build their skills towards self-reliance in adulthood. Case Plans are individually structured to take advantage of the youth’s inherent skills and interests in order to maximize the effectiveness of the lessons being imparted. Youth meet one on one with a Youth Wellness Case Manager on a regular basis for the purpose of reviewing their Case Plan and assessing their progress towards its stated goals or, when necessary, modifying the Case Plan to accommodate new areas of focus that are highlighted during regular interaction with the youth. Youth are integral team members in the Case Planning and review processes.\n\nWhile at the center, JusticePoint provides individual and small group facilitation with a focus on various criminogenic needs and life skills. Particular attention is paid to utilizing various evidence-based tools to address antisoc ial cognition, attitudes, thoughts, and beliefs. Relying on the strength of Motivational Interviewing techniques, Youth are continually redirected to consider their own aspirations and the impact that their decision making has on achieving their goals. Instruction and guidance in the areas of independent living, conflict resolution, health and hygiene, civics, and victim awareness are a central focus of the programming. In order to encourage the youth to begin to see themselves as a part of the community to which they are causing conflict through their delinquent behavior, the youth are encouraged to engage in prosocial recreation activities and to spend some of their time with the program volunteering in their community. On a semi-regular basis, JusticePoint Case Managers plan outings into the community that will allow the youth to utilize the skills being developed in the program while further reinforcing the youth’s view of themselves as a part of their community." },
+            "Tags": {"SS": [ "Health", "Behavioral Health" ] },
+            "Address": {"S": "Manitowoc County JDAP\n1502 Clark St, Manitowoc, WI 54220" },
+            "Phone": {"S": "920-323-1771" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Justice Point Manitowoc County" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"INTENSIVE SUPERVISION PROGRAM" },
+            "Description": {"S": "The Intensive Supervision Program (‘ISP’) represents the highest level of supervision, tracking, monitoring, and programming that JusticePoint provides to Manitowoc County’s juvenile justice population. The youth ordered to participate in the ISP are those who have been adjudicated delinquent by the circuit court and who have demonstrated continued delinquent behavior. The youth have several criminogenic needs which are identified through a thorough assessment and case planning process. The Intensive Supervision Program utilizes a phased approach that addresses the youth’s areas of elevated criminogenic need while tracking the youth’s physical movement on a 24/7 basis and meeting with them daily in order to mitigate the youth’s ability to continue engaging in delinquent behavior." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "Manitowoc County JDAP\n1502 Clark St, Manitowoc, WI 54220" },
+            "Phone": {"S": "920-323-1771" },
+            "Fax": {"S": "" },
+            "Email": {"S": "info@justicepoint.org" },
+            "Website": {"S": "https://www.justicepoint.org/wisconsin#city-of-milwaukee" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Meta House" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"Residential Treatment" },
+            "Description": {"S": "In the residential experience, women and their children (ages 10 and under) live with us while receiving intensive, around-the-clock care. \n\nWeekdays are filled with primarily individual and evidence-based group therapy sessions as well as process and discussion groups. Examples of these groups include Recovery Talk, Stages of Change, Stress and Anger Management, Recovery Management, and Seeking Safety. Additional treatment offerings include outside support meetings, yoga, mindfulness, health education, and living skills. Most groups are facilitated by our Master’s-level clinicians, though some discussion groups are led by our team of certified peer specialists. Clinicians on our Child and Family team work with women on parenting skills and with their children to assess and address therapeutic concerns. \n\nLearn more about the services offered in our residential treatment setting here. \nhttps://www.metahouse.org/our-services\n\nHope and help is available; get in touch with us now to get started. \nhttps://www.metahouse.org/get-started" },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "2625 N. WEIL STREET \nMILWAUKEE, WI 53212 \n" },
+            "Phone": {"S": "414.962.1200" },
+            "Fax": {"S": "414.962.2305" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://www.metahouse.org/" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+            "Label": {"S": "Meta House" },
+            "Type": { "N": "0" },
+            "Program and Services": {"S":"Outpatient Treatment" },
+            "Description": {"S": "Our outpatient program is guided by the same evidence-based, strength-based principles as our residential program. The outpatient experience at Meta House is individualized to meet women where they are in recovery and offers a variety of supportive services to help women achieve their goals. Services are offered Monday through Friday from 8:00am – 4:30pm. This setting is usually a good fit for women transitioning out of residential treatment and women who have recently experienced a relapse." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "2625 N. WEIL STREET \nMILWAUKEE, WI 53212 \n" },
+            "Phone": {"S": "414.962.1200" },
+            "Fax": {"S": "414.962.2305" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://www.metahouse.org/" },
+            "Attributions": {"S": ""}
+               }
+            }
+          }
+    ]
+}
