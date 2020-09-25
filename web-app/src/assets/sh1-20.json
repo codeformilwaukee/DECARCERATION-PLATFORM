@@ -1,0 +1,364 @@
+{
+   "ServiceProvider-yoruyjsfane6zfwi54uakwddje-dev": [
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "1" },
+            "Label": {"S": "Meta House" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Mental Health Services" },
+            "Description": {"S": "Mental Health Services are often needed for women who are dependent on substances because they typically suffer from co-occurring mental health disorders (a mental health disorder diagnosis along with a substance use disorder diagnosis). Women who use or are dependent on substances are very likely to have a history of childhood and/or adult abuse and trauma, which sometimes results in mental health concerns. With a multi-disciplinary and experienced staff, Meta House is uniquely equipped to support such women.\n\nAt Meta House, we treat the whole person and women who suffer from mental health disorders face an additional barrier to recovery. We ensure that women who suffer from a co-occurring mental health disorder receive appropriate diagnoses, support and treatment and are equipped with the tools to manage their disorders, which increases their likelihood of successful recovery. All staff are specially-trained to understand the dynamics of mental health and substance use, especially when there is a history of trauma and abuse.\n\nService Components \n- Professional Staff: Meta House is staffed with a psychiatrist who is also an addictionologist, Master’s level mental health staff, and consulting psychologists. \n\n- Trauma Treatment: a program specifically for women with substance use disorders. \n\n- Parenting Program for women with histories of childhood sexual abuse and other trauma. \n\n- Mental Health Assessments conducted by Wisconsin School of Psychiatry students. \n\n- Referral Services to connect women with additional support when necessary." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "2625 N. WEIL STREET \nMILWAUKEE, WI 53212 \n" },
+            "Phone": {"S": "414.962.1200" },
+            "Fax": {"S": "414.962.2305" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://www.metahouse.org/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "2" },
+            "Label": {"S": "MICAH" },
+            "Type": {"S": "" },
+            "Program and Services": {"S":"MICAH'S ROC Wisconsin Taskforce" },
+            "Description": {"S": "Restoring our Communities beyond 11 x 15 (ROC Wisconsin) is a statewide campaign of WISDOM. It began in 2011 as “11 X 15 For Safer, Healthier Communities” with a goal of reducing Wisconsin’s prison population by half — to 11,000 — by the end 2015. During those four years, we advocated for prison reform through health impact studies, Power Point presentations, actions, events, and media coverage.\n\nIn 2016 we renamed our campaign “ROC Wisconsin: Restoring our Communities beyond 11×15.” Our goals are to:\n\n- Restore communities that have been harmed by mass incarceration;\n- Restore families to wholeness and health;\n- Restore balance, fiscal discipline and humane priorities to our state’s criminal justice system;\n- Restore people to health through increased treatment alternatives to incarceration, decreased use of solitary confinement, and better support for those who return from jail or prison;\n- Restore men and women back to the community who do not need to be\n\nDuring 2017-2018, MICAH will be highlighting the issue of Crimeless Revocation. Presently people on probation, parole, or extended supervision can be revoked and re-incarcerated for violating rules of supervision even though they have not committed new offenses.\n\nA health impact assessment entitled “Excessive Revocations in Wisconsin” shows that Wisconsin incarcerated 3,000 individuals for crimeless revocations in 2015 alone. Thousands of others, who were never revoked, were held in county jails and state detention facilities while the Department of Corrections considered alleged rule violations.\n\nStatewide, MICAH with ROC Wisconsin is working:\n\nTo expand funds for Treatment Alternative and Diversion (TAD). TAD funds drug treatment courts, family courts, mental health courts and other interventions–which have proven more effective than incarceration in reducing recidivism. Evaluation of TAD-funded programs shows they save taxpayers $2 for every $1 the state has invested.\nTo pass the Second Chance This bipartisan legislation wouldreturn most 17-year-olds to the juvenile justice system. Concerns about the fiscal impact of the measure have been delaying passage.\nTo reduce and/or eliminate solitary confinement — now called segregation, administrative confinement, or restrictive Eliminate such isolation for mentally-ill prisoners and juveniles. End use of long-term confinement and document the number of days inmates spend in all levels of segregation.\nTo realize parole release for those eligible who can be released safely, and compassionate release for elderly and/or very ill prisoners who are no longer a danger to society.\nJoin us on the second Wednesday of every month at 5 pm for our task force meeting at the Project Return conference room, Welford Sanders Enterprise Center, 2821 N 4th St Suite 221, Milwaukee" },
+            "Tags": {"SS": [ "Health", "Behavioral Health" ] },
+            "Address": {"S": "2625 N. WEIL STREET \nMILWAUKEE, WI 53212 \n" },
+            "Phone": {"S": "414.962.1200" },
+            "Fax": {"S": "414.962.2305" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://www.metahouse.org/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "3" },
+            "Label": {"S": "MICAH" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Ezekial Community Development Corporation" },
+            "Description": {"S": "Since January 2016, Ezekiel Community Development Corporation has accomplished the following tasks in its effort to stabilize neighborhoods, decrease crime, and increase minority wealth:\n\nRehabilitated 9 properties – each property used as a “classroom” to train and create jobs for individuals who are hard to employ\nTrained and employed 34 Residential Preference Program (RPP) individuals in construction skills\nTrained and employed 40 House of Correction residents\nHired 50 city-located Disadvantaged Business Enterprises (DBE) minority contractors\nSold the nine rehabilitated properties to low-income, first-time home buyers\nEzekiel is one of six buyers recommended by city officials to participate in Milwaukee’s employment and renovation initiative for the Sherman Park neighborhood and surrounding areas.\n\nEzekiel CDC is an example of a project that began in MICAH and became its own organization with MICAH’s full support. Visit our website at www.ezekielcdc.com" },
+            "Tags": {"SS": [ "Housing" ] },
+            "Address": {"S": "MICAH-Milwaukee Inner-city Congregations Allied for Hope \n\nWelford Sanders (Milwaukee) Enterprise Center \n\n2821 N 4th St, Suite 213 \n\nMilwaukee, WI 53212 \n\n\n" },
+            "Phone": {"S": "414-264-0805" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://micahmke.org/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "4" },
+            "Label": {"S": "MICAH" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"MICAH Jobs and Economics Task Force" },
+            "Description": {"S": "MICAH’S Jobs and Economic Development Task Force pursues a variety of economic justice issues, none more important than our Westlawn subcommittee’s continued work with other organizations across the nation to ensure federal Housing and Urban Development Section 3 spending fulfills its intended purpose. \n\nHUD spends billions of dollars in distressed communities for projects that build and rehabilitate housing and improve roads and community centers. The Section 3 regulation acknowledges this spending typically generates new contracting, employment, and other economic opportunities and multiplier effects. Original policy required a preference that a fair share of these benefits got to low and very low income residents (regardless of race or gender) in the form of employment, training, and contract opportunities. \n\nUnfortunately, and due in part to a changing economic landscape since these regulations came into effect in 1968, Section 3 goals were not being met in many cities, including Milwaukee. Due in part to a complaint filed by MICAH, the Housing Authority of the City of Milwaukee (HACM) was found to be in non-compliance with section regulations with respect to the phase I of the Westlawn Project, a $200 million neighborhood housing and redevelopment initiative. \n\nBased on the findings from that complaint, the HACM entered into an agreement with HUD in August 2014 and later announced a revised Section 3 plan would be available for public review and comment. The authority collected public comment at four public meetings and prepared a revised proposal that HUD must now approve. HACM will prepare a revised proposal that will be submitted to HUD for approval. \n\nThanks in part to MICAH and other organizations across the nation who have battled with how the Section 3 requirements have been implemented, HUD finally realizes that these rules need to be updated to accommodate our changing economy. HUD has proposed substantial changes to Section 3 rules which would: \n\n- Establish clearer guidelines for achieving compliance “to the greatest extent feasible.” \n- Require new hires to work a minimum percentage of hours. \n- Revise the definition of a “Section 3 business.” \n- Set a new funding threshold for Public Housing Authority grantees. \n- Require PHA’s and grantees to monitor contractor payroll data. \n- Mandate reference to Section 3 requirements in Project Labor Agreements. \n- Incentivize job retention and apprenticeship opportunities for Section 3 residents. \n- Issue penalties for failure to submit Section 3 annual reports. \n- Impose program sanctions on PHAs and grantees that fail to comply. \n- Stipulate that relief may possibly be provided to aggrieved entities. \n\nMoving forward, MICAH’s Westlawn Sub-committee will continue to meet regularly with HACM officials to ensure that future projects funded with Section 3 dollars will, as they are intended, properly benefit the poor and underserved members of our community." },
+            "Tags": {"SS": [ "Employment" ] },
+            "Address": {"S": "MICAH-Milwaukee Inner-city Congregations Allied for Hope \n\nWelford Sanders (Milwaukee) Enterprise Center \n\n2821 N 4th St, Suite 213 \n\nMilwaukee, WI 53212 \n\n\n" },
+            "Phone": {"S": "414-264-0805" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://micahmke.org/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "5" },
+            "Label": {"S": "Milwaukee County Department of Health and Services" },
+            "Type": {"S": "Govt. Org." },
+            "Program and Services": {"S":"A New Acute Mental Health Hospital" },
+            "Description": {"S": "As part of the Milwaukee County Department of Health and Human Services, the Behavioral Health Division’s role is to ensure everyone in Milwaukee County has access to high-quality, patient-centered behavioral health services, and they are treated with dignity - no matter their severity of illness or ability to pay. Universal Health Services (UHS) brings experience as one of the nation’s leading providers of acute, inpatient mental health care to benefit all individuals in Milwaukee County. They will construct and operate a new, freestanding 120-bed inpatient mental health facility to serve the inpatient behavioral health needs of adolescents, adults and older adults in Milwaukee County. This state-of-the art facility will be an independent hospital open to all members of the community, as well as the individuals treated in BHD’s inpatient hospital. Adding this capacity to our system will make it possible for BHD to focus on increasing access and improving the quality of care available in Milwaukee County." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health", "Health" ] },
+            "Address": {"S": "9455 W Watertown Plank Rd.\nWauwatosa, WI\n\n6736 W Washington St. \nWest Allis, WI\n\n2821 N Vel R. Phillips Ave. \nMilwaukee, WI" },
+            "Phone": {"S": "Wauwatosa\n(414) 257-8085\n\nWest Allis\n(414) 649-4380\n\nMilwaukee\n(414) 263-6000" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://county.milwaukee.gov/EN" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "6" },
+            "Label": {"S": "Milwaukee County Department of Health and Services" },
+            "Type": {"S": "Govt. Org." },
+            "Program and Services": {"S":"Adult Services \nCommunity Access to Recovery Services (CARS)" },
+            "Description": {"S": "A mental health, substance abuse or co-occurring disorder crisis can be very frightening. Knowing where to turn for help can improve your or your loved one’s chances of getting quickly connected to the necessary treatment and recovery services. CARS offers a variety of community-based access point locations that you or your loved one can easily visit or call. \n\nThe staff at each community-based access point location are specially trained to help you or your loved one begin the CARS assessment process. Working with you or your loved one, they will make recommendations for the treatment and recovery services that best meet your needs." },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "9455 W Watertown Plank Rd.\nWauwatosa, WI\n\n6736 W Washington St. \nWest Allis, WI\n\n2821 N Vel R. Phillips Ave. \nMilwaukee, WI" },
+            "Phone": {"S": "Wauwatosa\n(414) 257-8085\n\nWest Allis\n(414) 649-4380\n\nMilwaukee\n(414) 263-6000" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://county.milwaukee.gov/EN" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "7" },
+            "Label": {"S": "Milwaukee County Department of Health and Services" },
+            "Type": {"S": "Govt. Org." },
+            "Program and Services": {"S":"Milwaukee County Housing First" },
+            "Description": {"S": "We provide housing...first.\n\nThe Housing First philosophy provides housing to those most in need without pre-condition. This is because, we have found, the most vulnerable in our community can only solve one life-changing problem at a time. When you are living outside, without a roof over your head or knowing where your next meal will come from, that instantly becomes your most important problem.\n\nDemanding the chronically homeless demonstrate sobriety, a clean bill of mental health, employment or anything else is, from what we have seen, putting the cart before the horse.\n\nHowever, when you remove that housing problem, suddenly the next problem facing that individual becomes \"most important,\" whether it be starting the road to recovery from undiagnosed mental health problems or substance abuse.\n\nMoreover, Milwaukee County Housing First saves a lot of money.\n\nTo Learn More\nhttps://www.youtube.com/watch?time_continue=3&v=pwdq2VWavtc&feature=emb_logo" },
+            "Tags": {"SS": [ "Housing" ] },
+            "Address": {"S": "" },
+            "Phone": {"S": "" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://county.milwaukee.gov/EN/DHHS/Housing/Housing-First" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "8" },
+            "Label": {"S": "Milwaukee County Department of Health and Services" },
+            "Type": {"S": "Govt. Org." },
+            "Program and Services": {"S":"Warming Rooms" },
+            "Description": {"S": "Milwaukee Continuum of Care partners Capuchin Community Services (St. Benedict the Moor) will provide overnight shelter for up to 80 single adults and Repairers of the Breach will provide overnight shelter for up to 60 single adults, both opening on nights with temperatures forecasted to be 20 degrees or below.\n\nSt. Benedict the Moor’s warming room, 924 W. State Street, will be open to provide single adults with overnight shelter from 7 p.m. to 7 a.m. St. Benedict the Moor’s warming room will be accessible through 2-1-1 referral and walk in. Repairers of the Breach’s warming room, 1335 W. Vliet Street, will admit those in need of shelter on a walk-in basis from 7 to 10 p.m. and will be open as an overnight shelter until 7 a.m. Milwaukee Rescue Mission Safe Harbor emergency shelter, 1820 W. Wells St., will expand their capacity to add an additional 50 overnight shelter beds for single adult men beginning next week.\n\nContinuum of Care emergency shelters Guest House of Milwaukee and Salvation Army of Milwaukee have also recently expanded their overnight shelter capacity to keep more people who are unsheltered safe and out of the cold weather. Additional Milwaukee warming room location information will be announced at a later date.\n\nThose seeking safety from the cold during the daytime in Milwaukee County are encouraged to go to:\n\nRepairers of the Breach (1335 W. Vliet St.,) open Monday through Saturday from 7 a.m. to 4 p.m.\nSalvation Army Corps locations at 1645 N. 25th St., open Monday through Friday 9 a.m. to 3 p.m. 4129 W. Villard Ave., Milwaukee, open Monday through Friday 9 a.m. to 4 p.m.; 2900 W. Coldspring Ro9:30 a.m. to 3 p.m., Monday through Thursday and Friday from 9:30 a.m. – 12:30 p.m.\nMilwaukee Rescue Mission (1820 W. Wells St.,) open for day shelter any days the temperature is forecasted to be 32 degrees or below.\nAny public building such as Milwaukee County Public Library branches or Milwaukee County Senior Centers.\nMilwaukee Public Library Locations and Hours\nMilwaukee County Federated Library System Locations and Hours\nMilwaukee County Senior Center Locations\n\n\nAll those seeking shelter, energy assistance or other supportive services in Milwaukee County should contact 2-1-1 for assistance and referrals to community resources through any of the following means: \n\nDial: 2-1-1, or (414) 773-0211 \n\nTo avoid being charged a long-distance fee, call 2-1-1 toll-free at (866) 211-3380 \nText your zip code: TXT-211{898-211} Mon.- Fri. 9 a.m.-9 p.m. \n\nChat online: www.impactinc.org/impact-211 \n\nVisit Coordinated Entry for Homeless Services (Resource Center), 1918 N. 6th Street, Alley Entrance, Walk in Hours: Monday, Wednesday and Thursday 8 -11:30 a.m., Tuesdays 1 to 3:30 p.m. \n\nEmail: mailto:ceteam@impactinc.org if special accommodations are needed to complete a services assessment." },
+            "Tags": {"SS": [ "Housing" ] },
+            "Address": {"S": "" },
+            "Phone": {"S": "" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://county.milwaukee.gov/EN/DHHS/Energy-Assistance" },
+            "Attributions": {"S": ""}
+            }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "9" },
+            "Label": {"S": "Milwaukee Mental Health Taskforce" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Taskforce" },
+            "Description": {"S": "The Milwaukee Mental Health Task Force is the voice of the community on issues related to the quality and responsiveness of mental health and substance abuse disorder services.\n\nThe Milwaukee Mental Health Task Force is committed to being a leader in identifying issues faced by all people affected by mental illness, facilitating improvements in mental health services, giving consumers and families a strong voice, reducing stigma, and implementing recovery principles.\n\nMembership Form\nhttp://www.milwaukeemhtf.org/wp-content/uploads/2017/08/MHTFmembershipForm-June-2019.pdf" },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
+            "Address": {"S": "Milwaukee Mental Health Task Force Meets second Tuesday of the month from 3 – 5 PM, at Independence First, 540 S. 1 St. Milwaukee Facebook: www.facebook.com/milwaukeemhtf" },
+            "Phone": {"S": "" },
+            "Fax": {"S": "" },
+            "Email": {"S": "elisec@drwi.org" },
+            "Website": {"S": "www.milwaukeemhtf.org/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "10" },
+            "Label": {"S": "NAMI - National Alliance on Mental Illness Wisconsin" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Support Group" },
+            "Description": {"S": "NAMI Connection Recovery Support Groups are free, confidential, and safe, 90-minute weekly support groups open to anyone with a mental health diagnosis. Groups follow a flexible structure without an educational format. Individuals join a caring group of peers that offer support through their learned wisdom and participants can share as much or as little personal information as they wish.\n\nSee the link below to find locations to the NAMI nearest to you - \nhttps://namiwisconsin.org/find-your-local-nami-2/" },
+            "Tags": {"SS": [ "Mental Health" ] },
+            "Address": {"S": "4233 W Beltline Hwy\nMadison, WI 53711" },
+            "Phone": {"S": "(608) 268-6000" },
+            "Fax": {"S": "" },
+            "Email": {"S": "nami@namiwisconsin.org" },
+            "Website": {"S": "https://namiwisconsin.org/education-programs/for-individuals-with-mental-illness/nami-connection/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "11" },
+            "Label": {"S": "Sojourner Family Peace Center" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Shelter" },
+            "Description": {"S": "Sojourner Truth House has been in existence since 1978. The 53-bed emergency shelter offers a safe respite for people dealing with domestic violence, sexual assault and human trafficking. Shelter residents and their children are provided with basic necessities such as food, clothing, warmth, security, empathy and support, counseling and support groups, advocacy services and children’s programming.\n\nCall us at 414-933-2722 and take the first step to building a violence-free life." },
+            "Tags": {"SS": [ "Housing" ] },
+            "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+            "Phone": {"S": "414-276-1911" },
+            "Fax": {"S": "" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "12" },
+            "Label": {"S": "Sojourner Family Peace Center" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Help for Offenders" },
+            "Description": {"S": "BATTERERS INTERVENTION SERVICES \nBeyond Abuse programming is available for women who have committed or exhibit violent, abusive or controlling behavior in their marriage or intimate partner relationships and want to put an end to it. The goal of Beyond Abuse is to help participants learn to eliminate violent, abusive and controlling behaviors from their relationships, thus contributing to ending the cycle of domestic violence. \n\nThrough our groups, participants can and do learn alternative, healthy, non-abusive ways to deal with their emotions. \n\nThe Beyond Abuse program consists of weekly, 1 ½ hour sessions that are co-taught by a male and female facilitator. These sessions emphasize: \n\n- Identification of physically abusive behaviors and recognition of other abusive and controlling acts \n- Acceptance of responsibility for one’s own behavior \n- Realization of the destructiveness of these abusive acts \n- Elimination of these destructive acts through the introduction of alternative behaviors \n- Maintenance of the new behaviors through reinforcement and practice \n- Identification of primary emotions and acceptance of emotions as being normal to the human condition \n- Recognition of the difference between emotions, thoughts and actions \n- Developing the skill to cope with feelings through personal thought, reflection and challenge \n- Developing the skill to express and communicate feelings and emotions effectively and non-abusively" },
+            "Tags": {"SS": [ "Behavioral Health & Mental Health"] },
+            "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+            "Phone": {"S": "414-276-1911" },
+            "Fax": {"S": "414-727-2342" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "13" },
+            "Label": {"S": "Sojourner Family Peace Center" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Support Groups" },
+            "Description": {"S": "Our support groups are held in confidential locations and co-taught by two facilitators. Participants will receive information about the following:\nDomestic violence and how to rebuild in its aftermath\nHow to identify typical signs of the effects of domestic violence on children\nThe healing services available for adults and children who have been exposed to domestic violence\nOther available advocacy services and community resources\nHow criminal and civil systems affect participants’ lives\nSafety planning and practical tools to assess whether an abuser is changing\nLogistical support, such as providing for transportation needs\nFor more information, or to join our support groups, please call our Advocacy Office at 414-276-1911 or our 24-hour Domestic Violence Hotline at 414-933-2722." },
+            "Tags": {"SS": [ "Mental Health", "Health" ] },
+            "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+            "Phone": {"S": "414-276-1911" },
+            "Fax": {"S": "414-727-2342" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "14" },
+            "Label": {"S": "Sojourner Family Peace Center" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Restraining Orders" },
+            "Description": {"S": "For assistance filing a restraining order, call Sojourner at (414) 278-5079. Leave a message that includes your full name and a safe call-back number. An Advocate will call back to assist you with filing a TRO online between the hours of 8:00 a.m. – 4:00 p.m., Monday – Friday. The temporary restraining order documents will NOT be effective until reviewed and approved by a court commissioner.\n\nIf you already have filed a restraining order and have an upcoming hearing, report to the Milwaukee County Courthouse, Room 712 on the 7th Floor, at your scheduled time. (Refer to the information on the temporary restraining order paperwork received when you filed.)\n\nFor more information about the hearing and how to prepare, call Sojourner at (414) 278-5079. Leave a message that includes your full name and a safe call-back number. An Advocate will call back between 8:00 a.m. – 4:00 p.m., Monday – Friday to answer your questions about the hearing. Advocates will be on the phone during the hearing to support you and will talk with you after the hearing. If you do not appear to the hearing, the order will be dismissed." },
+            "Tags": {"SS": [ "Mental Health", "Health" ] },
+            "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+            "Phone": {"S": "414-276-1911" },
+            "Fax": {"S": "414-727-2342" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "15" },
+            "Label": {"S": "Sojourner Family Peace Center" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Case Management" },
+            "Description": {"S": "Families affected by violence require additional tools and support to escape their situations and avoid further violence. Sojourner Family Peace Center provides advocacy and in-depth case management services to adult victims of domestic violence.\nCase Management includes:\nHelping victims of domestic violence find and access shelter\nEstablishing safe housing\nFinding child care\nProviding counseling\nMaking referrals for health care\nHelping obtain civil legal services. Through our partnership with Legal Action of Wisconsin, attorneys provide free legal advice and representation.\nServices provided are available in English, Spanish, Hmong and Russian and are free of charge.\n\nTo talk to an Advocate, please call Sojourner Family Peace Center at 414-276-1911 between 8:30 a.m. and 5:00 p.m., Monday through Friday." },
+            "Tags": {"SS": [ "Mental Health", "Justice", "Housing" ] },
+            "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+            "Phone": {"S": "414-276-1911" },
+            "Fax": {"S": "414-727-2342" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+            "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "16" },
+         "Label": {"S": "Sojourner Family Peace Center" },
+         "Type": {"S": "Non-Profit" },
+         "Program and Services": {"S":"Life Skills" },
+         "Description": {"S": "The Life Skills Program at Sojourner encourages self-sufficiency and economic empowerment for victims of domestic violence through an array of services aimed at helping them attain education, training, employment and economic freedom from their abuser. Our programming is comprised of individual and group support, employment readiness training and financial empowerment education designed assist victims of domestic violence in their efforts to achieve self-sufficiency and freedom from abuse.\n\nIn 2014, the program served 355 survivors. Of those, 100% completed a personal empowerment plan, 78% completed a financial education workshop, 73% attended empowerment workshops, 59% received assistance with resume development, 49% received assistance in obtaining housing, 18% were linked to financial services and 16% were linked to employment services.\n\nFor more information, or to join our support groups, please call our Advocacy Office at 414-276-1911 or our 24-hour Domestic Violence Hotline at 414-933-2722." },
+         "Tags": {"SS": [ "Employment", "Education" ] },
+         "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+         "Phone": {"S": "414-276-1911" },
+         "Fax": {"S": "414-727-2342" },
+         "Email": {"S": "" },
+         "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+         "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "17" },
+         "Label": {"S": "Sojourner Family Peace Center" },
+         "Type": {"S": "Non-Profit" },
+         "Program and Services": {"S":"Vine" },
+         "Description": {"S": "The Wisconsin VINE system is a service through which victims of crime, law enforcement and interested citizens can use the telephone or internet to search for information regarding the custody status of an offender and to register to receive telephone and email notification when the offender’s custody status changes. The VINE toll-free number for the Wisconsin VINE service is 1-888-944-8463. This service is provided to assist victims and the public, who have a right to know about offenders’ custody status." },
+         "Tags": {"SS": [ "Behavioral Health & Mental Health"] },
+         "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+         "Phone": {"S": "414-276-1911" },
+         "Fax": {"S": "414-727-2342" },
+         "Email": {"S": "" },
+         "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+         "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "18" },
+         "Label": {"S": "Sojourner Family Peace Center" },
+         "Type": {"S": "Non-Profit" },
+         "Program and Services": {"S":"Violence in the Workplace" },
+         "Description": {"S": "Employers play an important role in making the workplace safe for victims of domestic violence. A safe work environment includes clear human resource policies, manager training, security, flexible leave and benefit policies and employee education.\nSFPC can help employers with training, policies and provide on-site advocacy if needed. Contact us to discuss how we can partner with you to make your workplace safe for victims of domestic violence to come forward." },
+         "Tags": {"SS": [ "Employment", "Behavioral Health & Mental Health"] },
+         "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+         "Phone": {"S": "414-276-1911" },
+         "Fax": {"S": "414-727-2342" },
+         "Email": {"S": "" },
+         "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+         "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "19" },
+         "Label": {"S": "Sojourner Family Peace Center" },
+         "Type": {"S": "Non-Profit" },
+         "Program and Services": {"S":"Animal Abuse & Family Violence" },
+         "Description": {"S": "Recognizing the link between animal abuse and family violence, Sojourner Family Peace Center and the Wisconsin Humane Society have joined together to offer the Safe Haven Foster Program. Safe Haven provides temporary shelter for pets of domestic violence victims, making it possible for victims to leave a dangerous situation knowing their animal is safe.\n\nSafe Haven offers up to 60 days of shelter for animals of domestic violence victims. Many victims are hesitant to leave a dangerous situation because they fear for their animal’s safety, and this program makes it possible for victims to leave a dangerous situation without losing their companion animal.\n\nIf you know of a family or animal in danger, contact us at 414-933-2722. For more information or to volunteer as a Safe Haven foster parent, call the Wisconsin Humane Society at 414-264-6257." },
+         "Tags": {"SS": [ "Behavioral Health & Mental Health", "Health"] },
+         "Address": {"S": "619 W. WALNUT ST, \nMILWAUKEE, WISCONSIN 53212," },
+         "Phone": {"S": "414-276-1911" },
+         "Fax": {"S": "414-727-2342" },
+         "Email": {"S": "" },
+         "Website": {"S": "https://familypeacecenter.org/resources/batterers-intervention-group/" },
+         "Attributions": {"S": ""}
+         }
+      }
+    },
+    {
+      "PutRequest": {
+         "Item": {
+            "id": { "S": "20" },
+         "Label": {"S": "UMOS" },
+         "Type": {"S": "Non-Profit" },
+         "Program and Services": {"S":"Job Center" },
+         "Description": {"S": "The UMOS Job Center is the heart of the workforce development division.\nThe UMOS Job Center provides omprehensive employment related programs and direct services, as well as supportive services to help individual job seekers reach their career goals. Over 240,000 job seekers enter through the UMOS Job Center doors every year.\nMeeting the workforce needs of employers is an on-going challenge. Matching the right potential employees with the right potential employers takes time, listening, preparation, screening, skills assessments, coaching, and trust through relationship building. We take pride in making initial job placements with employers, but more pride in successful job retentions.\nOur workforce development division is comprised of 5 major programs: Wisconsin Works (W-2), Transitional Jobs Program, Transform Milwaukee Jobs Program, National Farmworker Jobs Program and TechHire. Each has its own comprehensive wrap-around and supportive services to create a holistic approach to meeting the individual needs of job seekers and employers." },
+         "Tags": {"SS": [ "Employment" ] },
+         "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
+         "Phone": {"S": "" },
+         "Fax": {"S": "" },
+         "Email": {"S": "" },
+         "Website": {"S": "https://www.umos.org/" },
+         "Attributions": {"S": ""}
+         }
+      }
+    }
+   ]
+}

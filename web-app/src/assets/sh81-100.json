@@ -1,0 +1,364 @@
+{
+    "ServiceProvider-yoruyjsfane6zfwi54uakwddje-dev": [
+        {
+            "PutRequest": {
+            "Item": {
+               "id": { "S": "81" },
+            "Label": {"S": "Community Advocates" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Milwaukee Women's Center - Nevermore Batterers Treatment" },
+            "Description": {"S": "An educational, support group-based program aiming to help male batterers understand and take responsibility for their violent behavior. Provides tools and knowledge, to change abusive and controlling behaviors and to prevent domestic violence in intimate partner and/or family relationships." },
+            "Tags": {"SS": [ "Health", "Mental Health", "Abuse", "Domestic Violence", "Family", "Community Advocates", "Education", "Nevermore", "Male Batterers", "Healing", "Rehabilitation", "Conflict resolution skills", "non-violent communication"] },
+            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://communityadvocates.net/welcome.html" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+            "Item": {
+               "id": { "S": "82" },
+            "Label": {"S": "Community Advocates" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Milwaukee Woman's Center - Substance Abuse Treatment" },
+            "Description": {"S": "Provides substance use disorder treatment services for a wide variety of individuals. Our programming offers help for:\nWomen, with an emphasis on women who are pregnant\nSurvivors of domestic violence \nFamilies working through addiction issues\nMen with a history of domestic violence\nWomen who are incarcerated\nEnglish and Spanish speakers \n\nOur signature treatment programs are Positive Options for Women Entering Recovery (POWER) for women, including women who are pregnant, struggling with drug or alcohol abuse, and the Family Intervention Program (FIP), which provides counseling in the client's home in Spanish and English." },
+            "Tags": {"SS": [ "Mental Health", "Substance Abuse", "POWER", "FIP", "Preganant", "Drug Abuse", "Alcohol Abuse", "Spanish", "English", "Families", "In Home counseling", "Community Advocates", "Health", "Education" ] },
+            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://communityadvocates.net/welcome.html" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+            "Item": {
+               "id": { "S": "83" },
+            "Label": {"S": "Community Advocates" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Milwaukee Woman's Center - Bottomless Closet" },
+            "Description": {"S": "A program that provides work-appropriate, gently used clothing and suportive services to men and women entering or re-entering the workforce. \nWomen and men preparing to return to work are referred from community and government agencies by appointment only." },
+            "Tags": {"SS": [ "Education", "Re-Entry", "Employment", "Community Advocates", "Job Readiness Skills", "Self-Empowerment", "Low-income", "Mentoring", "Job Interview Prep", "Interviewing skills"] },
+            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://communityadvocates.net/welcome.html" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+            "Item": {
+               "id": { "S": "84" },
+            "Label": {"S": "Community Advocates" },
+            "Type": {"S": "Non-Profit" },
+            "Program and Services": {"S":"Energy Assistance" },
+            "Description": {"S": "Eligible country residents of Milwaukee can apply for a one-time payment to help cover a portion of their energy bills. It also offers year-round benefits as well to help eligible utility customers reduce their bills, make upgrades or repairs to their homes or furnaces and stay connected." },
+            "Tags": {"SS": [ "Housing", "Energy Assistance", "Community Advocates", "Milwaukee County", "Benefit Season" ] },
+            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+            "Email": {"S": "" },
+            "Website": {"S": "https://communityadvocates.net/welcome.html" },
+            "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "85" },
+                  "Label": {"S": "Community Advocates" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Tenant - Lanlord Help" },
+                  "Description": {"S": "Community Advocates’ Housing Department has decades of experience helping tenants and landlords successfully take care of complaints, make repairs, work out payment plans for rent and security deposits, and prevent evictions.\n\nIf you are having any of these problems, Community Advocates can help you:\n\nThe city has ordered you to leave your home because it is unsafe\nYour landlord is threatening you with eviction or you received a five-day notice to leave\nYour landlord is not making repairs to your unit\nYou fell behind on your rent because of an unexpected loss of income\nYou are trying to move into a new place but are having a hard time covering the security deposit \nYou own or rent a property and want to learn your rights and responsibilities" },
+                  "Tags": {"SS": [ "Housing", "Tenant", "Landlord", "Eviction", "Rent", "Security Deposit", "Repairs", "Payment plans", "Loss of income", "Community Advocates" ] },
+                  "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+                  "Phone": {"S": "" },
+                  "Fax": {"S": "" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://communityadvocates.net/welcome.html" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "86" },
+                  "Label": {"S": "Community Advocates" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"SSI & Disability Advocacy" },
+                  "Description": {"S": "Interim Disability Assistance Program (IDAP)\nCommunity Advocates works with individuals who are eligible for Milwaukee County's Interim Disability Assistance Program (IDAP), which provides a monthly payment to financially needy residents 18 and older and married couples without children who are unable to work due to a disability and have a high probability of receiving federal Supplemental Security Income (SSI). The payment is issued until SSI eligibility is approved or denied, after which the IDAP payment ends. IDAP is an interest-free loan that must be repaid once a case is decided.\n\nProtective Payee Services\nCommunity Advocates provides Protective Payee services (rent payment and other allowances for necessities and discretionary spending) to individuals who are unable to adequately manage their finances. Protective Payee services are provided on a fee-for-service basis and allow clients to establish a history of bill payment, thereby improving their credit. \n\nLegal Referrals\nCommunity Advocates can provide referrals for legal representation in Social Security Disability and Supplemental Security Income (SSI) appeals.\n\nSSI Advocacy\nSSI Advocacy provides information, representation, referrals, and advocacy for individuals seeking Social Security disability benefits. In addition to direct representation on disability benefits appeals, staff work to ensure that clients have access to the resources and services they need during the appeals process and beyond. \nThis program accepts referrals only from Children's Community Health Plan, Managed Health Services, and Kenosha Department of Human Services." },
+                  "Tags": {"SS": [ "Advocacy", "Disability", "Social Security", "Legal Referrals", "Supplemental Security Income", "IDAP", "SSI", "Community Advocates" ] },
+                  "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+                  "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+                  "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://communityadvocates.net/welcome.html" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "87" },
+                  "Label": {"S": "Community Advocates" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Homeless Outreach and Supportive Housing" },
+                  "Description": {"S": "Our Homeless Outreach Nursing Center, Autumn West Safe Haven, and Project Bridge programs provide services and resources that address the unique needs of those living with a mental illness in unstable living conditions. We utilize the Housing First philosophy that views housing as an individual's first step toward regaining independence and stability." },
+                  "Tags": {"SS": [ "Mental Health", "Mental Illness", "Housing", "Independence", "Housing Refuge", "Community Advocates", "Short-term housing", "Disability", "Trauma-informed Care", "Motivational Interviewing", "Harm Reduction" ] },
+                  "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+                  "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+                  "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://communityadvocates.net/welcome.html" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "88" },
+                  "Label": {"S": "Community Advocates" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"New Pathways for Fathers and Families" },
+                  "Description": {"S": "A program for dads who want to learn how to become better fathers. The program aims to help low-income biological fathers, men who are expecting a child with their partner, adoptive fathers, step fathers, or a person who is serving as a father figure for a dependent child or young adult up to 24 years of age with lives in Milwaukee County." },
+                  "Tags": {"SS": [ "Education", "Families", "Fathers", "Workshops", "Individualized support", "Financial Outlook", "Parenting Skills", "Healthy Relationships", "Employment", "Mental Health", "Group Meetings", "Community Advocates" ] },
+                  "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+                  "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+                  "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://communityadvocates.net/welcome.html" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "89" },
+                  "Label": {"S": "Community Advocates" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Empowerment Coalition of Milwaukee" },
+                  "Description": {"S": "The Empowerment Coalition of Milwaukee (ECOM) is a monthly gathering of social services professionals, advocates, and consumers organized by Community Advocates' Housing Department. ECOM meets the third Friday of the month throughout the year and explores topics that are vital to Milwaukee’s human services professionals. Topics have included social safety net benefits; housing; services and programs for teens; domestic violence prevention and intervention; energy assistance benefits; and programs and services for veterans, among others." },
+                  "Tags": {"SS": [ "Education", "Outreach", "Health", "Mental Health", "Housing", "Community Advocates" ] },
+                  "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+                  "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+                  "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://communityadvocates.net/welcome.html" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "90" },
+                  "Label": {"S": "Community Advocates" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Public Policy Institute" },
+                  "Description": {"S": "Community Advocates' leadership created the Public Policy Institute in 2008 to address the root causes of poverty through policy advocacy and community collaboration on economic and public health issues." },
+                  "Tags": {"SS": [ "Public Policy", "Advocacy", "Trainning", "Community Advocates", "Community Building" ] },
+                  "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
+                  "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
+                  "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "https://communityadvocates.net/welcome.html" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "91" },
+                  "Label": {"S": "Acts Housing" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Home Ownership" },
+                  "Description": {"S": "Focus:\nActs supports families who are attempting to purchase a home with cash or loan.\nWe provide one-on-one, HUD – approved home buyer counselling for individuals interested in purchasing a home for owner – occupancy.\nAs a real estate brokerage, Acts represents families in the purchase of homes for owner occupancy, primarily in central city neighborhoods. \nActs then helps families plan and execute home rehabilitation, with a focus on reclaiming vandalized foreclosures. \nOur affiliated non-profit partner, Acts Lending, Inc., provides mortgage loans for rehabilitation projects." },
+                  "Tags": {"SS": [ "Housing", "Home Ownership", "Homebuyer Counseling", "Real Estate", "Home Renovation", "Education", "Mortgage Loan", "Rehabilitation Project", "Owner Occupancy", "Fixer Upper", "HUD", "Home Buyer Education", "Family Housing", "Home Rehab", "Home Lending", "Real Estate Brokerage", "Online Homebuyer Counseling" ] },
+                  "Address": {"S": "2414 Villet St. Milwaukee, WI. 53205" },
+                  "Phone": {"S": "(414) 933-2215" },
+                  "Fax": {"S": "(414) 933-1956" },
+                  "Email": {"S": "acts@actshousing.org" },
+                  "Website": {"S": "www.actshousing.org "},
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "92" },
+                  "Label": {"S": "Employ Milwaukee" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Reentry Employment Services at HOC" },
+                  "Description": {"S": "To help citizens overcome barriers and successfully reenter the community, as well as to provide innovative sources of talent for employers, Employ Milwaukee partners with the State of Wisconsin, local government, public and private employment and training providers, and community- and faith-based organizations to provide employment services to these individuals, inside and outside of jails and prisons. Employment services are provided pre- and post-release, including career planning (access to the Job Center of Wisconsin, resume building, job searching, skill assessments, etc.), skill training, and supportive service referrals.\nA grant from US Department of Labor allows us to provide pre- and post-release services to individuals who will be released within 180 days from the Milwaukee County House of Correction (HOC). This program integrates the Council of State Government’s Integrated Reentry & Employment Strategies (IRES) Model and provides career planning, job readiness and skills trainings, all centered around Labor Market Information, assessments of the individual, and an employment action plan. Referrals to American Job Centers are provided to participants, so that they may access WIOA programming to guide them through their transition immediately upon release" },
+                  "Tags": {"SS": [ "Reentry", "HOC", "House of corrections", "Career Planning", "Job Readiness", "Skills Training", "Individual assesments", "Employment action plan", "Employ milwaukee", "resume building", "job searching", "supportive service refferals" ] },
+                  "Address": {"S": "2342 North 27th Street Milwaukee, WI 53210" },
+                  "Phone": {"S": "(414) 270-1700" },
+                  "Fax": {"S": "(414) 225-2375" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.employmilwaukee.org/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "93" },
+                  "Label": {"S": "Employ Milwaukee" },
+                  "Type": {"S": "Non-Profit" },
+                  "Program and Services": {"S":"Windows to Work" },
+                  "Description": {"S": "We assist participants with their employment, housing, medical and psychological needs through Windows to Work, a Wisconsin Department of Corrections-funded program. Instruction in financial literacy, work place competencies, conflict resolution and problem solving are provided through case managers who plan for successful reintegration with participants. Assessments and supports begin six months prior to prison release, with twelve months of follow up and supportive services after reintegration into the community." },
+                  "Tags": {"SS": [ "Employment", "Housing", "Medical", "Health", "Psychological", "Financial Literacy", "Work place Competencies", "Windows to work", "Conflict Resolution", "Problem Solving", "Reentry", "Reintegration", "Employ Milwaukee" ] },
+                  "Address": {"S": "2343 North 27th Street Milwaukee, WI 53210" },
+                  "Phone": {"S": "(414) 270-1701" },
+                  "Fax": {"S": "(414) 225-2376" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.employmilwaukee.org/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "94" },
+                  "Label": {"S": "Leadership MKE" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"About Us" },
+                  "Description": {"S": "Leadership MKE is a local independent expenditure organization that supports candidates who share our civic-minded vision for Milwaukee County. We seek to identify candidates who have a proven track record of working with members of both political parties and community stakeholders to accomplish positive outcomes for Milwaukee County rather than seeking personal political victories. We support a diverse group of elected officials and candidates who have demonstrated their commitment to problem solving, compromise, and addressing Milwaukee's most significant challenges, including racial justice and local government reform.\n\nElected Officials:\nMayor Dan Bukiewicz - Oak Creek City\nPatti Logsdon - Milwaukee County Board of Supervisors District 9.\nLeah Schreiber Johnson - Oak Creek - Frnaklin School Board\nFelecia MArtin - MIlwaukee COunty Board of supervisors District 7\nSilvia Ortiz-Velez - Milwaukee County Board of Sueprvisors District 12\nJEssica Carpenter - SHorewood Village Trustee\nMichelle HaugBoard\nWanda Montgomery - Brown Deer Village Board President\nRichard MoBoard\nLakeshia Myers - Assembly District 12\nRobyn Vining - Assembly District14\n\nCandidates for Milwaukee County and City\nDavid Crowley - Candidate for Milwaukee County Executive\nJfor City Comptroller\nTearman Spencer - Candidate for City Attorney\n" },
+                  "Tags": {"SS": [ "Elections", "Candidates", "Officials" ] },
+                  "Address": {"S": "NA" },
+                  "Phone": {"S": "NA" },
+                  "Fax": {"S": "NA" },
+                  "Email": {"S": "NA" },
+                  "Website": {"S": "https://leadershipmke.com/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "95" },
+                  "Label": {"S": "Leadership MKE" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"Infrastructure & Jobs" },
+                  "Description": {"S": "Milwaukee County is adding new jobs, lowering unemployment, and becoming a better place to live, work, and raise a family. We need more local leaders who will make the necessary investments in infrastructure to create jobs so Milwaukee County will keep moving forward." },
+                  "Tags": {"SS": [ "Employment" ] },
+                  "Address": {"S": "NA" },
+                  "Phone": {"S": "NA" },
+                  "Fax": {"S": "NA" },
+                  "Email": {"S": "NA" },
+                  "Website": {"S": "https://leadershipmke.com/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "96" },
+                  "Label": {"S": "League of Women Voters (Milwaukee County)" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"Advocacy" },
+                  "Description": {"S": "\"The League of Women Voters is a nonpartisan, grassroots, political organization established in 1920 that advocates for informed and active participation in government. Our members are women and men who work to improve our systems of government and impact public policies through education and advocacy. The League neither supports nor opposes candidates for office at any level of government. At the same time, the League is wholeheartedly political and works to influence policy through advocacy. \nPositions by Topic:\nGovernment\n• Citizens' Rights, including voting rights, citizen rights and right to privacy in reproductive choices\n• Ballot Design\n• Government Structures & Procedures, including redistricting and other\nCounty Government\n• Administration of Justice\n• Government Financing\nNatural Resources\n• Standards & Enforcement\n• Energy \n• Air & Land Policies\n• Solid Waste Management\n• Water Quality\n• Pesticides\n• Great Lakes Ecosystem\nSocial Policy\n• Education\n• Equality\n• Health Care & Mental Health\n• Lending Industry Practices\n• Community Policy (formerly Urban Policy)\n\"" },
+                  "Tags": {"SS": [ "Citizens Rights", "Social Policy", "Education", "Health", "Mental Health" ] },
+                  "Address": {"S": "6737 W. Washington St. Suite 2218" },
+                  "Phone": {"S": "414-273-8683" },
+                  "Fax": {"S": "" },
+                  "Email": {"S": "league@lwvmilwaukee.org" },
+                  "Website": {"S": "https://www.lwvmilwaukee.org/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "97" },
+                  "Label": {"S": "Milwaukee Community Services Corp" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"Education" },
+                  "Description": {"S": "The Milwaukee Community Service Corps’ educational component is one of two vital necessities to employment. The educational component is designed to give individuals a needed boost for employment in many industries. MCSC has continuous talks with employers about what they are looking for when they hire individuals for entry level jobs. This is what guides our education department. \n\nWith this information, MCSC has come up with proven courses that are national and state recognized" },
+                  "Tags": {"SS": [ "Education", "Employment" ] },
+                  "Address": {"S": "1441 N. 7th St. \nMilwaukee, WI. 53205" },
+                  "Phone": {"S": "(414) 372-9040" },
+                  "Fax": {"S": "" },
+                  "Email": {"S": "" },
+                  "Website": {"S": "www.milwaukeecommunityservicecorps.org" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "98" },
+                  "Label": {"S": "Milwaukee Community Services Corp" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"Hands on Job Training" },
+                  "Description": {"S": "MCSC’s Hand-on job training or Work Projects Departments is the second necessary component for future employment. It is a mini construction company. Our Work Projects department employs on average 5 Supervisors/Instructors. All of these instructors are veteran trades people who have multiple years and experience in various construction aspects. A Supervisor will lead a crew of no more than 5 Corps Members daily. The projects they will go out and work on include turf maintenance, tree planting, beach cleanup, installation of fencing, building maintenance, rehab work and snow removal just to name a few. Corps Members will earn $11.00 per hour when working/training on these crews. They will also learn from our Supervisors." },
+                  "Tags": {"SS": [ "Education", "Employment" ] },
+                  "Address": {"S": "1441 N 7th Street Milwaukee, WI 53205" },
+                  "Phone": {"S": "414-372-9040" },
+                  "Fax": {"S": "414-372-9060" },
+                  "Email": {"S": "cbrown@mcscwi.org" },
+                  "Website": {"S": "https://www.milwaukeecommunityservicecorps.org/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "99" },
+                  "Label": {"S": "Milwaukee Community Services Corp" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"Certifications" },
+                  "Description": {"S": "MCSC offers an array of certifications that allows a prospective employee to get ahead in the workplace. All of our certifications are national and/or state recognized. Employers of many industry sectors have specifically asked for these credentials. \n\nOSHA 10 General Industry \nOSHA 10 Construction \nOSH 30 General Industry \nOSHA 30 Construction \nForklift Training \nLead Renovator \nCPR/AED \nCPR/AED & First Aid \n40 Hour Hazwoper \n" },
+                  "Tags": {"SS": [ "Employment", "Education", "Certifications" ] },
+                  "Address": {"S": "1441 N 7th Street Milwaukee, WI 53205" },
+                  "Phone": {"S": "414-372-9040" },
+                  "Fax": {"S": "414-372-9060" },
+                  "Email": {"S": "cbrown@mcscwi.org" },
+                  "Website": {"S": "https://www.milwaukeecommunityservicecorps.org/" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          },
+          {
+            "PutRequest": {
+               "Item": {
+                  "id": { "S": "100" },
+                  "Label": {"S": "NAACP Milwaukee" },
+                  "Type": {"S": "" },
+                  "Program and Services": {"S":"Education" },
+                  "Description": {"S": "Work to stop the school-to-prison pipeline. There are disciplinary processes but the actions are not equivalent to the city ordinances or state statutes. The current civil rights investigations are regarding MPS for the higher rates of suspensions towards African-American children. \nHold Dr. Posley accountable for his commitment that the Director of Student Services will sit down with the city attorney and other stakeholders to evaluate the language in the student discipline handbook. \n\nFocusing on addressing inequalities by providing urban students with equitable access to resources by being committed to providing educational and social support to students and their families. Such as but not limited to: \n-Fair and equitable school funding for all \n-Transportation \n- Qualified, effective and diverse administration and faculty \n- Develop initiatives to secure equity in access to educational opportunities. \n- Encourage STEAM (science, technology, engineering, arts and math) based academics targeting specific neighborhood schools \n\nCreate a task force with representation from these membership organizations to seek solution based outcomes in order to strengthen high schools and re-engage students to prevent dropouts Commit to ensure there is representation on the school board by individuals that represent the collective priorities of members of these organizations and the communities of which they serve." },
+                  "Tags": {"SS": [ "Education" ] },
+                  "Address": {"S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "},
+                  "Phone": {"S": "NAACP Milwaukee Phone \n414.562.1000" },
+                  "Fax": {"S": "" },
+                  "Email": {"S": "president@naacpmke.org\n\ninfo@naacpmke.org \n" },
+                  "Website": {"S": "" },
+                  "Attributions": {"S": ""}
+               }
+            }
+          }
+    ]
+}
