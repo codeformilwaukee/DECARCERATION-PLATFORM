@@ -14,29 +14,29 @@ const ServicesPage = (props) => {
   const [expanded, setExpanded] = useState(1);
   const [segments, setSegments] = useState([]);
 
-  // const [services, setServices] = useState([]);
-  const [services] = useState(myServices);
+  const [services, setServices] = useState([]);
+  // const [services, setServices] = useState(myServices);
   const [selectedServices, setSelectedServices] = useState([]);
 
-  // useEffect(() => {
-  //   fetchServices();
-  // }, []);
+  useEffect(() => {
+    fetchServices();
+  }, []);
 
-  // const fetchServices = async () => {
-  //   try {
-  //     const serviceProviderData = await API.graphql(
-  //       graphqlOperation(listServiceProviders)
-  //     );
-  //     console.log("received", serviceProviderData);
-  //     const serviceProviders =
-  //       serviceProviderData.data.listServiceProviders.items;
-  //     console.log("services:", serviceProviders);
-  //     setServices(serviceProviders);
-  //   } catch (err) {
-  //     alert("error fetching service providers");
-  //     console.log(err);
-  //   }
-  // };
+  const fetchServices = async () => {
+    try {
+      const serviceProviderData = await API.graphql(
+        graphqlOperation(listServiceProviders)
+      );
+      console.log("received", serviceProviderData);
+      const serviceProviders =
+        serviceProviderData.data.listServiceProviders.items;
+      console.log("services:", serviceProviders);
+      setServices(serviceProviders);
+    } catch (err) {
+      alert("error fetching service providers");
+      console.log(err);
+    }
+  };
 
   const handleCheck = (service) => (event) => {
     event.stopPropagation();
@@ -66,6 +66,15 @@ const ServicesPage = (props) => {
   const handleSegments = (event, newSegments) => {
     setSegments(newSegments);
     // TODO filter services by segment
+    
+    setServices(myServices.filter((service) => {
+      let found = service['Program and Services'].forEach((program) => program.toLowerCase().includes(newSegments.toLowerCase())) 
+      return (
+        found ||
+        service.Description.toLowerCase().includes(newSegments.toLowerCase())
+      );
+    }))
+
     console.log("handleSegments", event, newSegments);
   };
 
@@ -145,6 +154,7 @@ const ServicesPage = (props) => {
       >
         {   
           selectedServices.map(serviceId => {
+            console.log(serviceId);
             const currService = services.filter(service => service.id === serviceId)[0];
             return (
               <Marker

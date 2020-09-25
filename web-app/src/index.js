@@ -4,7 +4,7 @@ import * as serviceWorker from "./serviceWorker";
 import App from "./components/App";
 import "./index.css";
 import Amplify from "aws-amplify";
-// import awsExports from "./aws-exports";
+import awsExports from "./aws-exports"; 
 import config from "./config";
 import * as AWS from "aws-sdk";
 
@@ -12,7 +12,6 @@ require("dotenv").config();
 
 Amplify.configure({
   Auth: {
-    // mandatorySignIn: true, // should be false
     region: config.cognito.REGION,
     userPoolId: config.cognito.USER_POOL_ID,
     identityPoolId: config.cognito.IDENTITY_POOL_ID,
@@ -20,7 +19,7 @@ Amplify.configure({
   },
 });
 
-// AWS.configure(awsExports);
+Amplify.configure(awsExports);
 
 AWS.config.update({
   region: "us-east-1",
