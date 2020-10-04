@@ -1,256 +1,640 @@
 {
-    "ServiceProvider-yoruyjsfane6zfwi54uakwddje-dev": [
-        {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "101" },
-                  "Label": {"S": "NAACP Milwaukee" },
-                  "Type": {"S": "" },
-                  "Program and Services": {"S":"Fair Housing" },
-                  "Description": {"S": "Low housing tax credits applied to developments need to be provided to the targeted populations. Minorities are not benefiting from these \n- A recent resolution passed by County Board of Supervisors included “house vouchers” as protect statues. We will work to review and amend as necessary the entire resolution to ensure that all forms of discrimination are excluded. \n\nWork with City, County, and State leadership to appoint a representative from these membership organizations in order to develop programs to secure equitable access to affordable housing and home ownership strategies. \n\nImplement Anti-Displacement strategies for vulnerable impacted residents of color in core-city neighborhoods adjacent to downtown development projects. \n\nUphold the resolution ensuring housing vouchers as a protective class status." },
-                  "Tags": {"SS": [ "Housing" ] },
-                  "Address": {"S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "},
-                  "Phone": {"S": "NAACP Milwaukee Phone \n414.562.1000" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "president@naacpmke.org\n\ninfo@naacpmke.org \n" },
-                  "Website": {"S": "" },
-                  "Attributions": {"S": ""}
-               }
-            }
+  "ServiceProvider-unbzaidlhvha3fmiol3dqmyhpu-master": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "101"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "102" },
-                  "Label": {"S": "NAACP Milwaukee" },
-                  "Type": {"S": "" },
-                  "Program and Services": {"S":"Employment" },
-                  "Description": {"S": "- Work to ensure that the Community Advisory Committee is in place.\n- The First Source Agreement needs to be executed with Employ Milwaukee.\n- Work to ensure that there is a strategic workforce inclusion plan to reduce unemployment for African-Americans\n- Provide funding and resources for pre-employment skills training to community residents, stabilizing their economic conditions and increasing self-sufficiency\n- Provide Employment Assistance Program services to assist job-seekers to prepare for employment.\n- New job training models coupled with job placement\n- Improving and integrating current data systems" },
-                  "Tags": {"SS": [ "Employment" ] },
-                  "Address": {"S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "},
-                  "Phone": {"S": "NAACP Milwaukee Phone \n414.562.1000" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "president@naacpmke.org\n\ninfo@naacpmke.org \n" },
-                  "Website": {"S": "" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Label": {
+            "S": "NAACP Milwaukee"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "103" },
-                  "Label": {"S": "NAACP Milwaukee" },
-                  "Type": {"S": "" },
-                  "Program and Services": {"S":"Health" },
-                  "Description": {"S": "Address the lead laterals in Milwaukee \n- Advocate for the removal of lead laterals, as well as, ensure that water filters are also provided to the schools; not just to residences. Understanding that levels at schools can vary depending on the time of testing. MPS should not have to take on this cost. \n- Work to mandate that there are school entry requirements for all children to be tested for lead poisoning prior to school entry. \n\nSexually transmitted diseases \n- Work with the City of Milwaukee Health Department and Milwaukee Public Schools to ensure that screenings are conducted on a routine basis and comprehensive education is in place. \n\nWork to ensure that all schools have updated defibrillators to optimize their emergency response on-site and capacity to save lives, as well as, partner with the City Health systems, and advocacy groups to ensure the facility and student body are adequately trained. MPS should not have to take on the cost." },
-                  "Tags": {"SS": [ "Health", "Sexually Transmitted Disease", "Health System in Schools" ] },
-                  "Address": {"S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "},
-                  "Phone": {"S": "NAACP Milwaukee Phone \n414.562.1000" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "president@naacpmke.org\n\ninfo@naacpmke.org \n" },
-                  "Website": {"S": "" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Type": {
+            "S": ""
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "104" },
-                  "Label": {"S": "NAACP Milwaukee" },
-                  "Type": {"S": "" },
-                  "Program and Services": {"S":"Criminal Justice and Police Reform and Accountability" },
-                  "Description": {"S": "Widespread use of body cameras and dashboard cameras\n- Fight to ensure that citizens should be allowed to review footage of critical incidents with law enforcement officers before making any statements pertaining to any encounters with law enforcement.\n\nImplement the findings of the Department of Justice Voluntary Collaborative Review\n- Broken Windows Reform and Implementation of 21st century Community Policing Model\n- Review and Revision of Police Use Deadly Force Policies\n- Comprehensive Retraining of all Police Officers\n- Comprehensive Review and Strengthening of Police Hiring Standards\n\nNational Comprehensive Anti-racial profiling Law & Religious Profiling" },
-                  "Tags": {"SS": [ "Reform", "Criminal Justice Reform", "Police Reform", "Accountability" ] },
-                  "Address": {"S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "},
-                  "Phone": {"S": "NAACP Milwaukee Phone \n414.562.1000" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "president@naacpmke.org\n\ninfo@naacpmke.org \n" },
-                  "Website": {"S": "" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Program and Services": {
+            "S": "Fair Housing"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "105" },
-                  "Label": {"S": "Wisconsins Bail out the People Movement" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"About Us" },
-                  "Description": {"S": "Facebook: https://www.facebook.com/Wisconsin-Bail-Out-the-People-Movement-195981860448317/ \nThe Wisconsin Bail Out the People Movement is an outgrowth of the Bailout the People Movement (BOPM), a national network that was founded in October 2008 to oppose the trillion-dollar bank bailout and to demand that the people get bailed out instead. BOPM held the first national protest around joblessness calling for a “Real Jobs Program” at the G20 summit in Pittsburgh.\nBOPM has taken up the most crucial issues facing workers, students and ordinary people: including –\n• jobs; \n• foreclosures and evictions; \n• education and student rights; \n• immigrant and worker’s rights; \n• stopping racism and hate groups like the Tea Party; \n• opposing the ongoing wars that are bleeding the economy dry; \n• fighting to stop billions of dollars being given to the bank for ‘debt service’,: \n• advocating for health care for all; \n• demanding reproductive freedom and justice for women and rights for LGBTQ people and much, much more.\nWe are fighting for a national Public Works Jobs Program much like the Works Progress Administration (WPA) enacted during the Great Depression; for a moratorium on home foreclosures; to stop evictions and utility shut-offs; to have the Employee Free Choice Act implemented; and to have full rights for immigrant workers among other struggles.\n" },
-                  "Tags": {"SS": [ "Advocacy", "Education", "Healthcare", "Housing" ] },
-                  "Address": {"S": "" },
-                  "Phone": {"S": "(414) 395-0665" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "wibailoutpeople@gmail.com" },
-                  "Website": {"S": "https://www.facebook.com/Wisconsin-Bail-Out-the-People-Movement-195981860448317/ \n\n\nhttps://wibailoutpeople.org/about/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Description": {
+            "S": "Low housing tax credits applied to developments need to be provided to the targeted populations. Minorities are not benefiting from these \n- A recent resolution passed by County Board of Supervisors included “house vouchers” as protect statues. We will work to review and amend as necessary the entire resolution to ensure that all forms of discrimination are excluded. \n\nWork with City, County, and State leadership to appoint a representative from these membership organizations in order to develop programs to secure equitable access to affordable housing and home ownership strategies. \n\nImplement Anti-Displacement strategies for vulnerable impacted residents of color in core-city neighborhoods adjacent to downtown development projects. \n\nUphold the resolution ensuring housing vouchers as a protective class status."
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "106" },
-                  "Label": {"S": "Table of the Saints" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"About Us" },
-                  "Description": {"S": "Our purpose is to help those who were incarcerated to make a positive transition into community and family life. Our main goals are to help the returning citizens with their re-entry process by walking in obedience as men of God and upstanding citizens in our community. Providing a social service for those seeking to successfully make a transition from incarceration back into society, by providing restorative life skills through Christ-centered after care. \n\nBy doing this transformational service we hope to reduce the problems of recidivism in our community. To actively combat the individual and community problems that contribute to the needless waste of human resources. To encourage men, to become actively aware of, and consciously cultivate their greatest potential for human development, so that they are continually becoming productive community citizens. \n\nWithout vision, people perish. What we seek is to be men coming together and building relationships along with understanding, if only for a moment. There is wisdom in a multitude of counsel." },
-                  "Tags": {"SS": [ "Reentry" ] },
-                  "Address": {"S": "Milwaukee Enterprise Building \n2821 N. 4th Street, Suite 236, \nMilwaukee, Wisconsin 53212" },
-                  "Phone": {"S": "(414) 374-8029 x307" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "" },
-                  "Website": {"S": "http://www.tableofthesaints.org/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Tags": {
+            "SS": [
+              "Housing"
+            ]
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "107" },
-                  "Label": {"S": "Table of the Saints" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Family House" },
-                  "Description": {"S": "On August 5, 2015 we the Table of the Saints, Inc. were gifted a two family unit home by Maureen Kilgore-Marx with the desire to keep her late husband Mr. Larry M. Kilgore’s life’s work alive. Larry Kilgore was a friend and mentor to those incarcerated and returning to the community. \n\nAfter much help with restoration from Milwaukee Friends Meeting, Marquette University and community donors we were able to open on Christmas Day for our first guest and resident Mr. Aaron Boucher. Aaron was in dire need of housing and we decided to give him a chance. Aaron was with us for a little over a year with no plans to leave soon. On February 10, 2017 Aaron went home to be with the Lord. \n\nThe Table of the Saints, Inc. is committed to helping those who are incarcerated and formerly incarcerated to make a positive transition into community and family life.Our goal is to help the returning citizens with their re-entry process through walking in obedience as men and women of God and upstanding citizens in our community. Our role is providing social services for those seeking to successfully make a transition from incarceration back into society, by providing restorative life skills through:\n- Christ-centered after care \n- Professional counseling\n- Mentoring and aftercare program.\n\nIn doing this transformational service we hope to:\n- reduce the problems of recidivism in our community\n- help each person heal and embrace their moral compass of faith, family and home \n- actively combat the individual and community problems that contribute to the needless waste of human resources\n- encourage men and women to become actively aware of, and to consciously cultivate their greatest potential for human development, so that they continually become productive community citizens." },
-                  "Tags": {"SS": [ "Housing" ] },
-                  "Address": {"S": "Milwaukee Enterprise Building \n2821 N. 4th Street, Suite 236, \nMilwaukee, Wisconsin 53212" },
-                  "Phone": {"S": "(414) 374-8029 x307" },
-                  "Fax": {"S": "" },
-                  "Email": {"S": "" },
-                  "Website": {"S": "http://www.tableofthesaints.org/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Address": {
+            "S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "108" },
-                  "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"After School and Summer Programs" },
-                  "Description": {"S": "Homework Help\nWhen: Monday-Thursday 3:00 PM – 6:30 PM\nWhere: Both locations\nWhat: Homework help provided by community volunteers. All young people in Rebel programs are required to participate in 30 mins of academics before programming.\n\nBe The Change\nWhen: Mondays 5:00 – 6:30 PM\nWhere: Running Rebels East\nWhat: African American male leadership program. Connect with male mentors and peers while participating in group discussions\n\nLady Rebels\nWhen: Mondays 5:00 – 6:30 PM\nWhere: Running Rebels Central\nWhat: A leadership program for young ladies. Connect with positive female role-models while goal setting and learning life skills.\n\nAudio/Visual Entertainment\nWhen: Wednesdays 5:00 – 6:30 PM\nWhere: Running Rebels Central\nWhat: Learn photography, videography along with anything you would need to succeed in the entertainment business such as song writing, rapping and stage presence." },
-                  "Tags": {"SS": [ "After School & Summer Programs", "Education", "Leadership", "Auio/Visual Entertainment"] },
-                  "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                  "Phone": {"S": "(414) 264-8222" },
-                  "Fax": {"S": "(414) 264-8831" },
-                  "Email": {"S": "info@runningrebels.org" },
-                  "Website": {"S": "https://runningrebels.org/programs/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Phone": {
+            "S": "NAACP Milwaukee Phone \n414.562.1000"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "109" },
-                  "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Athletic Program" },
-                  "Description": {"S": "Running Rebels athletics programs are a platform for developing athletic excellence, building character, and offering a source of stability in the lives of young athletes. Staff teach youth discipline, teamwork, and dedication on and off the court. \n\nBasketball fundamentals, athletic training, and open gym are free for young people in our programs. Youth and adults not currently in Rebel programs can contact Donta.Holmes@runningrebels.org for pricing. We also rent our gym to organizations looking to host athletic events.\n\nBrochure\nhttps://runningrebels.org/wp-content/uploads/2018/04/Brochure-Color.pdf" },
-                  "Tags": {"SS": [ "Sports", "Teamwork", "Accountability", "Healthy Habits", "Friends", "Youths" ] },
-                  "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                  "Phone": {"S": "(414) 264-8222" },
-                  "Fax": {"S": "(414) 264-8831" },
-                  "Email": {"S": "info@runningrebels.org" },
-                  "Website": {"S": "https://runningrebels.org/programs/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Fax": {
+            "S": ""
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "110" },
-                  "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Juvenile Justice Program" },
-                  "Description": {"S": "Running Rebels’ Juvenile Justice Programs serve some of the hardest to reach and highest risk young people in Milwaukee. These are young people who have been adjudicated and court-ordered for intensive mentoring. Running Rebels provides these young people with 24/7 mentoring and access to other positive arts, athletic, and academic programs, with the goal of getting them through their probation period and onto a more positive life path. Our professional mentors ensure that young people are attending school and acting responsibly at home and in their communities. \n\nWe believe that all youth have strengths that can be developed through meaningful relationships, structure, and support. We are very proud of the hard work that our mentors do to support and redirect these very high-risk youth. \n\nJuvenile Justice Programs: \n\nMilwaukee County Accountability Program (MCAP) \nIntensive Monitoring Program (IMP) \nA True After-Care Program (ATAC) \nIntensive Monitoring Program–Aftercare (IMP-Aftercare) \n" },
-                  "Tags": {"SS": [ "Justice Program", "Mentoring", "Behavioral Health" ] },
-                  "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                  "Phone": {"S": "(414) 264-8222" },
-                  "Fax": {"S": "(414) 264-8831" },
-                  "Email": {"S": "Questions about our Juvenile Justice Programs? \n\nEmail Stacey.Lindsay@runningrebels.org" },
-                  "Website": {"S": "https://runningrebels.org/programs/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Email": {
+            "S": "president@naacpmke.org\n\ninfo@naacpmke.org \n"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "111" },
-                  "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Violence Free Zone" },
-                  "Description": {"S": "The Violence Free Zone (VFZ) is a school-based mentoring program that provides Milwaukee Public School students with additional personal, academic, and career support. VFZ mentors work directly within seven MPS middle and high schools assisting students who need additional school support by helping them set and accomplish goals, strengthen preparedness for learning, and develop strategies to reduce and resolve conflicts responsibly. The goals are to support student success and create more peaceful and cohesive school cultures. \n\nAlexander Hamilton High School \nLincoln Center of the Arts \nNorth Division High School \nBarack Obama School for Career and Technical Education \nRoosevelt Middle School of the Arts \nVincent High School of Agricultural Sciences \nWashington High School of Information Technology \n“The VFZ staff are great mentors. Being a part of the VFZ family at Roosevelt has shown me I can do amazing things in life.”(Maurion, Roosevelt Middle School of the Arts)" },
-                  "Tags": {"SS": [ "Education", "Violence Free" ] },
-                  "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                  "Phone": {"S": "(414) 264-8222" },
-                  "Fax": {"S": "(414) 264-8831" },
-                  "Email": {"S": "info@runningrebels.org" },
-                  "Website": {"S": "https://runningrebels.org/programs/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Website": {
+            "S": ""
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "112" },
-                  "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Higher Education Learning Program" },
-                  "Description": {"S": "Our Higher Education Learning Program (HELP) is focused on making college attainable for Milwaukee youth. Our main goal is to provide college-bound youth with the means to become independent adults who will, in turn, give back to their communities. HELP coaches youth through their transition into college by providing emotional and financial support throughout their entire college journey, including annual scholarships.\n\n“The HELP scholarship helped me to pay for rent and keep food in the refrigerator, which allowed me to focus on graduating.” – (DeMarcus, HELP Scholarship Recipient” Interested in learning about our HELP College Scholarship?" },
-                  "Tags": {"SS": [ "Higher Education", "HELP Scholarship" ] },
-                  "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                  "Phone": {"S": "(414) 264-8222" },
-                  "Fax": {"S": "(414) 264-8831" },
-                  "Email": {"S": "For more information\nEmail help@runningrebels.org "},
-                  "Website": {"S": "https://runningrebels.org/programs/" },
-                  "Attributions": {"S": ""}
-               }
-            }
-          },
-        {
-            "PutRequest": {
-               "Item": {
-                    "id": { "S": "113" },
-                    "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                    "Type": {"S": "Non-Profit" },
-                    "Program and Services": {"S":"Pipeline2Promise: Workforce Development" },
-                    "Description": {"S": "Running Rebels works to establish partnerships for our Pipeline2Promise program with businesses in our neighborhoods and beyond. The businesses commit to hiring our young people and Running Rebels provides soft skills trainings, and support to remove barriers to employment." },
-                    "Tags": {"SS": [ "Employment" ] },
-                    "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                    "Phone": {"S": "(414) 264-8222" },
-                    "Fax": {"S": "(414) 264-8831" },
-                    "Email": {"S": "Companies interested in partnering with Running Rebels should contact \n\nEmail\ninfo@runningrebels.org" },
-                    "Website": {"S": "https://runningrebels.org/programs/" },
-                    "Attributions": {"S": ""}
-               }
-            }
-        },
-        {
-            "PutRequest": {
-                "Item": {
-                    "id": { "S": "114" },
-                    "Label": {"S": "Running Rebels - Helping Milwaukee's Youth" },
-                    "Type": {"S": "Non-Profit" },
-                    "Program and Services": {"S":"Mentoring Program" },
-                    "Description": {"S": "Community Mentoring Program\nCommunity Mentoring is a voluntary program that connects youth with a mentor who provides ongoing guidance, help youth set and pursue goals, and assist youth in connecting to out-of-school opportunities offered by Running Rebels in leadership, athletics, recreation and the arts.\nYouth eligible for the Community Mentoring Program must be:\n\n• Between the ages of 12-17\n• Be willing to work with a mentor to set and accomplish goals\n• Have no Juvenile Justice involvement\n• Have their own transportation to Running Rebels out-of-school time programming.\n\n​Please note space is limited in the Community Mentoring Program.\n\nCrisis Stabilization/ Mentoring\nCrisis Stabilization and Mentoring are one-on-one support programs for youth referred through Wraparound Milwaukee or Milwaukee County. Crisis Stabilizers and Mentors build relationships with youth by engaging with them in the out-of-school time and working on social-emotional skills." },
-                    "Tags": {"SS": [ "Mentoring" ] },
-                    "Address": {"S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n" },
-                    "Phone": {"S": "(414) 264-8222" },
-                    "Fax": {"S": "(414) 264-8831" },
-                    "Email": {"S": "Questions about our Community Mentoring Program? Contact Kourtney Belvins\n\nEmail\nKourtney.Blevins@RunningRebels.org. \n\nFor questions regarding our Crisis Stabilization/Mentoring program please contact Traci Amos\n\nEmail Traci.Amos@RunningRebels.org\n\nEmail\ninfo@runningrebels.org" },
-                    "Website": {"S": "https://runningrebels.org/programs/" },
-                    "Attributions": {"S": ""}
-                }
-            }
+          "Attributions": {
+            "S": ""
+          }
         }
-    ]
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "102"
+          },
+          "Label": {
+            "S": "NAACP Milwaukee"
+          },
+          "Type": {
+            "S": ""
+          },
+          "Program and Services": {
+            "S": "Employment"
+          },
+          "Description": {
+            "S": "- Work to ensure that the Community Advisory Committee is in place.\n- The First Source Agreement needs to be executed with Employ Milwaukee.\n- Work to ensure that there is a strategic workforce inclusion plan to reduce unemployment for African-Americans\n- Provide funding and resources for pre-employment skills training to community residents, stabilizing their economic conditions and increasing self-sufficiency\n- Provide Employment Assistance Program services to assist job-seekers to prepare for employment.\n- New job training models coupled with job placement\n- Improving and integrating current data systems"
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "
+          },
+          "Phone": {
+            "S": "NAACP Milwaukee Phone \n414.562.1000"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": "president@naacpmke.org\n\ninfo@naacpmke.org \n"
+          },
+          "Website": {
+            "S": ""
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "103"
+          },
+          "Label": {
+            "S": "NAACP Milwaukee"
+          },
+          "Type": {
+            "S": ""
+          },
+          "Program and Services": {
+            "S": "Health"
+          },
+          "Description": {
+            "S": "Address the lead laterals in Milwaukee \n- Advocate for the removal of lead laterals, as well as, ensure that water filters are also provided to the schools; not just to residences. Understanding that levels at schools can vary depending on the time of testing. MPS should not have to take on this cost. \n- Work to mandate that there are school entry requirements for all children to be tested for lead poisoning prior to school entry. \n\nSexually transmitted diseases \n- Work with the City of Milwaukee Health Department and Milwaukee Public Schools to ensure that screenings are conducted on a routine basis and comprehensive education is in place. \n\nWork to ensure that all schools have updated defibrillators to optimize their emergency response on-site and capacity to save lives, as well as, partner with the City Health systems, and advocacy groups to ensure the facility and student body are adequately trained. MPS should not have to take on the cost."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Sexually Transmitted Disease",
+              "Health System in Schools"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "
+          },
+          "Phone": {
+            "S": "NAACP Milwaukee Phone \n414.562.1000"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": "president@naacpmke.org\n\ninfo@naacpmke.org \n"
+          },
+          "Website": {
+            "S": ""
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "104"
+          },
+          "Label": {
+            "S": "NAACP Milwaukee"
+          },
+          "Type": {
+            "S": ""
+          },
+          "Program and Services": {
+            "S": "Criminal Justice and Police Reform and Accountability"
+          },
+          "Description": {
+            "S": "Widespread use of body cameras and dashboard cameras\n- Fight to ensure that citizens should be allowed to review footage of critical incidents with law enforcement officers before making any statements pertaining to any encounters with law enforcement.\n\nImplement the findings of the Department of Justice Voluntary Collaborative Review\n- Broken Windows Reform and Implementation of 21st century Community Policing Model\n- Review and Revision of Police Use Deadly Force Policies\n- Comprehensive Retraining of all Police Officers\n- Comprehensive Review and Strengthening of Police Hiring Standards\n\nNational Comprehensive Anti-racial profiling Law & Religious Profiling"
+          },
+          "Tags": {
+            "SS": [
+              "Reform",
+              "Criminal Justice Reform",
+              "Police Reform",
+              "Accountability"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Branch \n2745 N. Martin Luther King Dr. #202 \nMilwaukee, WI. 53212\n\nNAACP UW – Milwaukee Branch \n3540 N. Palmer St. \nMilwaukee WI. 53212 "
+          },
+          "Phone": {
+            "S": "NAACP Milwaukee Phone \n414.562.1000"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": "president@naacpmke.org\n\ninfo@naacpmke.org \n"
+          },
+          "Website": {
+            "S": ""
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "105"
+          },
+          "Label": {
+            "S": "Wisconsins Bail out the People Movement"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "About Us"
+          },
+          "Description": {
+            "S": "Facebook: https://www.facebook.com/Wisconsin-Bail-Out-the-People-Movement-195981860448317/ \nThe Wisconsin Bail Out the People Movement is an outgrowth of the Bailout the People Movement (BOPM), a national network that was founded in October 2008 to oppose the trillion-dollar bank bailout and to demand that the people get bailed out instead. BOPM held the first national protest around joblessness calling for a “Real Jobs Program” at the G20 summit in Pittsburgh.\nBOPM has taken up the most crucial issues facing workers, students and ordinary people: including –\n• jobs; \n• foreclosures and evictions; \n• education and student rights; \n• immigrant and worker’s rights; \n• stopping racism and hate groups like the Tea Party; \n• opposing the ongoing wars that are bleeding the economy dry; \n• fighting to stop billions of dollars being given to the bank for ‘debt service’,: \n• advocating for health care for all; \n• demanding reproductive freedom and justice for women and rights for LGBTQ people and much, much more.\nWe are fighting for a national Public Works Jobs Program much like the Works Progress Administration (WPA) enacted during the Great Depression; for a moratorium on home foreclosures; to stop evictions and utility shut-offs; to have the Employee Free Choice Act implemented; and to have full rights for immigrant workers among other struggles.\n"
+          },
+          "Tags": {
+            "SS": [
+              "Advocacy",
+              "Education",
+              "Healthcare",
+              "Housing"
+            ]
+          },
+          "Address": {
+            "S": ""
+          },
+          "Phone": {
+            "S": "(414) 395-0665"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": "wibailoutpeople@gmail.com"
+          },
+          "Website": {
+            "S": "https://www.facebook.com/Wisconsin-Bail-Out-the-People-Movement-195981860448317/ \n\n\nhttps://wibailoutpeople.org/about/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "106"
+          },
+          "Label": {
+            "S": "Table of the Saints"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "About Us"
+          },
+          "Description": {
+            "S": "Our purpose is to help those who were incarcerated to make a positive transition into community and family life. Our main goals are to help the returning citizens with their re-entry process by walking in obedience as men of God and upstanding citizens in our community. Providing a social service for those seeking to successfully make a transition from incarceration back into society, by providing restorative life skills through Christ-centered after care. \n\nBy doing this transformational service we hope to reduce the problems of recidivism in our community. To actively combat the individual and community problems that contribute to the needless waste of human resources. To encourage men, to become actively aware of, and consciously cultivate their greatest potential for human development, so that they are continually becoming productive community citizens. \n\nWithout vision, people perish. What we seek is to be men coming together and building relationships along with understanding, if only for a moment. There is wisdom in a multitude of counsel."
+          },
+          "Tags": {
+            "SS": [
+              "Reentry"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Enterprise Building \n2821 N. 4th Street, Suite 236, \nMilwaukee, Wisconsin 53212"
+          },
+          "Phone": {
+            "S": "(414) 374-8029 x307"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "http://www.tableofthesaints.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "107"
+          },
+          "Label": {
+            "S": "Table of the Saints"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Family House"
+          },
+          "Description": {
+            "S": "On August 5, 2015 we the Table of the Saints, Inc. were gifted a two family unit home by Maureen Kilgore-Marx with the desire to keep her late husband Mr. Larry M. Kilgore’s life’s work alive. Larry Kilgore was a friend and mentor to those incarcerated and returning to the community. \n\nAfter much help with restoration from Milwaukee Friends Meeting, Marquette University and community donors we were able to open on Christmas Day for our first guest and resident Mr. Aaron Boucher. Aaron was in dire need of housing and we decided to give him a chance. Aaron was with us for a little over a year with no plans to leave soon. On February 10, 2017 Aaron went home to be with the Lord. \n\nThe Table of the Saints, Inc. is committed to helping those who are incarcerated and formerly incarcerated to make a positive transition into community and family life.Our goal is to help the returning citizens with their re-entry process through walking in obedience as men and women of God and upstanding citizens in our community. Our role is providing social services for those seeking to successfully make a transition from incarceration back into society, by providing restorative life skills through:\n- Christ-centered after care \n- Professional counseling\n- Mentoring and aftercare program.\n\nIn doing this transformational service we hope to:\n- reduce the problems of recidivism in our community\n- help each person heal and embrace their moral compass of faith, family and home \n- actively combat the individual and community problems that contribute to the needless waste of human resources\n- encourage men and women to become actively aware of, and to consciously cultivate their greatest potential for human development, so that they continually become productive community citizens."
+          },
+          "Tags": {
+            "SS": [
+              "Housing"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Enterprise Building \n2821 N. 4th Street, Suite 236, \nMilwaukee, Wisconsin 53212"
+          },
+          "Phone": {
+            "S": "(414) 374-8029 x307"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "http://www.tableofthesaints.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "108"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "After School and Summer Programs"
+          },
+          "Description": {
+            "S": "Homework Help\nWhen: Monday-Thursday 3:00 PM – 6:30 PM\nWhere: Both locations\nWhat: Homework help provided by community volunteers. All young people in Rebel programs are required to participate in 30 mins of academics before programming.\n\nBe The Change\nWhen: Mondays 5:00 – 6:30 PM\nWhere: Running Rebels East\nWhat: African American male leadership program. Connect with male mentors and peers while participating in group discussions\n\nLady Rebels\nWhen: Mondays 5:00 – 6:30 PM\nWhere: Running Rebels Central\nWhat: A leadership program for young ladies. Connect with positive female role-models while goal setting and learning life skills.\n\nAudio/Visual Entertainment\nWhen: Wednesdays 5:00 – 6:30 PM\nWhere: Running Rebels Central\nWhat: Learn photography, videography along with anything you would need to succeed in the entertainment business such as song writing, rapping and stage presence."
+          },
+          "Tags": {
+            "SS": [
+              "After School & Summer Programs",
+              "Education",
+              "Leadership",
+              "Auio/Visual Entertainment"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "info@runningrebels.org"
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "109"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Athletic Program"
+          },
+          "Description": {
+            "S": "Running Rebels athletics programs are a platform for developing athletic excellence, building character, and offering a source of stability in the lives of young athletes. Staff teach youth discipline, teamwork, and dedication on and off the court. \n\nBasketball fundamentals, athletic training, and open gym are free for young people in our programs. Youth and adults not currently in Rebel programs can contact Donta.Holmes@runningrebels.org for pricing. We also rent our gym to organizations looking to host athletic events.\n\nBrochure\nhttps://runningrebels.org/wp-content/uploads/2018/04/Brochure-Color.pdf"
+          },
+          "Tags": {
+            "SS": [
+              "Sports",
+              "Teamwork",
+              "Accountability",
+              "Healthy Habits",
+              "Friends",
+              "Youths"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "info@runningrebels.org"
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "110"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Juvenile Justice Program"
+          },
+          "Description": {
+            "S": "Running Rebels’ Juvenile Justice Programs serve some of the hardest to reach and highest risk young people in Milwaukee. These are young people who have been adjudicated and court-ordered for intensive mentoring. Running Rebels provides these young people with 24/7 mentoring and access to other positive arts, athletic, and academic programs, with the goal of getting them through their probation period and onto a more positive life path. Our professional mentors ensure that young people are attending school and acting responsibly at home and in their communities. \n\nWe believe that all youth have strengths that can be developed through meaningful relationships, structure, and support. We are very proud of the hard work that our mentors do to support and redirect these very high-risk youth. \n\nJuvenile Justice Programs: \n\nMilwaukee County Accountability Program (MCAP) \nIntensive Monitoring Program (IMP) \nA True After-Care Program (ATAC) \nIntensive Monitoring Program–Aftercare (IMP-Aftercare) \n"
+          },
+          "Tags": {
+            "SS": [
+              "Justice Program",
+              "Mentoring",
+              "Behavioral Health"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "Questions about our Juvenile Justice Programs? \n\nEmail Stacey.Lindsay@runningrebels.org"
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "111"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Violence Free Zone"
+          },
+          "Description": {
+            "S": "The Violence Free Zone (VFZ) is a school-based mentoring program that provides Milwaukee Public School students with additional personal, academic, and career support. VFZ mentors work directly within seven MPS middle and high schools assisting students who need additional school support by helping them set and accomplish goals, strengthen preparedness for learning, and develop strategies to reduce and resolve conflicts responsibly. The goals are to support student success and create more peaceful and cohesive school cultures. \n\nAlexander Hamilton High School \nLincoln Center of the Arts \nNorth Division High School \nBarack Obama School for Career and Technical Education \nRoosevelt Middle School of the Arts \nVincent High School of Agricultural Sciences \nWashington High School of Information Technology \n“The VFZ staff are great mentors. Being a part of the VFZ family at Roosevelt has shown me I can do amazing things in life.”(Maurion, Roosevelt Middle School of the Arts)"
+          },
+          "Tags": {
+            "SS": [
+              "Education",
+              "Violence Free"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "info@runningrebels.org"
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "112"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Higher Education Learning Program"
+          },
+          "Description": {
+            "S": "Our Higher Education Learning Program (HELP) is focused on making college attainable for Milwaukee youth. Our main goal is to provide college-bound youth with the means to become independent adults who will, in turn, give back to their communities. HELP coaches youth through their transition into college by providing emotional and financial support throughout their entire college journey, including annual scholarships.\n\n“The HELP scholarship helped me to pay for rent and keep food in the refrigerator, which allowed me to focus on graduating.” – (DeMarcus, HELP Scholarship Recipient” Interested in learning about our HELP College Scholarship?"
+          },
+          "Tags": {
+            "SS": [
+              "Higher Education",
+              "HELP Scholarship"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "For more information\nEmail help@runningrebels.org "
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "113"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Pipeline2Promise: Workforce Development"
+          },
+          "Description": {
+            "S": "Running Rebels works to establish partnerships for our Pipeline2Promise program with businesses in our neighborhoods and beyond. The businesses commit to hiring our young people and Running Rebels provides soft skills trainings, and support to remove barriers to employment."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "Companies interested in partnering with Running Rebels should contact \n\nEmail\ninfo@runningrebels.org"
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "114"
+          },
+          "Label": {
+            "S": "Running Rebels - Helping Milwaukee's Youth"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Mentoring Program"
+          },
+          "Description": {
+            "S": "Community Mentoring Program\nCommunity Mentoring is a voluntary program that connects youth with a mentor who provides ongoing guidance, help youth set and pursue goals, and assist youth in connecting to out-of-school opportunities offered by Running Rebels in leadership, athletics, recreation and the arts.\nYouth eligible for the Community Mentoring Program must be:\n\n• Between the ages of 12-17\n• Be willing to work with a mentor to set and accomplish goals\n• Have no Juvenile Justice involvement\n• Have their own transportation to Running Rebels out-of-school time programming.\n\n​Please note space is limited in the Community Mentoring Program.\n\nCrisis Stabilization/ Mentoring\nCrisis Stabilization and Mentoring are one-on-one support programs for youth referred through Wraparound Milwaukee or Milwaukee County. Crisis Stabilizers and Mentors build relationships with youth by engaging with them in the out-of-school time and working on social-emotional skills."
+          },
+          "Tags": {
+            "SS": [
+              "Mentoring"
+            ]
+          },
+          "Address": {
+            "S": "RUNNING REBELS CENTRAL\n1300A West Fond Du Lac Avenue\nMilwaukee, Wisconsin 53205\n\nRUNNING REBELS EAST \n225 West Capitol Drive \nMilwaukee, WI 53212\n\n\n\n"
+          },
+          "Phone": {
+            "S": "(414) 264-8222"
+          },
+          "Fax": {
+            "S": "(414) 264-8831"
+          },
+          "Email": {
+            "S": "Questions about our Community Mentoring Program? Contact Kourtney Belvins\n\nEmail\nKourtney.Blevins@RunningRebels.org. \n\nFor questions regarding our Crisis Stabilization/Mentoring program please contact Traci Amos\n\nEmail Traci.Amos@RunningRebels.org\n\nEmail\ninfo@runningrebels.org"
+          },
+          "Website": {
+            "S": "https://runningrebels.org/programs/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    }
+  ]
 }

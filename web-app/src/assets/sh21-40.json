@@ -1,364 +1,901 @@
 {
-    "ServiceProvider-yoruyjsfane6zfwi54uakwddje-dev": [
-        {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "21" },
-               "Label": {"S": "UMOS" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Tech Hire" },
-               "Description": {"S": "Focused on Wisconsin Residents\nHigher levels of skills will be needed to enter the ever emerging and expanding technostaff provided job placement assistance and accelerated technology-based skills training in web development, AutoCAD, HelpDesk and Microsoft Office Suite. Over 100 participants have enrolled.\n\nFocused on Employers\nUMOS TechHire staff develop customized training services to assist in meeting employer demand for a technology skilled workforce. TechHire staff provide a higher level of previously provided workforce development programing to meet the higher skill levels needed by employers.\n\nPilot Program\nUMOS partners with local companies to develop customized training for potential employee prospects with specific needed skills. For example, based on current data, a pilot training module for Computer Numerically Controlled Operators is being explored with a Milwaukee County Corrections Facility to meet the needs of area employers. Starting salaries for ex-offenders that complete the accelerated program before reentering their community could range from $30,000 to $55,000 per year.\n\nEastern Wisconsin TechHire Collaborative\nThe UMOS Eastern Wisconsin TechHire Collaborative, a partnership between UMOS, the College of Menominee Nation, and several employers, is designed to meet the overall workforce demand in technoTechHire program targets ages 17-29, with blended accelerated training, hands-on experience in web and software application development, real-world employer projects, and certification toward industry-recognized credentialing, such as Microsoft certifications.\n\nIndividualized Training Techniques\nUMOS offers various individualized training techniques for maximum participant learning:\n\nVirtual training from any location with an internet connection\nRemote instructional and coaching support\nWeb conferencing\nFace-to-face facilitated training workgroup sessions in the UMOS Technology Center in Milwaukee, Wisconsin\nClassroom instructor-led sessions through collaboration with the College of Menominee Nation in Keshena and Green Bay, Wisconsin." },
-               "Tags": {"SS": [ "Employment" ] },
-               "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
-               "Phone": {"S": "" },
-               "Fax": {"S": "" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.umos.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+  "ServiceProvider-unbzaidlhvha3fmiol3dqmyhpu-master": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "21"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "22" },
-               "Label": {"S": "UMOS" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Transitional Jobs Program" },
-               "Description": {"S": "The UMOS Transform Milwaukee Jobs Program and the UMOS Transitional Jobs Program help participants progress from assistance (subsidized wages) to self-sufficiency (unsubsidized wages). The programs offer unemployed residents immediate work with pay. The programs offer job coaching, employability planning, life skills development, limited vocational training, as well as job search assistance.\n\nEmployers in the for-profit, and non-profit sectors in Milwaukee, Southeastern and Northeastern rural regions in Wisconsin gain access to employable residents through time-limited, publicly funded wages.\n\nSince 2014 the Transform Milwaukee Jobs Program has served over 2250 individuals. Over 90% of program participants are ex-offenders and enrolled in a child support program. Eighty-five percent of the individuals enrolled were placed in subsidized employment.\n\nThe rural Northeastern Transitional Jobs program is operated, in partnership with the Menominee Tribal Enterprise in the Wisconsin Counties of Menominee, Langlade, Forest and Florence. Over 65% of participants were placed in unsubsidized employment.\n\nUMOS recently received $1.5 million in additional funds to expand, in partnership with the Ho-Chunk Nation, into the rural South-Central Wisconsin areas of Juneau, Adams, Jackson, and Clark Counties.\n\nThe UMOS Transform Milwaukee Jobs Program and Transitional Jobs Program are funded by the Wisconsin Department of Children and Families." },
-               "Tags": {"SS": [ "Employment" ] },
-               "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
-               "Phone": {"S": "" },
-               "Fax": {"S": "" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.umos.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Label": {
+            "S": "UMOS"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "23" },
-               "Label": {"S": "UMOS" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Wisconsin Works (W-2)" },
-               "Description": {"S": "UMOS is the only non-profit organization that is contracted to operate the W-2 program in Milwaukee, Wisconsin. The other W-2 contracted operators are larger, for-profit corporations.\nFor the fifth consecutive year UMOS had the most approvals in the state for helping individuals obtain disability benefits from the Social Security Administration.\nUMOS staff served 2,571 W-2 participants, with 956 placed into employment, earning an average of $10.39 per hour. Participants entered the customer sercare, retail sales and food service, to name a few.\nFour-hundred sixty-seven clients have remained on the job for 90 days or more.\nThe goal of the UMOS W-2 program is to build on the strengths and skills of job seekers. UMOS continued to provide services that are strength-based, family-centered, employer focused, yet consistent with job seekers’ interests and goals.\nAlthough UMOS has operated the W-2 program since its inception in 1997, UMOS staff continue to look for new and innovative methods to improve participant outcomes. UMOS is the only W-2 agency that has a partnership with the University of Wisconsin-Milwaukee Helen Bader School of Social Welfare to implement a trauma informed case management service.\nUMOS continues to believe in a comprehensive approach to workforce development, substantial employer engagement, deep community connections, career advancement, human services support, and industry-driven education and training.\nThe W-2 Program is funded by the Wisconsin Department of Children and Families." },
-               "Tags": {"SS": [ "Employment" ] },
-               "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
-               "Phone": {"S": "" },
-               "Fax": {"S": "" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.umos.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Type": {
+            "S": "Non-Profit"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "24" },
-               "Label": {"S": "UMOS" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"National Farmworker Jobs Program (NFJP)" },
-               "Description": {"S": "The National Farmworker Jobs Program is a national program created by congress in response to the chronic seasonal unemployment and underemployment experienced by migrant and seasonal farmworkers.\n\nWIOA-167/NFJP offers Career and Training Services that may help you enroll into a short-term training or college program and pay for class tuition. You may even receive a stipend while enrolled in school. We can also assist with books, lodging, fees, work-related equipment, and other needs. Veterans receive priority services. UMOS operates the program in Missouri and Wisconsin." },
-               "Tags": {"SS": [ "Employment" ] },
-               "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
-               "Phone": {"S": "" },
-               "Fax": {"S": "" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.umos.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Program and Services": {
+            "S": "Tech Hire"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "25" },
-               "Label": {"S": "UMOS" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Adult Basic Education" },
-               "Description": {"S": "UMOS continued to provide GED classroom instruction and testing services to high school students and members of the community seeking more education for more economic opportunities. UMOS graduated 146 students in 2017, a 21% increase over 2016.\n\nUMOS continued to be the main testing services center for Milwaukee's southside community and the testing center of choice for Milwaukee Public Schools. UMOS provided GED testing services to 1223 students in 2017, versus 1008 in 2016, plus an additional 284 professional tests.\n\nOverall, the UMOS Pearson Vue GED Test Center ranked 4th out of 129 test centers in Wisconsin, based on total exams taken in 2017.\n\nUMOS also provided English as a Second Language (ESL) classes to job seekers and other members of the community from around the world. GED and ESL services are located within the UMOS Job Center." },
-               "Tags": {"SS": [ "Education", "Employment" ] },
-               "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
-               "Phone": {"S": "" },
-               "Fax": {"S": "" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.umos.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Description": {
+            "S": "Focused on Wisconsin Residents\nHigher levels of skills will be needed to enter the ever emerging and expanding technostaff provided job placement assistance and accelerated technology-based skills training in web development, AutoCAD, HelpDesk and Microsoft Office Suite. Over 100 participants have enrolled.\n\nFocused on Employers\nUMOS TechHire staff develop customized training services to assist in meeting employer demand for a technology skilled workforce. TechHire staff provide a higher level of previously provided workforce development programing to meet the higher skill levels needed by employers.\n\nPilot Program\nUMOS partners with local companies to develop customized training for potential employee prospects with specific needed skills. For example, based on current data, a pilot training module for Computer Numerically Controlled Operators is being explored with a Milwaukee County Corrections Facility to meet the needs of area employers. Starting salaries for ex-offenders that complete the accelerated program before reentering their community could range from $30,000 to $55,000 per year.\n\nEastern Wisconsin TechHire Collaborative\nThe UMOS Eastern Wisconsin TechHire Collaborative, a partnership between UMOS, the College of Menominee Nation, and several employers, is designed to meet the overall workforce demand in technoTechHire program targets ages 17-29, with blended accelerated training, hands-on experience in web and software application development, real-world employer projects, and certification toward industry-recognized credentialing, such as Microsoft certifications.\n\nIndividualized Training Techniques\nUMOS offers various individualized training techniques for maximum participant learning:\n\nVirtual training from any location with an internet connection\nRemote instructional and coaching support\nWeb conferencing\nFace-to-face facilitated training workgroup sessions in the UMOS Technology Center in Milwaukee, Wisconsin\nClassroom instructor-led sessions through collaboration with the College of Menominee Nation in Keshena and Green Bay, Wisconsin."
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "26" },
-               "Label": {"S": "UMOS" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Child Care Drop Off Services" },
-               "Description": {"S": "The UMOS Child Care Drop Off Center is located within the UMOS Job Center and is open Monday – Friday, 8 a.m. to 5 p.m. W-2 Job seekers and other program participants can temporarily drop off their children while taking advantage of resources in the UMOS Job Center.\n\nA snack is provided to children while they take advantage of educational programs, computers and art activities. The UMOS Child Care Drop Off Center served 3,709 children from July 2017, through May 2018." },
-               "Tags": {"SS": [ "Employment" ] },
-               "Address": {"S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207" },
-               "Phone": {"S": "" },
-               "Fax": {"S": "" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.umos.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "27" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Positive Youth Development" },
-               "Description": {"S": "At Pathfinders, we are committed to enabling a ladder of opportunity for young people. We value youth as vital assets to both our organization and community. We consider them to be partners and decision-makers in the services they receive, honoring their voices." },
-               "Tags": {"SS": [ "Youth" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Address": {
+            "S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "28" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Trauma Informed Care" },
-               "Description": {"S": "We use individualized therapeutic approaches to reduce the effects of trauma on current and future life experiences. From a foundation of increased mental wellness and healthy coping skills, youth can engage more effectively in working towards their self-identified goals." },
-               "Tags": {"SS": [ "Behavioral Health & Mental Health" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Phone": {
+            "S": ""
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "29" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Housing First Model" },
-               "Description": {"S": "We believe that housing is a right, not a privilege. We employ a Housing First model where we secure safe housing for young people in crisis as quickly as possible. We know that housing is an essential tool for stability. Once housed, Pathfinders provides our youth with comprehensive services that will help them find success.\n\nSupported Housing \nPathfinders helps homeless and housing insecure youth find and sustain safe housing. Once housed, we offer support to youth as they work towards stability, mental well-being, education, employment and other personal goals. \nOur programs offer supported housing services that are individualized to the needs of each young person. We place a particular emphasis on serving LGBTQ+-identified youth, chronically homeless youth, youth with disabilities, youth with mental health challenges and youth aging out of foster care." },
-               "Tags": {"SS": [ "Housing", "Behavioral Health & Mental Health"] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Fax": {
+            "S": ""
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "30" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Evidence Based Frameworks" },
-               "Description": {"S": "We invest in researching and training staff on nationally-certified, best-practice models. We do this because we want to utilize methods that are proven to work. We collaborate with higher education institutions and partner organizations throughout our community as much as possible to promote our innovative and evidence-based approaches." },
-               "Tags": {"SS": [ "" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Email": {
+            "S": ""
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "31" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Youth Led Programming" },
-               "Description": {"S": "Our young people access services and support at Pathfinders, and also give the same to their peers. Youth have the most important say in the services we provide and how we run our agency. We strive to grow leaders from within through opportunities such as our youth leadership councils, youth-led programming and volunteer and employment opportunities." },
-               "Tags": {"SS": [ "Employment", "Youth" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Website": {
+            "S": "https://www.umos.org/"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "32" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Harm Reduction" },
-               "Description": {"S": "A non-judgmental approach where the primary goal is to reduce the likelihood of harm to youth. Harm reduction methods include a spectrum of services and strategies that help support youth’s safety and reinforce positive changes while maintaining individual dignity and autonomy." },
-               "Tags": {"SS": [ "Behavioral Health & Mental Health", "Youth"] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "33" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Runaway and Homeless Youth Services" },
-               "Description": {"S": "Pathfinders offers a wide array of comprehensive services that support our youth’s immediate safety and long-term well-being.\n\nDrop-In Center \nOur welcoming and inclusive Drop-In Center meets youth’s basic needs for food, clothing, laundry, showers, hygiene resources and safe social spaces. We also provide case management, employment and education support, sexual health and wellness education and mental health services.\n\nStreet Outreach \nWe operate Milwaukee’s only youth-focused Street Outreach team. With our mobile resource center, we meet youth where they are and share resources, basic needs items, sexual and mental wellness education, and referrals to aid their safe exit from the streets. By bringing our resources to the streets, we remove barriers to accessing services and build trusting relationships with young people in their neighborhoods. \n\nYouth Shelter \nPathfinders’ Youth Shelter is open 365 days a year and provides emergency short-term shelter for adolescents aged 11-17, plus crisis counseling services for youth aged 18-21. We operate one of only two state-licensed youth shelters serving Milwaukee, representing half of the available beds in the city for youth. During and after their Shelter stay, we offer youth intensive counseling, case management and basic needs services that help them maintain safety and stability. \n\n" },
-               "Tags": {"SS": [ "Youth", "Housing", "Mental Health", "Employment", "Sexual Health", "Education Support" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "34" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Anti-Sexual and Violence Services" },
-               "Description": {"S": "Pathfinders serves young people who are at high risk of sexual abuse, exploitation and trafficking. We work with youth who frequently find themselves at the intersection of sexual violence and homelessness. In addition to providing direct services for youth experiencing sexual violence, our Anti-Sexual Violence team places great emphasis on raising community awareness and ensuring that youth with lived experience have a platform to influence systems change. \n\nHand-in-Hand \nPathfinders’ Hand-in-Hand program provides comprehensive group, family and individual counseling for youth under 18 who have experienced sexual abuse. Hand-in-Hand uses trauma-informed therapeutic approaches to help young people understand their individual reactions to trauma, what triggers these reactions and coping strategies that they can use to heal. \n\nNew Paths \nWorking specifically with youth and young adults aged 11-25 who have experienced sexual exploitation and trafficking, New Paths offer accompaniment and advocacy services for youth as they navigate medical, legal and social service systems. "},
-               "Tags": {"SS": [ "Youth", "Sexual Health", "Mental Health", "Medical Health", "Legal and Social Services" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "35" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Education" },
-               "Description": {"S": "Pathfinders operates the Southeastern Education Center, a Milwaukee Public School contracted behavioral reassignment middle school. The Southeastern Education Center works with students who have been challenged in traditional school settings and are in need of individualized educational support. Our trauma-informed approach to education provides access to mental health and wraparound services with the goal of scholars returning to their school of origin." },
-               "Tags": {"SS": [ "Mental Health", "Education", "Youth" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "36" },
-               "Label": {"S": "Pathfinders" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Clinical Services" },
-               "Description": {"S": "Our team of care coordinators offers support to youth living with mental health and/or substance use diagnoses to reduce negative symptoms, develop life skills and transition into adulthood. Using a harm-reduction approach, Pathfinders encourages healthy relationships, self-identified goals and self-empowerment." },
-               "Tags": {"SS": [ "Mental Health" ] },
-               "Address": {"S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202" },
-               "Phone": {"S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560" },
-               "Fax": {"S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831" },
-               "Email": {"S": "info@pathfindersmke.org" },
-               "Website": {"S": "https://www.pathfindersmke.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "37" },
-               "Label": {"S": "Project Return" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Employment Services" },
-               "Description": {"S": "Finding stable employment is a priority to most people returning from incarceration. Employment provides purpose as well as an income. Project RETURN helps our clients with their employment search. Whether it be discussing employment goals to creating a resume to finding job leads to preparing individuals for interviews, Project RETURN walks with each individual on this path to self-sustainability. \n\nAlong the way, Project RETURN assists clients with clothing, specialty work tools, transportation, and employment training opportunities. All this is done on an individual basis to help the individual get from where they are to where they want to be." },
-               "Tags": {"SS": [ "Employment" ] },
-               "Address": {"S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday" },
-               "Phone": {"S": "(414) 374-8029" },
-               "Fax": {"S": "(414) 374-8033" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.projectreturnmilwaukee.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "38" },
-               "Label": {"S": "Project Return" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Alcohol and Other Drug Abuse (AODA) Counselling" },
-               "Description": {"S": "Project RETURN offers three AODA Support Groups on a weekly basis. Two of these groups (Tuesdays 5:30-7:00 and Fridays 6:00 to 7:30) are held at our offices while the third group is held at a minimum security prison in Milwaukee. These groups are all facilitated by Clem Richardson, a Certified Substance Abuse Counselor with over two decades of experience providing AODA treatment and support counseling. \n\nIndividuals can be referred into the program by the Department of Corrections or self-refer themselves into the group. To enroll, please contact Teri Woodley at our offices" },
-               "Tags": {"SS": [ "Behavioral Health & Mental Health", "Substance Abuse Support Group"] },
-               "Address": {"S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday" },
-               "Phone": {"S": "(414) 374-8029" },
-               "Fax": {"S": "(414) 374-8033" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.projectreturnmilwaukee.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "39" },
-               "Label": {"S": "Project Return" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Housing" },
-               "Description": {"S": "A major issue facing individuals returning from incarceration is housing. Too many people return home only to find they don’t know where that is. Project RETURN works with landlords to open up housing opportunities to our clients who are in need." },
-               "Tags": {"SS": [ "Housing" ] },
-               "Address": {"S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday" },
-               "Phone": {"S": "(414) 374-8029" },
-               "Fax": {"S": "(414) 374-8033" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.projectreturnmilwaukee.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "40" },
-               "Label": {"S": "Project Return" },
-               "Type": {"S": "Non-Profit" },
-               "Program and Services": {"S":"Circles of Support" },
-               "Description": {"S": "In 2018 Project RETURN added a new element to our programming—one that has been proven to reduce recidivism rates in other communities both in the U.S. and in Canada. Circles of Support are small groups that meet regularly to provide a stable, supportive network to men and women returning from incarceration. \n\n​Members of each circle include formerly incarcerated people, a trained circle keeper, and community volunteers. Through a structured process, members grow with each other, learn from one another, and help the community heal from the trauma experienced through poverty and crime. \n\nCircles have started at three locations: St. Ben’s Parish, Project RETURN’s offices, and Hephatha Lutheran Church. Additional sites have expressed interest in hosting circles in 2019." },
-               "Tags": {"SS": [ "Behavioral Health & Mental Health", "Circle of Support"] },
-               "Address": {"S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday" },
-               "Phone": {"S": "(414) 374-8029" },
-               "Fax": {"S": "(414) 374-8033" },
-               "Email": {"S": "" },
-               "Website": {"S": "https://www.projectreturnmilwaukee.org/" },
-               "Attributions": {"S": ""}
-               }
-            }
+          "Attributions": {
+            "S": ""
           }
-    ]
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "22"
+          },
+          "Label": {
+            "S": "UMOS"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Transitional Jobs Program"
+          },
+          "Description": {
+            "S": "The UMOS Transform Milwaukee Jobs Program and the UMOS Transitional Jobs Program help participants progress from assistance (subsidized wages) to self-sufficiency (unsubsidized wages). The programs offer unemployed residents immediate work with pay. The programs offer job coaching, employability planning, life skills development, limited vocational training, as well as job search assistance.\n\nEmployers in the for-profit, and non-profit sectors in Milwaukee, Southeastern and Northeastern rural regions in Wisconsin gain access to employable residents through time-limited, publicly funded wages.\n\nSince 2014 the Transform Milwaukee Jobs Program has served over 2250 individuals. Over 90% of program participants are ex-offenders and enrolled in a child support program. Eighty-five percent of the individuals enrolled were placed in subsidized employment.\n\nThe rural Northeastern Transitional Jobs program is operated, in partnership with the Menominee Tribal Enterprise in the Wisconsin Counties of Menominee, Langlade, Forest and Florence. Over 65% of participants were placed in unsubsidized employment.\n\nUMOS recently received $1.5 million in additional funds to expand, in partnership with the Ho-Chunk Nation, into the rural South-Central Wisconsin areas of Juneau, Adams, Jackson, and Clark Counties.\n\nThe UMOS Transform Milwaukee Jobs Program and Transitional Jobs Program are funded by the Wisconsin Department of Children and Families."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.umos.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "23"
+          },
+          "Label": {
+            "S": "UMOS"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Wisconsin Works (W-2)"
+          },
+          "Description": {
+            "S": "UMOS is the only non-profit organization that is contracted to operate the W-2 program in Milwaukee, Wisconsin. The other W-2 contracted operators are larger, for-profit corporations.\nFor the fifth consecutive year UMOS had the most approvals in the state for helping individuals obtain disability benefits from the Social Security Administration.\nUMOS staff served 2,571 W-2 participants, with 956 placed into employment, earning an average of $10.39 per hour. Participants entered the customer sercare, retail sales and food service, to name a few.\nFour-hundred sixty-seven clients have remained on the job for 90 days or more.\nThe goal of the UMOS W-2 program is to build on the strengths and skills of job seekers. UMOS continued to provide services that are strength-based, family-centered, employer focused, yet consistent with job seekers’ interests and goals.\nAlthough UMOS has operated the W-2 program since its inception in 1997, UMOS staff continue to look for new and innovative methods to improve participant outcomes. UMOS is the only W-2 agency that has a partnership with the University of Wisconsin-Milwaukee Helen Bader School of Social Welfare to implement a trauma informed case management service.\nUMOS continues to believe in a comprehensive approach to workforce development, substantial employer engagement, deep community connections, career advancement, human services support, and industry-driven education and training.\nThe W-2 Program is funded by the Wisconsin Department of Children and Families."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.umos.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "24"
+          },
+          "Label": {
+            "S": "UMOS"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "National Farmworker Jobs Program (NFJP)"
+          },
+          "Description": {
+            "S": "The National Farmworker Jobs Program is a national program created by congress in response to the chronic seasonal unemployment and underemployment experienced by migrant and seasonal farmworkers.\n\nWIOA-167/NFJP offers Career and Training Services that may help you enroll into a short-term training or college program and pay for class tuition. You may even receive a stipend while enrolled in school. We can also assist with books, lodging, fees, work-related equipment, and other needs. Veterans receive priority services. UMOS operates the program in Missouri and Wisconsin."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.umos.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "25"
+          },
+          "Label": {
+            "S": "UMOS"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Adult Basic Education"
+          },
+          "Description": {
+            "S": "UMOS continued to provide GED classroom instruction and testing services to high school students and members of the community seeking more education for more economic opportunities. UMOS graduated 146 students in 2017, a 21% increase over 2016.\n\nUMOS continued to be the main testing services center for Milwaukee's southside community and the testing center of choice for Milwaukee Public Schools. UMOS provided GED testing services to 1223 students in 2017, versus 1008 in 2016, plus an additional 284 professional tests.\n\nOverall, the UMOS Pearson Vue GED Test Center ranked 4th out of 129 test centers in Wisconsin, based on total exams taken in 2017.\n\nUMOS also provided English as a Second Language (ESL) classes to job seekers and other members of the community from around the world. GED and ESL services are located within the UMOS Job Center."
+          },
+          "Tags": {
+            "SS": [
+              "Education",
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.umos.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "26"
+          },
+          "Label": {
+            "S": "UMOS"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Child Care Drop Off Services"
+          },
+          "Description": {
+            "S": "The UMOS Child Care Drop Off Center is located within the UMOS Job Center and is open Monday – Friday, 8 a.m. to 5 p.m. W-2 Job seekers and other program participants can temporarily drop off their children while taking advantage of resources in the UMOS Job Center.\n\nA snack is provided to children while they take advantage of educational programs, computers and art activities. The UMOS Child Care Drop Off Center served 3,709 children from July 2017, through May 2018."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "2701 S. Chase Avenue \nMilwaukee, WI. 53207"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.umos.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "27"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Positive Youth Development"
+          },
+          "Description": {
+            "S": "At Pathfinders, we are committed to enabling a ladder of opportunity for young people. We value youth as vital assets to both our organization and community. We consider them to be partners and decision-makers in the services they receive, honoring their voices."
+          },
+          "Tags": {
+            "SS": [
+              "Youth"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "28"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Trauma Informed Care"
+          },
+          "Description": {
+            "S": "We use individualized therapeutic approaches to reduce the effects of trauma on current and future life experiences. From a foundation of increased mental wellness and healthy coping skills, youth can engage more effectively in working towards their self-identified goals."
+          },
+          "Tags": {
+            "SS": [
+              "Behavioral Health & Mental Health"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "29"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Housing First Model"
+          },
+          "Description": {
+            "S": "We believe that housing is a right, not a privilege. We employ a Housing First model where we secure safe housing for young people in crisis as quickly as possible. We know that housing is an essential tool for stability. Once housed, Pathfinders provides our youth with comprehensive services that will help them find success.\n\nSupported Housing \nPathfinders helps homeless and housing insecure youth find and sustain safe housing. Once housed, we offer support to youth as they work towards stability, mental well-being, education, employment and other personal goals. \nOur programs offer supported housing services that are individualized to the needs of each young person. We place a particular emphasis on serving LGBTQ+-identified youth, chronically homeless youth, youth with disabilities, youth with mental health challenges and youth aging out of foster care."
+          },
+          "Tags": {
+            "SS": [
+              "Housing",
+              "Behavioral Health & Mental Health"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "30"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Evidence Based Frameworks"
+          },
+          "Description": {
+            "S": "We invest in researching and training staff on nationally-certified, best-practice models. We do this because we want to utilize methods that are proven to work. We collaborate with higher education institutions and partner organizations throughout our community as much as possible to promote our innovative and evidence-based approaches."
+          },
+          "Tags": {
+            "SS": [
+              ""
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "31"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Youth Led Programming"
+          },
+          "Description": {
+            "S": "Our young people access services and support at Pathfinders, and also give the same to their peers. Youth have the most important say in the services we provide and how we run our agency. We strive to grow leaders from within through opportunities such as our youth leadership councils, youth-led programming and volunteer and employment opportunities."
+          },
+          "Tags": {
+            "SS": [
+              "Employment",
+              "Youth"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "32"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Harm Reduction"
+          },
+          "Description": {
+            "S": "A non-judgmental approach where the primary goal is to reduce the likelihood of harm to youth. Harm reduction methods include a spectrum of services and strategies that help support youth’s safety and reinforce positive changes while maintaining individual dignity and autonomy."
+          },
+          "Tags": {
+            "SS": [
+              "Behavioral Health & Mental Health",
+              "Youth"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "33"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Runaway and Homeless Youth Services"
+          },
+          "Description": {
+            "S": "Pathfinders offers a wide array of comprehensive services that support our youth’s immediate safety and long-term well-being.\n\nDrop-In Center \nOur welcoming and inclusive Drop-In Center meets youth’s basic needs for food, clothing, laundry, showers, hygiene resources and safe social spaces. We also provide case management, employment and education support, sexual health and wellness education and mental health services.\n\nStreet Outreach \nWe operate Milwaukee’s only youth-focused Street Outreach team. With our mobile resource center, we meet youth where they are and share resources, basic needs items, sexual and mental wellness education, and referrals to aid their safe exit from the streets. By bringing our resources to the streets, we remove barriers to accessing services and build trusting relationships with young people in their neighborhoods. \n\nYouth Shelter \nPathfinders’ Youth Shelter is open 365 days a year and provides emergency short-term shelter for adolescents aged 11-17, plus crisis counseling services for youth aged 18-21. We operate one of only two state-licensed youth shelters serving Milwaukee, representing half of the available beds in the city for youth. During and after their Shelter stay, we offer youth intensive counseling, case management and basic needs services that help them maintain safety and stability. \n\n"
+          },
+          "Tags": {
+            "SS": [
+              "Youth",
+              "Housing",
+              "Mental Health",
+              "Employment",
+              "Sexual Health",
+              "Education Support"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "34"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Anti-Sexual and Violence Services"
+          },
+          "Description": {
+            "S": "Pathfinders serves young people who are at high risk of sexual abuse, exploitation and trafficking. We work with youth who frequently find themselves at the intersection of sexual violence and homelessness. In addition to providing direct services for youth experiencing sexual violence, our Anti-Sexual Violence team places great emphasis on raising community awareness and ensuring that youth with lived experience have a platform to influence systems change. \n\nHand-in-Hand \nPathfinders’ Hand-in-Hand program provides comprehensive group, family and individual counseling for youth under 18 who have experienced sexual abuse. Hand-in-Hand uses trauma-informed therapeutic approaches to help young people understand their individual reactions to trauma, what triggers these reactions and coping strategies that they can use to heal. \n\nNew Paths \nWorking specifically with youth and young adults aged 11-25 who have experienced sexual exploitation and trafficking, New Paths offer accompaniment and advocacy services for youth as they navigate medical, legal and social service systems. "
+          },
+          "Tags": {
+            "SS": [
+              "Youth",
+              "Sexual Health",
+              "Mental Health",
+              "Medical Health",
+              "Legal and Social Services"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "35"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Education"
+          },
+          "Description": {
+            "S": "Pathfinders operates the Southeastern Education Center, a Milwaukee Public School contracted behavioral reassignment middle school. The Southeastern Education Center works with students who have been challenged in traditional school settings and are in need of individualized educational support. Our trauma-informed approach to education provides access to mental health and wraparound services with the goal of scholars returning to their school of origin."
+          },
+          "Tags": {
+            "SS": [
+              "Mental Health",
+              "Education",
+              "Youth"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "36"
+          },
+          "Label": {
+            "S": "Pathfinders"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Clinical Services"
+          },
+          "Description": {
+            "S": "Our team of care coordinators offers support to youth living with mental health and/or substance use diagnoses to reduce negative symptoms, develop life skills and transition into adulthood. Using a harm-reduction approach, Pathfinders encourages healthy relationships, self-identified goals and self-empowerment."
+          },
+          "Tags": {
+            "SS": [
+              "Mental Health"
+            ]
+          },
+          "Address": {
+            "S": "Pathfinders Main Office\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Southeastern Education Center\n4200 N Holton St. Suite 400\nMilwaukee, WI 53212\n\nPathfinders Youth Shelter\n1614 E Kane Pl.\nMilwaukee, WI 53202"
+          },
+          "Phone": {
+            "S": "Pathfinders Main Office\n(414)964-2565\n\nPathfinders Southeastern Education Center\n(414)875-9452\n\nPathfinders Youth Shelter\n(414)271-1560"
+          },
+          "Fax": {
+            "S": "Pathfinders Main Office\n(414)964-0102\n\nPathfinders Southeastern Education Center\n(414)875-9004\n\nPathfinders Youth Shelter\n(414)271-1831"
+          },
+          "Email": {
+            "S": "info@pathfindersmke.org"
+          },
+          "Website": {
+            "S": "https://www.pathfindersmke.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "37"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Employment Services"
+          },
+          "Description": {
+            "S": "Finding stable employment is a priority to most people returning from incarceration. Employment provides purpose as well as an income. Project RETURN helps our clients with their employment search. Whether it be discussing employment goals to creating a resume to finding job leads to preparing individuals for interviews, Project RETURN walks with each individual on this path to self-sustainability. \n\nAlong the way, Project RETURN assists clients with clothing, specialty work tools, transportation, and employment training opportunities. All this is done on an individual basis to help the individual get from where they are to where they want to be."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "38"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Alcohol and Other Drug Abuse (AODA) Counselling"
+          },
+          "Description": {
+            "S": "Project RETURN offers three AODA Support Groups on a weekly basis. Two of these groups (Tuesdays 5:30-7:00 and Fridays 6:00 to 7:30) are held at our offices while the third group is held at a minimum security prison in Milwaukee. These groups are all facilitated by Clem Richardson, a Certified Substance Abuse Counselor with over two decades of experience providing AODA treatment and support counseling. \n\nIndividuals can be referred into the program by the Department of Corrections or self-refer themselves into the group. To enroll, please contact Teri Woodley at our offices"
+          },
+          "Tags": {
+            "SS": [
+              "Behavioral Health & Mental Health",
+              "Substance Abuse Support Group"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "39"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Housing"
+          },
+          "Description": {
+            "S": "A major issue facing individuals returning from incarceration is housing. Too many people return home only to find they don’t know where that is. Project RETURN works with landlords to open up housing opportunities to our clients who are in need."
+          },
+          "Tags": {
+            "SS": [
+              "Housing"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "40"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Circles of Support"
+          },
+          "Description": {
+            "S": "In 2018 Project RETURN added a new element to our programming—one that has been proven to reduce recidivism rates in other communities both in the U.S. and in Canada. Circles of Support are small groups that meet regularly to provide a stable, supportive network to men and women returning from incarceration. \n\n​Members of each circle include formerly incarcerated people, a trained circle keeper, and community volunteers. Through a structured process, members grow with each other, learn from one another, and help the community heal from the trauma experienced through poverty and crime. \n\nCircles have started at three locations: St. Ben’s Parish, Project RETURN’s offices, and Hephatha Lutheran Church. Additional sites have expressed interest in hosting circles in 2019."
+          },
+          "Tags": {
+            "SS": [
+              "Behavioral Health & Mental Health",
+              "Circle of Support"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    }
+  ]
 }

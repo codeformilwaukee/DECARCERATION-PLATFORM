@@ -1,364 +1,1038 @@
 {
-    "ServiceProvider-yoruyjsfane6zfwi54uakwddje-dev": [
-        {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "61" },
-            "Label": {"S": "Nia Imani Family" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Facing Past Traumas" },
-            "Description": {"S": "Women's Support Group: Weekly, volunteer-led program focusing on the women themselves. Includes topics such as health, wellness and relationships" },
-            "Tags": {"SS": [ "Mental Health", "Health", "Relationships" ] },
-            "Address": {"S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205" },
-            "Phone": {"S": "414-933-1633" },
-            "Fax": {"S": "414-933-1638" },
-            "Email": {"S": "niaimanifamily19@yahoo.com" },
-            "Website": {"S": "https://www.niaimanifamily.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+  "ServiceProvider-unbzaidlhvha3fmiol3dqmyhpu-master": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "61"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "62" },
-            "Label": {"S": "Nia Imani Family" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Parenting Skills" },
-            "Description": {"S": "Muhindi Program (Family Literacy)The Muhindi Program was started to encourage reading, educational success and positive parenting among the mothers and their children. “Muhindi” is Swahili for harvest and continues as a weekly program managed by our program staff and volunteers. The group is held twice monthly.\n\nThe Muhindi Program helps parents take a more positive and engaged role in their children’s educations. Nia Imani Family staff sometimes accompany parents to parent/teacher conferences, particularly when children have special needs or have been identified as being behind in school.\nMothers and Children Gathering Program: One evening every week, mothers and their children gather in our common area to read and play and learn together. was born from our recognition that parents needed time to socialize with each other in a safe setting that also built up bonds with their children. Many of the children at Nia Imani have experienced traumas—the breakup of their family unit, homelessness, violence, parental incarceration and substance abuse, and/or time in and out of the foster care system. Many of these children also have educational, behavioral or emotional special needs\n\nPIWI: Parent Interacting With Infants: The sessions vary, with a range of activities that focus on mother/child bonding, parent/child interaction, parenting support, and focused activities that involve parents with their child\n\nMothers-only Reading Book Club: A volunteer-led weekly program. Women read aloud from and discuss books. A light meal or snack is included. Over time, improvements in reading abilities and confidence levels are usually quite obvious. As women become more comfortable, they tend to participate more in discussions and by volunteering to read.\n\nParenting Group: Weekly program by The Milwaukee Health Department to help support mothers in their parenting.\n\nFamily Time: Moms must plan a special outing—such as a museum or library visit—to enjoy with their children once per month. Families are encouraged to explore community resources." },
-            "Tags": {"SS": [ "Family", "Education", "Mental Health" ] },
-            "Address": {"S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205" },
-            "Phone": {"S": "414-933-1633" },
-            "Fax": {"S": "414-933-1638" },
-            "Email": {"S": "niaimanifamily19@yahoo.com" },
-            "Website": {"S": "https://www.niaimanifamily.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Label": {
+            "S": "Nia Imani Family"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "63" },
-            "Label": {"S": "Nia Imani Family" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Future Planning" },
-            "Description": {"S": "Graduation: Some of these young women need a strong incentive to keep them living according to the rules and expectations of change. So the Director has created a bargain with them: they get as a “dowry” of all their furniture and household goods they have been provided with through the program from our many commercial and individual donors. This will help establish themselves in their new housing which Nia Imani has help them find. And NI will give them their first month’s rent and security deposit\n\nEducation: they will have been planning their next educational goals and future job training needed to continue getting better jobs and better pay and raising their standard of living.\n\nNu Iota Alpha Sorority: each graduate becomes a member of our Alumni sorority which will give them a social group involving mutual support, social projects & Nia Imani resident mentoring." },
-            "Tags": {"SS": [ "Housing", "Education", "Support" ] },
-            "Address": {"S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205" },
-            "Phone": {"S": "414-933-1633" },
-            "Fax": {"S": "414-933-1638" },
-            "Email": {"S": "niaimanifamily19@yahoo.com" },
-            "Website": {"S": "https://www.niaimanifamily.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Type": {
+            "S": "Non-Profit"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "64" },
-            "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"About" },
-            "Description": {"S": "With Safe, places to learn and play, positive role models, and educational programming, Boys & \nGirls Clubs of Greater Milwaukee has helped local kids and teens thrive for 131 years.\n\nOur vision is to build the community’s social and economic fabric by ensuring the academic and \ncareer success of every member that walks through our doors. We achieve this by providing more \nimpactful programs that appeal to our members, strengthen their academic performance, build \ncharacter, encourage healthy lifestyles and meet the basic needs of Milwaukee’s youth." },
-            "Tags": {"SS": [ "Safe Places", "Safe to Learn", "Safe to Play", "Safety", "Postitive Role Models", "Academic Success", "Career Success", "Milwaukee's Youth", "Healthy Lifestyles"] },
-            "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-            "Phone": {"S": "(414) 267-8100" },
-            "Fax": {"S": "(414) 267-8184" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://www.bgcmilwaukee.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Program and Services": {
+            "S": "Facing Past Traumas"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "65" },
-            "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Sports Program" },
-            "Description": {"S": "Through sports programs, youth can learn about teamwork and accountability while\nbuilding lifelong healthy habits." },
-            "Tags": {"SS": [ "Sports", "Teamwork", "Accountability", "Healthy Habits", "Friends", "Youths" ] },
-            "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-            "Phone": {"S": "(414) 267-8101" },
-            "Fax": {"S": "(414) 267-8185" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://www.bgcmilwaukee.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Description": {
+            "S": "Women's Support Group: Weekly, volunteer-led program focusing on the women themselves. Includes topics such as health, wellness and relationships"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "66" },
-            "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"The Arts" },
-            "Description": {"S": "Through exposure to arts programming, members learn critical thinking and problem solving skills" },
-            "Tags": {"SS": [ "Critical Thinking", "Problem Solving", "Skills", "Arts", "Youths" ] },
-            "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-            "Phone": {"S": "(414) 267-8102" },
-            "Fax": {"S": "(414) 267-8186" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://www.bgcmilwaukee.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Tags": {
+            "SS": [
+              "Mental Health",
+              "Health",
+              "Relationships"
+            ]
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "67" },
-            "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Career Development" },
-            "Description": {"S": "By helping youths explore different career paths, more youth will succeed in finding a rewading career and achieving financial independence." },
-            "Tags": {"SS": [ "Employment" ] },
-            "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-            "Phone": {"S": "(414) 267-8103" },
-            "Fax": {"S": "(414) 267-8187" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://www.bgcmilwaukee.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Address": {
+            "S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "68" },
-            "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Education" },
-            "Description": {"S": "From improving literary skills to college access and success programs, Boys and Girls Clubs offers educational programming suited for all members" },
-            "Tags": {"SS": [ "Literacy Skills", "College Access", "Education", "Youths" ] },
-            "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-            "Phone": {"S": "(414) 267-8104" },
-            "Fax": {"S": "(414) 267-8188" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://www.bgcmilwaukee.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Phone": {
+            "S": "414-933-1633"
           },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "69" },
-            "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Health and Wellness" },
-            "Description": {"S": "Along with developing healthy habits, members learn about taking responsibilities for their actions and making positive choices throughout life." },
-            "Tags": {"SS": [ "Health", "Wellness", "Healthy Habits", "Positive Choices", "Life", "Youths" ] },
-            "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-            "Phone": {"S": "(414) 267-8105" },
-            "Fax": {"S": "(414) 267-8189" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://www.bgcmilwaukee.org/" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Fax": {
+            "S": "414-933-1638"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "70" },
-                  "Label": {"S": "Boys & Girls Club of Greater Milwaukee" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Character and Leadership" },
-                  "Description": {"S": "Members learn about taking personal responsibilities for their actions, are given leadership roles within the Clubs and participate in community service projects" },
-                  "Tags": {"SS": [ "Personal Responsibilities", "Leadership", "Roles", "Community", "Service", "Projects", "Community Service Projects", "Youths" ] },
-                  "Address": {"S": "1558 N. 6th Street \nMilwaukee, WI. 53212" },
-                  "Phone": {"S": "(414) 267-8106" },
-                  "Fax": {"S": "(414) 267-8190" },
-                  "Email": {"S": "" },
-                  "Website": {"S": "https://www.bgcmilwaukee.org/" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Email": {
+            "S": "niaimanifamily19@yahoo.com"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "71" },
-                  "Label": {"S": "Center for Self Sufficiency" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Vision, Mission and Values" },
-                  "Description": {"S": "The Center for Self-Sufficiency, Inc. (CFSS) is a Milwaukee-based nonprofit organization. We provide family-strengthening programs to youth and adults to assist them in developing healthy life skills (attitudes and behaviors) and making choices that will have long-term positive effects on them, their family and society.\nIts Mission is to provide a foundation for people to actualize their hope and motivaton to access a good life. \nThe vision that it has is - Community revitalization through individual transformation." },
-                  "Tags": {"SS": [ "Strengthening Families", "Milwaukee", "Healthy Life Skills", "Attitudes", "Behaviors", "Choices", "Hope", "Long-term Positive Effects", "Community Revitalization", "Individual Transformation", "Integrity", "Evolve Immediately"] },
-                  "Address": {"S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233" },
-                  "Phone": {"S": "(414) 270-4679" },
-                  "Fax": {"S": "(414) 449-4775" },
-                  "Email": {"S": "info@centerinc.org" },
-                  "Website": {"S": "www.centerinc.org" },
-                  "Attributions": {"S": ""}
-               }
-            }
+          "Website": {
+            "S": "https://www.niaimanifamily.org/"
           },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "72" },
-                  "Label": {"S": "Center for Self Sufficiency" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Healthy Relationship Education" },
-                  "Description": {"S": "Healthy Relationship Education and Healthy Marriage Education are offered to individuals who are economically disadvantaged and at higher risk for negative relationship outcomes. \nUnder its Vow to Succeed program, CFSS facilitates a variety of evidence-based curricula for youth and adults in schools, after-school settings, community and faith-based settings, and in correctional centers. The educational programs – which can be from 8 to 16 lessons/hours in length – are offered in a series of classes in either a one-hour session once a week or a two-day focused weekend retreat.\nThis program includes:\n\nYouth Education - focused on guiding youths in naigating the world of teen relationships; lessons in self-awareness; future direction, and planning; it includes topics such as maturity, goal-setting, peer pressure, date violence prevention, communication and conflict management. Some other topics that are covered are attractions; infatuation; intimacy; and realistic concepts of loe; the nature of romantic attractions and how to build healthy relationships. \n\nAdult Education - Focus is on relationship skill-building; healthy decision making; developing sustainable and healthy marriages and relationships that benefit indiiduals and their children; there are lessons in communication, conflict management, commitment, expectations, emotional and physical safety, and the effects that relationship choices hae on children.\n*To learn more about bringing healthy relationship and/or healthy marriage education to your classroom, community club or church group, contact LaKesha Reid at 414-270-4679." },
-                  "Tags": {"SS": [ "Healthy Relationship", "Healthy Marriage", "Education", "Teen Relationships", "Adult Relationship", "Self-Awareness", "Future Direction", "Planning", "Goal-Setting", "Peer Pressure", "Date Violence", "Love", "Romantic Relationships", "Intimacy", "Relationship Skill-Building", "Sustainable and Healthy Marriage", "Children", "Choices"] },
-                  "Address": {"S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233" },
-                  "Phone": {"S": "(414) 270-4680" },
-                  "Fax": {"S": "(414) 449-4776" },
-                  "Email": {"S": "info@centerinc.org" },
-                  "Website": {"S": "www.centerinc.org" },
-                  "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "73" },
-                  "Label": {"S": "Center for Self Sufficiency" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Youth Services" },
-                  "Description": {"S": "Under this program there are two projects they are - \nProject F.A.M. (Finding Abstinence Matters)\nThe project comes under the center's Sexual Risk Avoidance Education Program (SRAE) and is delivered to 1,800 youth, ages 10-19, who reside in the City of Milwaukee, and is designed to increase the proportion of youth who resist non-marital sexual activity and resist sexual coercion; report increased understanding of healthy relationship behaviors, dating violence, and the benefits of marriage; develop a success sequence plan for poverty prevention; and intend to refrain from underage drinking and illicit drug use.\nProject P.E.A.C.E. (Promoting Education Access, Compassion and Engagment)\nThe project services address: public health, education, and public safety concerns; disparities in access to public health services; social determinants of health; and risk and protective factors. This four-year project provides services to 100 youth who receive core services that include: Academic Education, Healthy Relationship Education, Mindfulness Based Stress Reduction, Mentoring, Work Readiness Capacity Building, Community Policing, and Holistic Case Management\nThe center hs the following partners:\nMilwaukee Police Department,\nU.W. Madison’s Pre-College Enrichment opportunity Program for Learning Excellences (P.E.O.P.L.E.),\nMilwaukee High Schools,\nJerlando F. L. Jackson, PhD\n*Contact LaKesha Reid at 414-270-4679." },
-                  "Tags": {"SS": [ "Youths", "Health", "Education", "Public Safety", "Mindfulness Based Stress Reduction", "Mentoring", "Work Readiness", "Capcity Building", "Community Policing", "Partnerships", "Milwaukee Police Department", "U.W. Madison's Pre-College Enrichment Program for Learning Excellences (PEOPLE)", "P.E.O.P.L.E", "Milwaukee", "Poverty Prevention", "Refrain from Underage Drinking", "Refrain from Illicit Drug Use"] },
-                  "Address": {"S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233" },
-                  "Phone": {"S": "(414) 270-4681" },
-                  "Fax": {"S": "(414) 449-4777" },
-                  "Email": {"S": "info@centerinc.org" },
-                  "Website": {"S": "www.centerinc.org" },
-                  "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-               "Item": {
-                  "id": { "S": "74" },
-                  "Label": {"S": "Center for Self Sufficiency" },
-                  "Type": {"S": "Non-Profit" },
-                  "Program and Services": {"S":"Adult Revitalization" },
-                  "Description": {"S": "There are several projects that come under this program -\nWindows to Work - Partnering with Employ Milwaukee and the Wisconsin Department of Corrections, the center provides cognitive skills-based education to individuals releasing from Milwaukee Secure Detention Facility or Racine Correctional Institution to the Milwaukee area. CFSS integrates the use of evidence-based curricula with a variety of strategies including:\n Tools that lead to conflict reduction, positive relationships and communication skills\n The ability to recognize and positively respond to their risk-taking thoughts and actions\n Job readiness and career advancement services\n Support services to promote smooth reintegration.\n\nNew Pathways for Fathers and Families\nThe Center for Self-Sufficiency partners with the Milwaukee County Department of Child Support Services (CSS) on Milwaukee’s Fatherhood Initiative – Milwaukee County New Pathways for Fathers and Families. This program offers fathers ongoing instruction on Responsible Parenting, Economic Stability and Healthy Marriage, as well as case management that emphasizes coaching. This program aims to strengthen father-child engagement and promote and improve employment and economic mobility opportunities. It is open to biological, expectant, adoptive or step-fathers, as well as a person acknowledged as a father figure, to a child up to the age of 24, who lives in Milwaukee County.\n\nUnlocking Networks-Osh Kosh\nDelivers a Comprehensive Adult Reentry Program, to 150 high-risk men ages 18 and older, releasing from Oshkosh Correctional Institution into Milwaukee, WI designed to reduce recidivism for individuals who are high risk, based on the results of the COMPAS assessment or convicted of/or with a history of violent offense convictions. This program integrates core strategies of Cognitive Based Healthy Relationship Education, Behavioral Work Readiness Development, Parenting, Mentoring & Holistic Case Management.\n\nMotivated to Apprenticeship Pathways\nIn partnership with Employ Milwaukee and funding through the U.S. Department of Labor’s Employment and Training Administration CFSS provides essential skills training (employment and soft skills) and case management to youth ages 18-24 who have been involved with the criminal justice system through previous incarceration, court-ordered supervision, alternative sentencing, or through a diversion agreement to avoid prosecution. Members are paid while in training and are connected with credentialed trainings in an industry of their choice. Members are also given assistance with driver’s license recovery and other legal issues if necessary. CFSS Member Services Coordinators also provide job placement assistance.\n\nJourney 2 Unlocking My Potential\nCFSS in partnership, with Quad Graphics provides 150 individuals with employment training in the areas of Basic Math & Measurement, Safe Working Behaviors, Proper Personal Protective Equipment, Workplace Ethics/Communication, Conflict Resolution & Basic Computer Skills. Successful employees, coming through this program will have the opportunity to enroll in Quad’s Accelerated Career Training Program (ACT). ACT will provide the employees with the necessary skills to advance their careers in the print trade.\n\nTo learn more about CFSS’s Adult Services, contact LaKesha Reid at 414-270-4679." },
-                  "Tags": {"SS": [ "Employment", "Partnerships", "MSDF", "Cognitive Skills-Based Education", "Conflict Reduction Tools", "Positive Relationships", "Risk Taking Thoughts and Actions", "Job Readiness", "Career Advancements", "Milwaukee", "Racine", "Support Services", "Smooth Reintegration", "Fathers", "Families", "Economic Stability", "Healthy Marriage", "Responsible Parenting", "Strengthen Father-Child Engagement", "Coaching", "Father Figure", "Paid Training", "Mentoring", "Re-Entry", "US Dept. of Labor", "Computer-Based Skills", "Workplace Ethics", "Communication", "Conflict Resolution"] },
-                  "Address": {"S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233" },
-                  "Phone": {"S": "(414) 270-4681" },
-                  "Fax": {"S": "(414) 449-4777" },
-                  "Email": {"S": "info@centerinc.org" },
-                  "Website": {"S": "www.centerinc.org" },
-                  "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "75" },
-            "Label": {"S": "Center for Self Sufficiency" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Assessment &Evaluation" },
-            "Description": {"S": "Measuring the success of the programs we deliver to change participants’ attitudes and behaviors is as important to us as delivering these services. We use the results from our assessments and evaluations to continually adjust and improve our programs. We also assist other nonprofit organizations to do the same. For more information about how the CFSS evaluation team can assist your organization to collect quantitative and qualitative data, analyze results and assist in writing required funder reports, contact Carl Wesley, President & CEO, at 414-270-4679." },
-            "Tags": {"SS": [ "Success", "Program Evaluation", "Program Assessment", "Data Analysis", "Data Collection" ] },
-            "Address": {"S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233" },
-            "Phone": {"S": "(414) 270-4681" },
-            "Fax": {"S": "(414) 449-4777" },
-            "Email": {"S": "info@centerinc.org" },
-            "Website": {"S": "www.centerinc.org" },
-            "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "76" },
-            "Label": {"S": "Community Advocates" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Milwaukee Women's Center - Crisis Line" },
-            "Description": {"S": "Provides crisis counseling/intervention, information, and referrals to mare that 12,000 callers each year. A community resource that assists callers with a variety of concerns - including homelessness, housing and legal issues, lack of food, and crisis situations like domestic violence or suicide" },
-            "Tags": {"SS": [ "Crisis Line", "Mental Health", "Housing", "Health", "Justice", "Communithy Advocates" ] },
-            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
-            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
-            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://communityadvocates.net/welcome.html" },
-            "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "77" },
-            "Label": {"S": "Community Advocates" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Milwaukee Women's Center - Domestic Violence Emergency Shelter" },
-            "Description": {"S": "Dedicated to providing around -the-clock shelter and supportive services to women and children fleeing abusive relationships." },
-            "Tags": {"SS": [ "Health", "Mental Health", "Housing", "Abuse", "Domestic Violence", "Counseling", "Support Groups", "Case Management", "Addiction", "Healthy Parenting", "Community Advocates" ] },
-            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
-            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
-            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://communityadvocates.net/welcome.html" },
-            "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "78" },
-            "Label": {"S": "Community Advocates" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Milwaukee Women's Center - Family Support Emergency Shelter" },
-            "Description": {"S": "A shelter dedicated to helping impoverished families without a roof over their heads begin the journey to stable, affordable housing. The shelter fills very basic but vital needs for the familes served: security, shelter, and food. It also offers a comprehensive array of programs and services." },
-            "Tags": {"SS": [ "Housing", "Shelter", "Family", "Substance abuse support", "Parenting Support Group", "Trauma-Informed children's programming", "Language assistance", "Community Advocates"] },
-            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
-            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
-            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://communityadvocates.net/welcome.html" },
-            "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "79" },
-            "Label": {"S": "Community Advocates" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Milwaukee Women's Center - Older Abused Women's Program" },
-            "Description": {"S": "The goal of the program is to reduce and eliminate violence in the lives of women age 50 and older who have been victimized by their intimate partners or adult children." },
-            "Tags": {"SS": [ "Health", "Justice", "Emergency Shelter", "Women", "Older Women", "Civil and criminal justice support", "Civil and Criminal justice Advocacy", "Support Groups", "Transportation assistance", "Community Advocates" ] },
-            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
-            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
-            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://communityadvocates.net/welcome.html" },
-            "Attributions": {"S": ""}
-               }
-            }
-          },
-          {
-            "PutRequest": {
-            "Item": {
-               "id": { "S": "80" },
-            "Label": {"S": "Community Advocates" },
-            "Type": {"S": "Non-Profit" },
-            "Program and Services": {"S":"Milwaukee Women's Center - Children's Program" },
-            "Description": {"S": "Provides specialized support services and activities for children who have witnessed or experienced family violence in their homes or who have experienced homelessness. Available to children residing in their Domestice Violence Emergency Shelter and their Family Support Center Emergency Shelter, and aims to promote a chil'd healing, safety, and resilience." },
-            "Tags": {"SS": [ "Mental Health", "Children", "Homelessness", "Family Violence", "Strategies", "Tools", "Trauma-informed Care", "Daily Support", "Daily Positive Interactions", "Community Advocates"] },
-            "Address": {"S": "728 N. James Lovell Street, \nMilwaukee WI. 53233" },
-            "Phone": {"S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950" },
-            "Fax": {"S": "Community Advocates Public Policy Institute\n(414) 270-2971" },
-            "Email": {"S": "" },
-            "Website": {"S": "https://communityadvocates.net/welcome.html" },
-            "Attributions": {"S": ""}
-               }
-            }
+          "Attributions": {
+            "S": ""
           }
-    ]
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "62"
+          },
+          "Label": {
+            "S": "Nia Imani Family"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Parenting Skills"
+          },
+          "Description": {
+            "S": "Muhindi Program (Family Literacy)The Muhindi Program was started to encourage reading, educational success and positive parenting among the mothers and their children. “Muhindi” is Swahili for harvest and continues as a weekly program managed by our program staff and volunteers. The group is held twice monthly.\n\nThe Muhindi Program helps parents take a more positive and engaged role in their children’s educations. Nia Imani Family staff sometimes accompany parents to parent/teacher conferences, particularly when children have special needs or have been identified as being behind in school.\nMothers and Children Gathering Program: One evening every week, mothers and their children gather in our common area to read and play and learn together. was born from our recognition that parents needed time to socialize with each other in a safe setting that also built up bonds with their children. Many of the children at Nia Imani have experienced traumas—the breakup of their family unit, homelessness, violence, parental incarceration and substance abuse, and/or time in and out of the foster care system. Many of these children also have educational, behavioral or emotional special needs\n\nPIWI: Parent Interacting With Infants: The sessions vary, with a range of activities that focus on mother/child bonding, parent/child interaction, parenting support, and focused activities that involve parents with their child\n\nMothers-only Reading Book Club: A volunteer-led weekly program. Women read aloud from and discuss books. A light meal or snack is included. Over time, improvements in reading abilities and confidence levels are usually quite obvious. As women become more comfortable, they tend to participate more in discussions and by volunteering to read.\n\nParenting Group: Weekly program by The Milwaukee Health Department to help support mothers in their parenting.\n\nFamily Time: Moms must plan a special outing—such as a museum or library visit—to enjoy with their children once per month. Families are encouraged to explore community resources."
+          },
+          "Tags": {
+            "SS": [
+              "Family",
+              "Education",
+              "Mental Health"
+            ]
+          },
+          "Address": {
+            "S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205"
+          },
+          "Phone": {
+            "S": "414-933-1633"
+          },
+          "Fax": {
+            "S": "414-933-1638"
+          },
+          "Email": {
+            "S": "niaimanifamily19@yahoo.com"
+          },
+          "Website": {
+            "S": "https://www.niaimanifamily.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "63"
+          },
+          "Label": {
+            "S": "Nia Imani Family"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Future Planning"
+          },
+          "Description": {
+            "S": "Graduation: Some of these young women need a strong incentive to keep them living according to the rules and expectations of change. So the Director has created a bargain with them: they get as a “dowry” of all their furniture and household goods they have been provided with through the program from our many commercial and individual donors. This will help establish themselves in their new housing which Nia Imani has help them find. And NI will give them their first month’s rent and security deposit\n\nEducation: they will have been planning their next educational goals and future job training needed to continue getting better jobs and better pay and raising their standard of living.\n\nNu Iota Alpha Sorority: each graduate becomes a member of our Alumni sorority which will give them a social group involving mutual support, social projects & Nia Imani resident mentoring."
+          },
+          "Tags": {
+            "SS": [
+              "Housing",
+              "Education",
+              "Support"
+            ]
+          },
+          "Address": {
+            "S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205"
+          },
+          "Phone": {
+            "S": "414-933-1633"
+          },
+          "Fax": {
+            "S": "414-933-1638"
+          },
+          "Email": {
+            "S": "niaimanifamily19@yahoo.com"
+          },
+          "Website": {
+            "S": "https://www.niaimanifamily.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "64"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "About"
+          },
+          "Description": {
+            "S": "With Safe, places to learn and play, positive role models, and educational programming, Boys & \nGirls Clubs of Greater Milwaukee has helped local kids and teens thrive for 131 years.\n\nOur vision is to build the community’s social and economic fabric by ensuring the academic and \ncareer success of every member that walks through our doors. We achieve this by providing more \nimpactful programs that appeal to our members, strengthen their academic performance, build \ncharacter, encourage healthy lifestyles and meet the basic needs of Milwaukee’s youth."
+          },
+          "Tags": {
+            "SS": [
+              "Safe Places",
+              "Safe to Learn",
+              "Safe to Play",
+              "Safety",
+              "Postitive Role Models",
+              "Academic Success",
+              "Career Success",
+              "Milwaukee's Youth",
+              "Healthy Lifestyles"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8100"
+          },
+          "Fax": {
+            "S": "(414) 267-8184"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "65"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Sports Program"
+          },
+          "Description": {
+            "S": "Through sports programs, youth can learn about teamwork and accountability while\nbuilding lifelong healthy habits."
+          },
+          "Tags": {
+            "SS": [
+              "Sports",
+              "Teamwork",
+              "Accountability",
+              "Healthy Habits",
+              "Friends",
+              "Youths"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8101"
+          },
+          "Fax": {
+            "S": "(414) 267-8185"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "66"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "The Arts"
+          },
+          "Description": {
+            "S": "Through exposure to arts programming, members learn critical thinking and problem solving skills"
+          },
+          "Tags": {
+            "SS": [
+              "Critical Thinking",
+              "Problem Solving",
+              "Skills",
+              "Arts",
+              "Youths"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8102"
+          },
+          "Fax": {
+            "S": "(414) 267-8186"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "67"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Career Development"
+          },
+          "Description": {
+            "S": "By helping youths explore different career paths, more youth will succeed in finding a rewading career and achieving financial independence."
+          },
+          "Tags": {
+            "SS": [
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8103"
+          },
+          "Fax": {
+            "S": "(414) 267-8187"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "68"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Education"
+          },
+          "Description": {
+            "S": "From improving literary skills to college access and success programs, Boys and Girls Clubs offers educational programming suited for all members"
+          },
+          "Tags": {
+            "SS": [
+              "Literacy Skills",
+              "College Access",
+              "Education",
+              "Youths"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8104"
+          },
+          "Fax": {
+            "S": "(414) 267-8188"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "69"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Health and Wellness"
+          },
+          "Description": {
+            "S": "Along with developing healthy habits, members learn about taking responsibilities for their actions and making positive choices throughout life."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Wellness",
+              "Healthy Habits",
+              "Positive Choices",
+              "Life",
+              "Youths"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8105"
+          },
+          "Fax": {
+            "S": "(414) 267-8189"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "70"
+          },
+          "Label": {
+            "S": "Boys & Girls Club of Greater Milwaukee"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Character and Leadership"
+          },
+          "Description": {
+            "S": "Members learn about taking personal responsibilities for their actions, are given leadership roles within the Clubs and participate in community service projects"
+          },
+          "Tags": {
+            "SS": [
+              "Personal Responsibilities",
+              "Leadership",
+              "Roles",
+              "Community",
+              "Service",
+              "Projects",
+              "Community Service Projects",
+              "Youths"
+            ]
+          },
+          "Address": {
+            "S": "1558 N. 6th Street \nMilwaukee, WI. 53212"
+          },
+          "Phone": {
+            "S": "(414) 267-8106"
+          },
+          "Fax": {
+            "S": "(414) 267-8190"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.bgcmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "71"
+          },
+          "Label": {
+            "S": "Center for Self Sufficiency"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Vision, Mission and Values"
+          },
+          "Description": {
+            "S": "The Center for Self-Sufficiency, Inc. (CFSS) is a Milwaukee-based nonprofit organization. We provide family-strengthening programs to youth and adults to assist them in developing healthy life skills (attitudes and behaviors) and making choices that will have long-term positive effects on them, their family and society.\nIts Mission is to provide a foundation for people to actualize their hope and motivaton to access a good life. \nThe vision that it has is - Community revitalization through individual transformation."
+          },
+          "Tags": {
+            "SS": [
+              "Strengthening Families",
+              "Milwaukee",
+              "Healthy Life Skills",
+              "Attitudes",
+              "Behaviors",
+              "Choices",
+              "Hope",
+              "Long-term Positive Effects",
+              "Community Revitalization",
+              "Individual Transformation",
+              "Integrity",
+              "Evolve Immediately"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "(414) 270-4679"
+          },
+          "Fax": {
+            "S": "(414) 449-4775"
+          },
+          "Email": {
+            "S": "info@centerinc.org"
+          },
+          "Website": {
+            "S": "www.centerinc.org"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "72"
+          },
+          "Label": {
+            "S": "Center for Self Sufficiency"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Healthy Relationship Education"
+          },
+          "Description": {
+            "S": "Healthy Relationship Education and Healthy Marriage Education are offered to individuals who are economically disadvantaged and at higher risk for negative relationship outcomes. \nUnder its Vow to Succeed program, CFSS facilitates a variety of evidence-based curricula for youth and adults in schools, after-school settings, community and faith-based settings, and in correctional centers. The educational programs – which can be from 8 to 16 lessons/hours in length – are offered in a series of classes in either a one-hour session once a week or a two-day focused weekend retreat.\nThis program includes:\n\nYouth Education - focused on guiding youths in naigating the world of teen relationships; lessons in self-awareness; future direction, and planning; it includes topics such as maturity, goal-setting, peer pressure, date violence prevention, communication and conflict management. Some other topics that are covered are attractions; infatuation; intimacy; and realistic concepts of loe; the nature of romantic attractions and how to build healthy relationships. \n\nAdult Education - Focus is on relationship skill-building; healthy decision making; developing sustainable and healthy marriages and relationships that benefit indiiduals and their children; there are lessons in communication, conflict management, commitment, expectations, emotional and physical safety, and the effects that relationship choices hae on children.\n*To learn more about bringing healthy relationship and/or healthy marriage education to your classroom, community club or church group, contact LaKesha Reid at 414-270-4679."
+          },
+          "Tags": {
+            "SS": [
+              "Healthy Relationship",
+              "Healthy Marriage",
+              "Education",
+              "Teen Relationships",
+              "Adult Relationship",
+              "Self-Awareness",
+              "Future Direction",
+              "Planning",
+              "Goal-Setting",
+              "Peer Pressure",
+              "Date Violence",
+              "Love",
+              "Romantic Relationships",
+              "Intimacy",
+              "Relationship Skill-Building",
+              "Sustainable and Healthy Marriage",
+              "Children",
+              "Choices"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "(414) 270-4680"
+          },
+          "Fax": {
+            "S": "(414) 449-4776"
+          },
+          "Email": {
+            "S": "info@centerinc.org"
+          },
+          "Website": {
+            "S": "www.centerinc.org"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "73"
+          },
+          "Label": {
+            "S": "Center for Self Sufficiency"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Youth Services"
+          },
+          "Description": {
+            "S": "Under this program there are two projects they are - \nProject F.A.M. (Finding Abstinence Matters)\nThe project comes under the center's Sexual Risk Avoidance Education Program (SRAE) and is delivered to 1,800 youth, ages 10-19, who reside in the City of Milwaukee, and is designed to increase the proportion of youth who resist non-marital sexual activity and resist sexual coercion; report increased understanding of healthy relationship behaviors, dating violence, and the benefits of marriage; develop a success sequence plan for poverty prevention; and intend to refrain from underage drinking and illicit drug use.\nProject P.E.A.C.E. (Promoting Education Access, Compassion and Engagment)\nThe project services address: public health, education, and public safety concerns; disparities in access to public health services; social determinants of health; and risk and protective factors. This four-year project provides services to 100 youth who receive core services that include: Academic Education, Healthy Relationship Education, Mindfulness Based Stress Reduction, Mentoring, Work Readiness Capacity Building, Community Policing, and Holistic Case Management\nThe center hs the following partners:\nMilwaukee Police Department,\nU.W. Madison’s Pre-College Enrichment opportunity Program for Learning Excellences (P.E.O.P.L.E.),\nMilwaukee High Schools,\nJerlando F. L. Jackson, PhD\n*Contact LaKesha Reid at 414-270-4679."
+          },
+          "Tags": {
+            "SS": [
+              "Youths",
+              "Health",
+              "Education",
+              "Public Safety",
+              "Mindfulness Based Stress Reduction",
+              "Mentoring",
+              "Work Readiness",
+              "Capcity Building",
+              "Community Policing",
+              "Partnerships",
+              "Milwaukee Police Department",
+              "U.W. Madison's Pre-College Enrichment Program for Learning Excellences (PEOPLE)",
+              "P.E.O.P.L.E",
+              "Milwaukee",
+              "Poverty Prevention",
+              "Refrain from Underage Drinking",
+              "Refrain from Illicit Drug Use"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "(414) 270-4681"
+          },
+          "Fax": {
+            "S": "(414) 449-4777"
+          },
+          "Email": {
+            "S": "info@centerinc.org"
+          },
+          "Website": {
+            "S": "www.centerinc.org"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "74"
+          },
+          "Label": {
+            "S": "Center for Self Sufficiency"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Adult Revitalization"
+          },
+          "Description": {
+            "S": "There are several projects that come under this program -\nWindows to Work - Partnering with Employ Milwaukee and the Wisconsin Department of Corrections, the center provides cognitive skills-based education to individuals releasing from Milwaukee Secure Detention Facility or Racine Correctional Institution to the Milwaukee area. CFSS integrates the use of evidence-based curricula with a variety of strategies including:\n Tools that lead to conflict reduction, positive relationships and communication skills\n The ability to recognize and positively respond to their risk-taking thoughts and actions\n Job readiness and career advancement services\n Support services to promote smooth reintegration.\n\nNew Pathways for Fathers and Families\nThe Center for Self-Sufficiency partners with the Milwaukee County Department of Child Support Services (CSS) on Milwaukee’s Fatherhood Initiative – Milwaukee County New Pathways for Fathers and Families. This program offers fathers ongoing instruction on Responsible Parenting, Economic Stability and Healthy Marriage, as well as case management that emphasizes coaching. This program aims to strengthen father-child engagement and promote and improve employment and economic mobility opportunities. It is open to biological, expectant, adoptive or step-fathers, as well as a person acknowledged as a father figure, to a child up to the age of 24, who lives in Milwaukee County.\n\nUnlocking Networks-Osh Kosh\nDelivers a Comprehensive Adult Reentry Program, to 150 high-risk men ages 18 and older, releasing from Oshkosh Correctional Institution into Milwaukee, WI designed to reduce recidivism for individuals who are high risk, based on the results of the COMPAS assessment or convicted of/or with a history of violent offense convictions. This program integrates core strategies of Cognitive Based Healthy Relationship Education, Behavioral Work Readiness Development, Parenting, Mentoring & Holistic Case Management.\n\nMotivated to Apprenticeship Pathways\nIn partnership with Employ Milwaukee and funding through the U.S. Department of Labor’s Employment and Training Administration CFSS provides essential skills training (employment and soft skills) and case management to youth ages 18-24 who have been involved with the criminal justice system through previous incarceration, court-ordered supervision, alternative sentencing, or through a diversion agreement to avoid prosecution. Members are paid while in training and are connected with credentialed trainings in an industry of their choice. Members are also given assistance with driver’s license recovery and other legal issues if necessary. CFSS Member Services Coordinators also provide job placement assistance.\n\nJourney 2 Unlocking My Potential\nCFSS in partnership, with Quad Graphics provides 150 individuals with employment training in the areas of Basic Math & Measurement, Safe Working Behaviors, Proper Personal Protective Equipment, Workplace Ethics/Communication, Conflict Resolution & Basic Computer Skills. Successful employees, coming through this program will have the opportunity to enroll in Quad’s Accelerated Career Training Program (ACT). ACT will provide the employees with the necessary skills to advance their careers in the print trade.\n\nTo learn more about CFSS’s Adult Services, contact LaKesha Reid at 414-270-4679."
+          },
+          "Tags": {
+            "SS": [
+              "Employment",
+              "Partnerships",
+              "MSDF",
+              "Cognitive Skills-Based Education",
+              "Conflict Reduction Tools",
+              "Positive Relationships",
+              "Risk Taking Thoughts and Actions",
+              "Job Readiness",
+              "Career Advancements",
+              "Milwaukee",
+              "Racine",
+              "Support Services",
+              "Smooth Reintegration",
+              "Fathers",
+              "Families",
+              "Economic Stability",
+              "Healthy Marriage",
+              "Responsible Parenting",
+              "Strengthen Father-Child Engagement",
+              "Coaching",
+              "Father Figure",
+              "Paid Training",
+              "Mentoring",
+              "Re-Entry",
+              "US Dept. of Labor",
+              "Computer-Based Skills",
+              "Workplace Ethics",
+              "Communication",
+              "Conflict Resolution"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "(414) 270-4681"
+          },
+          "Fax": {
+            "S": "(414) 449-4777"
+          },
+          "Email": {
+            "S": "info@centerinc.org"
+          },
+          "Website": {
+            "S": "www.centerinc.org"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "75"
+          },
+          "Label": {
+            "S": "Center for Self Sufficiency"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Assessment &Evaluation"
+          },
+          "Description": {
+            "S": "Measuring the success of the programs we deliver to change participants’ attitudes and behaviors is as important to us as delivering these services. We use the results from our assessments and evaluations to continually adjust and improve our programs. We also assist other nonprofit organizations to do the same. For more information about how the CFSS evaluation team can assist your organization to collect quantitative and qualitative data, analyze results and assist in writing required funder reports, contact Carl Wesley, President & CEO, at 414-270-4679."
+          },
+          "Tags": {
+            "SS": [
+              "Success",
+              "Program Evaluation",
+              "Program Assessment",
+              "Data Analysis",
+              "Data Collection"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, 2nd Floor \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "(414) 270-4681"
+          },
+          "Fax": {
+            "S": "(414) 449-4777"
+          },
+          "Email": {
+            "S": "info@centerinc.org"
+          },
+          "Website": {
+            "S": "www.centerinc.org"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "76"
+          },
+          "Label": {
+            "S": "Community Advocates"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Milwaukee Women's Center - Crisis Line"
+          },
+          "Description": {
+            "S": "Provides crisis counseling/intervention, information, and referrals to mare that 12,000 callers each year. A community resource that assists callers with a variety of concerns - including homelessness, housing and legal issues, lack of food, and crisis situations like domestic violence or suicide"
+          },
+          "Tags": {
+            "SS": [
+              "Crisis Line",
+              "Mental Health",
+              "Housing",
+              "Health",
+              "Justice",
+              "Communithy Advocates"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950"
+          },
+          "Fax": {
+            "S": "Community Advocates Public Policy Institute\n(414) 270-2971"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://communityadvocates.net/welcome.html"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "77"
+          },
+          "Label": {
+            "S": "Community Advocates"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Milwaukee Women's Center - Domestic Violence Emergency Shelter"
+          },
+          "Description": {
+            "S": "Dedicated to providing around -the-clock shelter and supportive services to women and children fleeing abusive relationships."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Mental Health",
+              "Housing",
+              "Abuse",
+              "Domestic Violence",
+              "Counseling",
+              "Support Groups",
+              "Case Management",
+              "Addiction",
+              "Healthy Parenting",
+              "Community Advocates"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950"
+          },
+          "Fax": {
+            "S": "Community Advocates Public Policy Institute\n(414) 270-2971"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://communityadvocates.net/welcome.html"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "78"
+          },
+          "Label": {
+            "S": "Community Advocates"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Milwaukee Women's Center - Family Support Emergency Shelter"
+          },
+          "Description": {
+            "S": "A shelter dedicated to helping impoverished families without a roof over their heads begin the journey to stable, affordable housing. The shelter fills very basic but vital needs for the familes served: security, shelter, and food. It also offers a comprehensive array of programs and services."
+          },
+          "Tags": {
+            "SS": [
+              "Housing",
+              "Shelter",
+              "Family",
+              "Substance abuse support",
+              "Parenting Support Group",
+              "Trauma-Informed children's programming",
+              "Language assistance",
+              "Community Advocates"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950"
+          },
+          "Fax": {
+            "S": "Community Advocates Public Policy Institute\n(414) 270-2971"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://communityadvocates.net/welcome.html"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "79"
+          },
+          "Label": {
+            "S": "Community Advocates"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Milwaukee Women's Center - Older Abused Women's Program"
+          },
+          "Description": {
+            "S": "The goal of the program is to reduce and eliminate violence in the lives of women age 50 and older who have been victimized by their intimate partners or adult children."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Justice",
+              "Emergency Shelter",
+              "Women",
+              "Older Women",
+              "Civil and criminal justice support",
+              "Civil and Criminal justice Advocacy",
+              "Support Groups",
+              "Transportation assistance",
+              "Community Advocates"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950"
+          },
+          "Fax": {
+            "S": "Community Advocates Public Policy Institute\n(414) 270-2971"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://communityadvocates.net/welcome.html"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "80"
+          },
+          "Label": {
+            "S": "Community Advocates"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Milwaukee Women's Center - Children's Program"
+          },
+          "Description": {
+            "S": "Provides specialized support services and activities for children who have witnessed or experienced family violence in their homes or who have experienced homelessness. Available to children residing in their Domestice Violence Emergency Shelter and their Family Support Center Emergency Shelter, and aims to promote a chil'd healing, safety, and resilience."
+          },
+          "Tags": {
+            "SS": [
+              "Mental Health",
+              "Children",
+              "Homelessness",
+              "Family Violence",
+              "Strategies",
+              "Tools",
+              "Trauma-informed Care",
+              "Daily Support",
+              "Daily Positive Interactions",
+              "Community Advocates"
+            ]
+          },
+          "Address": {
+            "S": "728 N. James Lovell Street, \nMilwaukee WI. 53233"
+          },
+          "Phone": {
+            "S": "Community Advocates\n(414) 449-4777\n\nCommunity Advocates Public Policy Institute\n(414) 270-2950"
+          },
+          "Fax": {
+            "S": "Community Advocates Public Policy Institute\n(414) 270-2971"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://communityadvocates.net/welcome.html"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    }
+  ]
 }
