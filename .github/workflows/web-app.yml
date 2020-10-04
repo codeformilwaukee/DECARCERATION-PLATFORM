@@ -28,6 +28,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }} 
+    - run: npm install amplify-cli
+    - run: amplif init ci
     - run: npm ci
       working-directory: web-app
     - run: npm run build --if-present
