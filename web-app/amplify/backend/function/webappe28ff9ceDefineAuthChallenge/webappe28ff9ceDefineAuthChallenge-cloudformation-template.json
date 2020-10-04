@@ -94,7 +94,7 @@
 				"Runtime": "nodejs10.x",
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify-webapp-dev-233558-deployment",
+					"S3Bucket": "amplify-webapp-master-00055-deployment",
 					"S3Key": "amplify-builds/webappe28ff9ceDefineAuthChallenge-4d367a78567450756e56-build.zip"
 				}
 			}
