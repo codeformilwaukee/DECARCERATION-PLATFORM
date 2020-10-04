@@ -1,52 +1,48 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-webapp-dev-233558-authRole",
-            "UnauthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-dev-233558-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-dev-233558-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-webapp-dev-233558-deployment",
-            "UnauthRoleName": "amplify-webapp-dev-233558-unauthRole",
-            "StackName": "amplify-webapp-dev-233558",
-            "StackId": "arn:aws:cloudformation:us-east-1:809636549385:stack/amplify-webapp-dev-233558/6705d470-c00b-11ea-8db5-0a3d3edde975",
-            "AmplifyAppId": "d1mlp6mhc4eut2"
-        },
-        "categories": {
-            "function": {
-                "webappe28ff9ceDefineAuthChallenge": {},
-                "webappe28ff9ceCreateAuthChallenge": {},
-                "webappe28ff9ceVerifyAuthChallengeResponse": {
-                    "RECAPTCHASECRET": "6LcnCcAZAAAAAFXoywd24h5Q0B8zAs8mQPdZBnlj"
-                }
-            },
-            "auth": {
-                "webappe28ff9ce": {}
-            }
-        }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-webapp-dev-233558-authRole",
+      "UnauthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-dev-233558-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-dev-233558-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-webapp-dev-233558-deployment",
+      "UnauthRoleName": "amplify-webapp-dev-233558-unauthRole",
+      "StackName": "amplify-webapp-dev-233558",
+      "StackId": "arn:aws:cloudformation:us-east-1:809636549385:stack/amplify-webapp-dev-233558/6705d470-c00b-11ea-8db5-0a3d3edde975",
+      "AmplifyAppId": "d1mlp6mhc4eut2"
     },
-    "master": {
+    "categories": {
+      "function": {
+        "webappe28ff9ceDefineAuthChallenge": {},
+        "webappe28ff9ceCreateAuthChallenge": {},
+        "webappe28ff9ceVerifyAuthChallengeResponse": {
+          "RECAPTCHASECRET": "6LcnCcAZAAAAAFXoywd24h5Q0B8zAs8mQPdZBnlj"
+        }
+      },
+      "master": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-webapp-master-00055-authRole",
-            "UnauthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-master-00055-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-master-00055-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-webapp-master-00055-deployment",
-            "UnauthRoleName": "amplify-webapp-master-00055-unauthRole",
-            "StackName": "amplify-webapp-master-00055",
-            "StackId": "arn:aws:cloudformation:us-east-1:809636549385:stack/amplify-webapp-master-00055/968fa340-05fe-11eb-adf9-1272d872aba7",
-            "AmplifyAppId": "d2farwzqn5jkjx"
+          "AuthRoleName": "amplify-webapp-master-00055-authRole",
+          "UnauthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-master-00055-unauthRole",
+          "AuthRoleArn": "arn:aws:iam::809636549385:role/amplify-webapp-master-00055-authRole",
+          "Region": "us-east-1",
+          "DeploymentBucketName": "amplify-webapp-master-00055-deployment",
+          "UnauthRoleName": "amplify-webapp-master-00055-unauthRole",
+          "StackName": "amplify-webapp-master-00055",
+          "StackId": "arn:aws:cloudformation:us-east-1:809636549385:stack/amplify-webapp-master-00055/968fa340-05fe-11eb-adf9-1272d872aba7",
+          "AmplifyAppId": "d2farwzqn5jkjx"
         },
         "categories": {
-            "auth": {
-                "webappe28ff9ce": {}
-            },
-            "function": {
-                "webappe28ff9ceDefineAuthChallenge": {},
-                "webappe28ff9ceCreateAuthChallenge": {},
-                "webappe28ff9ceVerifyAuthChallengeResponse": {
-                    "RECAPTCHASECRET": "6LcnCcAZAAAAAFXoywd24h5Q0B8zAs8mQPdZBnlj"
-                }
+          "auth": {
+            "webappe28ff9ce": {}
+          },
+          "function": {
+            "webappe28ff9ceDefineAuthChallenge": {},
+            "webappe28ff9ceCreateAuthChallenge": {},
+            "webappe28ff9ceVerifyAuthChallengeResponse": {
+              "RECAPTCHASECRET": "6LcnCcAZAAAAAFXoywd24h5Q0B8zAs8mQPdZBnlj"
             }
+          }
         }
+      }
     }
-}
+  }

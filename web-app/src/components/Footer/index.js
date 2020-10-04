@@ -16,6 +16,12 @@ const Footer = () => (
             <Link to={ROUTES.TERMS_AND_CONDITIONS}>
                 Terms and Conditions
             </Link>
+            <a href="https://211wisconsin.communityos.org/guided-search">
+                211 Madison Basic Needs Search
+            </a>
+            <a href="https://www.mkehometostay.org/">
+                Home to Stay
+            </a>
         </div>
     </div>
 )
