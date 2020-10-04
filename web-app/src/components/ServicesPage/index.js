@@ -66,9 +66,9 @@ const ServicesPage = (props) => {
   const handleSegments = (event, newSegments) => {
     setSegments(newSegments);
     // TODO filter services by segment
-    
+
     setServices(myServices.filter((service) => {
-      let found = service['Program and Services'].forEach((program) => program.toLowerCase().includes(newSegments.toLowerCase())) 
+      let found = service['Program and Services'].forEach((program) => program.toLowerCase().includes(newSegments.toLowerCase()))
       return (
         found ||
         service.Description.toLowerCase().includes(newSegments.toLowerCase())
@@ -78,7 +78,7 @@ const ServicesPage = (props) => {
     console.log("handleSegments", event, newSegments);
   };
 
-  useEffect(() => {}, [expanded, selectedServices]);
+  useEffect(() => { }, [expanded, selectedServices]);
 
   //Activates resize listener to update grid size
   window.addEventListener('resize', (e) => {
@@ -137,33 +137,33 @@ const ServicesPage = (props) => {
           border: "5px",
         }}
       >
-      <Map
-        google = {props.google}
-        zoom = { 10 }
-        xs = { 12 }
-        item
-        initialCenter = {{ lat: 43.057806, lng: -88.1075128 }}
-        containerStyle = {{
-          position: "relative",
-          display: "flex",
-        }}
-        style = {{
-          width: "100%",
-          height: "100%",
-        }}
-      >
-        {   
-          selectedServices.map(serviceId => {
-            console.log(serviceId);
-            const currService = services.filter(service => service.id === serviceId)[0];
-            return (
-              <Marker
-                title={currService.Label}
-                position={{ lat: currService.lat, lng: currService.long }}
-                key={serviceId}
-              />
-            );
-          })}
+        <Map
+          google={props.google}
+          zoom={10}
+          xs={12}
+          item
+          initialCenter={{ lat: 43.057806, lng: -88.1075128 }}
+          containerStyle={{
+            position: "relative",
+            display: "flex",
+          }}
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+        >
+          {
+            selectedServices.map(serviceId => {
+              console.log(serviceId);
+              const currService = services.filter(service => service.id === serviceId)[0];
+              return (
+                <Marker
+                  title={currService.Label}
+                  position={{ lat: currService.lat, lng: currService.long }}
+                  key={serviceId}
+                />
+              );
+            })}
         </Map>
       </Box>
     </Container>
@@ -171,5 +171,5 @@ const ServicesPage = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyBj9oZtp-_4H1-DYLZ8Z0Y5OdotWu1epHw",
+  apiKey: REACT_APP_GOOGLE_MAPS_API_KEY, // process.env.
 })(ServicesPage);
