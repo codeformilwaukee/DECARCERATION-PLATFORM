@@ -1,4 +1,6 @@
 # DECARCERATION-PLATFORM
+![Web App Node.js CI](https://github.com/codeformilwaukee/DECARCERATION-PLATFORM/workflows/Web%20App%20Node.js%20CI/badge.svg?branch=master)
+
 # Live Deployed Previews
 * [https://master.d1mlp6mhc4eut2.amplifyapp.com/](https://master.d1mlp6mhc4eut2.amplifyapp.com/)
 * [https://decarceration-platform.vercel.app/](https://decarceration-platform.vercel.app/) <-- preferred
