@@ -4,7 +4,7 @@ import * as serviceWorker from "./serviceWorker";
 import App from "./components/App";
 import "./index.css";
 import Amplify from "aws-amplify";
-import awsExports from "./aws-exports"; // generated from an amplify init call
+import awsExports from "./aws-exports"; // generated from an amplify init in pipeline
 import config from "./config";
 
 require("dotenv").config();
