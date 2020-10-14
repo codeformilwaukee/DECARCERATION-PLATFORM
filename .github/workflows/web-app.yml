@@ -27,7 +27,7 @@ jobs:
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       env: # Or as an environment variable
-        super_secret: ${{ secrets.AWS_APP_ID }}
+        super_secret: ${{ secrets.AWS_APP_ID, secrets.AWS_BACKEND_ENV_NAME }}
       with:
         node-version: ${{ matrix.node-version }} 
     - run: npm install -g @aws-amplify/cli
