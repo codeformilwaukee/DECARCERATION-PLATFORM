@@ -30,7 +30,7 @@ jobs:
         super_secret: ${{ secrets.AWS_APP_ID }}
       with:
         node-version: ${{ matrix.node-version }} 
-    - run: npm i -g amplify-cli
+    - run: npm install -g @aws-amplify/cli
     - run: amplify configure --yes
     - run: amplify init --appId "$AWS_APP_ID" --yes
     - run: npm ci
