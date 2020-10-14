@@ -30,14 +30,16 @@ jobs:
         AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
         AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
         AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
+        NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
         AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
         PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
+        CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
       with:
         node-version: ${{ matrix.node-version }} 
     - run: npm install -g @aws-amplify/cli
     - run: amplify configure --yes
     #- run: amplify init --appId "$AWS_APP_ID" --envName "$AWS_BACKEND_ENV_NAME" --yes
-    - run: amplify init --amplify $AMPLIFY --providers $PROVIDERS --yes
+    - run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
     - run: npm ci
       working-directory: web-app
     - run: npm run build --if-present
