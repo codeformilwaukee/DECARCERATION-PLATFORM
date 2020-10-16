@@ -24,25 +24,52 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
+    
+    - name: use node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }} 
       env: # Or as an environment variable
         AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
         AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
-        AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
-        NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
-        AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
-        PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
-        CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
+        #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
+        #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
+        #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
+        #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
+        #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
+    
+    - name: configure amplify
+      uses: ambientlight/amplify-cli-action@0.2.1
       with:
-        node-version: ${{ matrix.node-version }} 
-    - run: npm install -g @aws-amplify/cli
-    - run: amplify configure --yes
+        amplify_command: configure
+        amplify_env: master
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
+        AWS_REGION: us-east-1
+        
+    - name: install, build and test
+      run: |
+        npm install
+        npm test
+        npm run build --if-present
+      working-directory: web-app
+    
+    - name: deploy
+      uses: ambientlight/amplify-cli-action@0.2.1
+      with:
+        amplify_command: publish
+        amplify_env: prod
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
+        AWS_REGION: us-east-1
+                
     #- run: amplify init --appId "$AWS_APP_ID" --envName "$AWS_BACKEND_ENV_NAME" --yes
-    - run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
-    - run: npm ci
-      working-directory: web-app
-    - run: npm run build --if-present
-      working-directory: web-app
-    - run: npm test
-      working-directory: web-app
+    #- run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
+    #- run: npm ci
+    #  working-directory: web-app
+    #- run: npm run build --if-present
+    #  working-directory: web-app
+    #- run: npm test
+    #  working-directory: web-app
