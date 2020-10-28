@@ -14,7 +14,7 @@ import TermsAndConditionsPage from "../TermsAndConditionsPage";
 
 import * as ROUTES from "../../constants/routes";
 
-const App = () => (
+const App = (props) => (
   <Router>
     <div className="main-container">
       <Navigation />
@@ -25,7 +25,7 @@ const App = () => (
 
       <Route exact path={ROUTES.ACCOUNT} component={Account} />
       <Route exact path={ROUTES.CALENDAR} component={CalendarPage} />
-      <Route exact path={ROUTES.SERVICES} component={ServicesPage} />
+      <Route exact path={ROUTES.SERVICES} component={() => <ServicesPage {...props} />} />
 
       <Route exact path={ROUTES.PRIVACY_POLICY} component={PrivacyPolicyPage} />
       <Route

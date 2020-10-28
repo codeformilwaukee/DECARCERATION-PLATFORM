@@ -10,6 +10,7 @@
     "aws-amplify": "^3.0.24",
     "aws-sdk": "^2.748.0",
     "dotenv": "^8.2.0",
+    "firebase": "^7.24.0",
     "google-maps-react": "^2.0.6",
     "moment": "^2.27.0",
     "react": "^16.13.1",

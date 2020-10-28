@@ -23,19 +23,22 @@ const ServicesPage = (props) => {
   }, []);
 
   const fetchServices = async () => {
-    try {
-      const serviceProviderData = await API.graphql(
-        graphqlOperation(listServiceProviders)
-      );
-      console.log("received", serviceProviderData);
-      const serviceProviders =
-        serviceProviderData.data.listServiceProviders.items;
-      console.log("services:", serviceProviders);
-      setServices(serviceProviders);
-    } catch (err) {
-      alert("error fetching service providers");
-      console.log(err);
-    }
+    const snapshot = await props.db.collection('service_providers').get()
+    console.log(snapshot.docs.map(doc => doc.data()));
+    setServices(snapshot.docs);
+    // try {
+    //   const serviceProviderData = await API.graphql(
+    //     graphqlOperation(listServiceProviders)
+    //   );
+    //   console.log("received", serviceProviderData);
+    //   const serviceProviders =
+    //     serviceProviderData.data.listServiceProviders.items;
+    //   console.log("services:", serviceProviders);
+    //   setServices(serviceProviders);
+    // } catch (err) {
+    //   alert("error fetching service providers");
+    //   console.log(err);
+    // }
   };
 
   const handleCheck = (service) => (event) => {
@@ -171,5 +174,5 @@ const ServicesPage = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: REACT_APP_GOOGLE_MAPS_API_KEY, // process.env.
+  apiKey: 'REACT_APP_GOOGLE_MAPS_API_KEY',
 })(ServicesPage);
