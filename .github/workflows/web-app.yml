@@ -20,7 +20,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x] # 10.x, 12.x, 
+        node-version: 14.x # 10.x, 12.x, 
 
     steps:
     - uses: actions/checkout@v2
@@ -40,6 +40,7 @@ jobs:
         FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
         FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
         MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
+        REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
         #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
         #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
         #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
@@ -80,6 +81,7 @@ jobs:
         FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
         FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
         MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
+        REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
                 
     #- run: amplify init --appId "$AWS_APP_ID" --envName "$AWS_BACKEND_ENV_NAME" --yes
     #- run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
