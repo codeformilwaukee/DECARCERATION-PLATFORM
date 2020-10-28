@@ -29,24 +29,32 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }} 
-      env: # Or as an environment variable
+      env:
         AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
         AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
+        FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+        FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+        FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+        FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+        FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+        FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+        FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+        MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
         #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
         #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
         #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
         #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
         #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
     
-    - name: configure amplify
-      uses: ambientlight/amplify-cli-action@0.2.1
-      with:
-        amplify_command: configure
-        amplify_env: master
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
-        AWS_REGION: us-east-1
+    #- name: configure amplify
+    #  uses: ambientlight/amplify-cli-action@0.2.1
+    #  with:
+    #    amplify_command: configure
+    #    amplify_env: master
+    #  env:
+    #    AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
+    #    AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
+    #    AWS_REGION: us-east-1
         
     - name: install, build and test
       run: |
@@ -64,6 +72,14 @@ jobs:
         AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
         AWS_REGION: us-east-1
+        FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+        FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+        FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+        FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+        FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+        FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+        FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+        MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
                 
     #- run: amplify init --appId "$AWS_APP_ID" --envName "$AWS_BACKEND_ENV_NAME" --yes
     #- run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
