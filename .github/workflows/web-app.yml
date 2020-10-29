@@ -29,7 +29,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-      run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' FILENAME
+      run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' Config.js
       env:
         AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
         AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
