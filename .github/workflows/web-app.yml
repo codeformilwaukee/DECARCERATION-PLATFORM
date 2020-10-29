@@ -5,32 +5,30 @@ name: Web App Node.js CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
     paths:
-      - 'web-app/**'
+      - "web-app/**"
   pull_request:
-    branches: [ master ]
+    branches: [master]
     paths:
-      - 'web-app/**'
+      - "web-app/**"
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: 14.x # 10.x, 12.x, 
+        node-version: [14.x] # 10.x, 12.x,
 
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: use node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
+      - uses: actions/checkout@v2
 
-        - run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' Config.js
+      - name: use node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' Config.js
         env:
           AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
           AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
@@ -48,43 +46,42 @@ jobs:
           #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
           #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
           #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
-    
-    #- name: configure amplify
-    #  uses: ambientlight/amplify-cli-action@0.2.1
-    #  with:
-    #    amplify_command: configure
-    #    amplify_env: master
-    #  env:
-    #    AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
-    #    AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
-    #    AWS_REGION: us-east-1
-        
-    - name: install, build and test
-      run: |
-        npm install
-        npm test
-        npm run build --if-present
-      working-directory: web-app
-    
-    - name: deploy
-      uses: ambientlight/amplify-cli-action@0.2.1
-      with:
-        amplify_command: publish
-        amplify_env: prod
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
-        AWS_REGION: us-east-1
-        FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-        FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-        FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
-        FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
-        FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
-        FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
-        FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
-        MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
-        REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
-                
+
+      #- name: configure amplify
+      #  uses: ambientlight/amplify-cli-action@0.2.1
+      #  with:
+      #    amplify_command: configure
+      #    amplify_env: master
+      #  env:
+      #    AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
+      #    AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
+      #    AWS_REGION: us-east-1
+
+      - name: install, build and test
+        run: |
+          npm install
+          npm test
+          npm run build --if-present
+        working-directory: web-app
+
+      - name: deploy
+        uses: ambientlight/amplify-cli-action@0.2.1
+        with:
+          amplify_command: publish
+          amplify_env: prod
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.SERVICE_PROVIDER_READ_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.SERVICE_PROVIDER_READ_SECRET_ACCESS_KEY }}
+          AWS_REGION: us-east-1
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+          FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+          FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+          FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
+          REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
     #- run: amplify init --appId "$AWS_APP_ID" --envName "$AWS_BACKEND_ENV_NAME" --yes
     #- run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
     #- run: npm ci
