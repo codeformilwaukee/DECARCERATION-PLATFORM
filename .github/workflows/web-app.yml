@@ -29,24 +29,25 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-      run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' Config.js
-      env:
-        AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
-        AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
-        FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-        FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
-        FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
-        FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
-        FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
-        FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
-        FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
-        MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
-        REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
-        #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
-        #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
-        #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
-        #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
-        #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
+
+        - run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' Config.js
+        env:
+          AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
+          AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+          FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+          FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+          FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
+          REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
+          #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
+          #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
+          #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
+          #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
+          #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
     
     #- name: configure amplify
     #  uses: ambientlight/amplify-cli-action@0.2.1
