@@ -1,5 +1,6 @@
 # DECARCERATION-PLATFORM
 ![Web App Node.js CI](https://github.com/codeformilwaukee/DECARCERATION-PLATFORM/workflows/Web%20App%20Node.js%20CI/badge.svg?branch=master)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/26e8b988-5559-40e4-a86d-db606068769d/deploy-status)](https://app.netlify.com/sites/reentry/deploys)
 
 # Live Deployed Previews
 * [https://master.d1mlp6mhc4eut2.amplifyapp.com/](https://master.d1mlp6mhc4eut2.amplifyapp.com/)
