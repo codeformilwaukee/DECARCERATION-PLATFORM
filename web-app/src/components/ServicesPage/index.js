@@ -3,8 +3,8 @@ import React, { useState, useEffect } from "react";
 import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
 import { GoogleApiWrapper, Map, Marker } from "google-maps-react";
-import { API, graphqlOperation } from "aws-amplify";
-import { listServiceProviders } from "../../graphql/queries";
+// import { API, graphqlOperation } from "aws-amplify";
+// import { listServiceProviders } from "../../graphql/queries";
 
 import Service from "./Service";
 import { myServices } from "../../constants/services"
@@ -17,10 +17,6 @@ const ServicesPage = (props) => {
   const [services, setServices] = useState([]);
   // const [services, setServices] = useState(myServices);
   const [selectedServices, setSelectedServices] = useState([]);
-
-  useEffect(() => {
-    fetchServices();
-  }, []);
 
   const fetchServices = async () => {
     const snapshot = await props.db.collection('service_providers').get()
@@ -40,6 +36,10 @@ const ServicesPage = (props) => {
     //   console.log(err);
     // }
   };
+
+  useEffect(() => {
+    fetchServices();
+  }, []);  
 
   const handleCheck = (service) => (event) => {
     event.stopPropagation();
