@@ -28,7 +28,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: perl -pi -e 's/getString\(R\.string\.token\)/"$ENV{AWS_APP_ID}"/' Config.js
+      - run: perl -pi -e 's/\(MEASUREMENT_ID)/"$ENV{MEASUREMENT_ID}"/' web-app/src/config.js
         env:
           CI: false
           AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
