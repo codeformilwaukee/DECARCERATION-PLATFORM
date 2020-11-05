@@ -33,6 +33,7 @@ jobs:
             sed -Ei 's/MEASUREMENT_ID/$ENV{MEASUREMENT_ID}/' web-app/src/config.js
             sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/$ENV{REACT_APP_GOOGLE_MAPS_API_KEY}/' web-app/src/config.js
             cd web-app
+            npm install
             npm test
             npm install
             npm build
