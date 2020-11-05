@@ -35,7 +35,7 @@ jobs:
             cd web-app
             npm install
             npm test
-            npm run build
+            npm ci
           env:
             CI: false
             AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
