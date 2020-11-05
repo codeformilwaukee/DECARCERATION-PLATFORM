@@ -9,6 +9,7 @@ on:
     branches: [master]
     paths:
       - "web-app/**"
+
 jobs:
   # This job will:
   #   * deploy a draft every time there is a pull request created or pushed to that is on the master or dev branch
@@ -31,6 +32,7 @@ jobs:
             sed -Ei 's/FIREBASE_STORAGE_BUCKET/$ENV{FIREBASE_STORAGE_BUCKET}/' web-app/src/config.js
             sed -Ei 's/MEASUREMENT_ID/$ENV{MEASUREMENT_ID}/' web-app/src/config.js
             sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/$ENV{REACT_APP_GOOGLE_MAPS_API_KEY}/' web-app/src/config.js
+            cd web-app
             npm test
             npm install
             npm build
