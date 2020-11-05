@@ -35,7 +35,6 @@ jobs:
             cd web-app
             npm install
             npm test
-            npm install
             npm build
           env:
             CI: false
@@ -62,6 +61,6 @@ jobs:
             github-token: ${{ secrets.GITHUB_TOKEN }}
             netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
             netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
-            build-dir: './build'
+            build-dir: './web-app/build'
             draft: true
             comment-on-pull-request: true
