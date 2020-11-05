@@ -31,6 +31,7 @@ jobs:
         - name: Checkout repository
           uses: actions/checkout@v1
             
+        - name: Replace Secrets
           run: |
             sed -Ei 's/FIREBASE_APP_ID/$ENV{FIREBASE_APP_ID}/' web-app/src/config.js
             sed -Ei 's/FIREBASE_API_KEY/$ENV{FIREBASE_API_KEY}/' web-app/src/config.js
@@ -84,6 +85,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v1
 
+      - name: Replace Secrets
       - run: |
             sed -Ei 's/FIREBASE_APP_ID/$ENV{FIREBASE_APP_ID}/' web-app/src/config.js
             sed -Ei 's/FIREBASE_API_KEY/$ENV{FIREBASE_API_KEY}/' web-app/src/config.js
@@ -133,6 +135,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v1
+
+      - name: Replace Secrets
         run: |
           sed -Ei 's/FIREBASE_APP_ID/$ENV{FIREBASE_APP_ID}/' web-app/src/config.js
           sed -Ei 's/FIREBASE_API_KEY/$ENV{FIREBASE_API_KEY}/' web-app/src/config.js
