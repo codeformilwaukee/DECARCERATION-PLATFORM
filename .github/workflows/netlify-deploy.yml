@@ -86,7 +86,7 @@ jobs:
         uses: actions/checkout@v1
 
       - name: Replace Secrets
-      - run: |
+        run: |
             sed -Ei 's/FIREBASE_APP_ID/$ENV{FIREBASE_APP_ID}/' web-app/src/config.js
             sed -Ei 's/FIREBASE_API_KEY/$ENV{FIREBASE_API_KEY}/' web-app/src/config.js
             sed -Ei 's/FIREBASE_AUTH_DOMAIN/$ENV{FIREBASE_AUTH_DOMAIN}/' web-app/src/config.js
