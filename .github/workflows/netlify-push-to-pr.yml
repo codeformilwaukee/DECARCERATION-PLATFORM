@@ -32,10 +32,6 @@ jobs:
             sed -Ei 's/FIREBASE_STORAGE_BUCKET/$ENV{FIREBASE_STORAGE_BUCKET}/' web-app/src/config.js
             sed -Ei 's/MEASUREMENT_ID/$ENV{MEASUREMENT_ID}/' web-app/src/config.js
             sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/$ENV{REACT_APP_GOOGLE_MAPS_API_KEY}/' web-app/src/config.js
-            cd web-app
-            npm install
-            npm test
-            npm ci
           env:
             CI: false
             AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
@@ -54,6 +50,12 @@ jobs:
             #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
             #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
             #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
+        - name: Build
+          run: |
+            cd web-app
+            npm install
+            npm test
+            npm ci
 
         - name: Deploy draft to Netlify
           uses: South-Paw/action-netlify-deploy@v1.0.4
