@@ -55,7 +55,7 @@ jobs:
             cd web-app
             npm install
             npm test
-            npm ci
+            npm build
 
         - name: Deploy draft to Netlify
           uses: South-Paw/action-netlify-deploy@v1.0.4
