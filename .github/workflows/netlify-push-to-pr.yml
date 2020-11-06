@@ -55,7 +55,7 @@ jobs:
             cd web-app
             npm install
             npm test
-            npm run build
+            CI = false npm run build
             ls
 
         - name: Deploy draft to Netlify
