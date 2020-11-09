@@ -50,7 +50,7 @@ jobs:
             sed -Ei "s,FIREBASE_PROJECT_ID,${FIREBASE_PROJECT_ID}," web-app/src/config.js
             sed -Ei "s,FIREBASE_STORAGE_BUCKET,${FIREBASE_STORAGE_BUCKET}," web-app/src/config.js
             sed -Ei "s,MEASUREMENT_ID,${MEASUREMENT_ID}," web-app/src/config.js
-            sed -Ei "s,REACT_APP_GOOGLE_MAPS_API_KEY,${REACT_APP_GOOGLE_MAPS_API_KEY}," web-app/src/config.js
+            sed -Ei "s,REACT_APP_GOOGLE_MAPS_API_KEY,${REACT_APP_GOOGLE_MAPS_API_KEY}," web-app/src/components/ServicesPage/index.js
           
         - name: Build
           run: |
