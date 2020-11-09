@@ -1,0 +1,71 @@
+name: Netlify CI/CD for PRs
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "web-app/**"
+  pull_request:
+    branches: [master]
+    paths:
+      - "web-app/**"
+
+jobs:
+  # This job will:
+  #   * deploy a draft every time there is a pull request created or pushed to that is on the master or dev branch
+  #   * comment on that pull request with the deploy URL
+  deployPRDraft:
+    name: Deploy draft PR to Netlify
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout repository
+          uses: actions/checkout@v1
+            
+        - name: Replace Secrets
+          env:
+            CI: false
+            AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
+            AWS_BACKEND_ENV_NAME: ${{ secrets.AWS_BACKEND_ENV_NAME }}
+            FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+            FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+            FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+            FIREBASE_DB_URL: ${{ secrets.FIREBASE_DB_URL }}
+            FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+            FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+            FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+            MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
+            REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
+            #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
+            #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
+            #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
+            #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
+            #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
+          run: |
+            echo 
+            sed -Ei "s,FIREBASE_APP_ID,${FIREBASE_APP_ID}," web-app/src/config.js
+            sed -Ei "s,FIREBASE_API_KEY,${FIREBASE_API_KEY}," web-app/src/config.js
+            sed -Ei "s,FIREBASE_AUTH_DOMAIN,${FIREBASE_AUTH_DOMAIN}," web-app/src/config.js
+            sed -Ei "s,FIREBASE_DB_URL,${FIREBASE_DB_URL}," web-app/src/config.js
+            sed -Ei "s,FIREBASE_MESSAGING_SENDER_ID,${FIREBASE_MESSAGING_SENDER_ID}," web-app/src/config.js
+            sed -Ei "s,FIREBASE_PROJECT_ID,${FIREBASE_PROJECT_ID}," web-app/src/config.js
+            sed -Ei "s,FIREBASE_STORAGE_BUCKET,${FIREBASE_STORAGE_BUCKET}," web-app/src/config.js
+            sed -Ei "s,MEASUREMENT_ID,${MEASUREMENT_ID}," web-app/src/config.js
+            sed -Ei "s,REACT_APP_GOOGLE_MAPS_API_KEY,${REACT_APP_GOOGLE_MAPS_API_KEY}," web-app/src/components/ServicesPage/index.js
+          
+        - name: Build
+          run: |
+            cd web-app
+            npm install
+            npm test
+            CI=false npm run build
+            ls
+
+        - name: Deploy draft to Netlify
+          uses: South-Paw/action-netlify-deploy@v1.0.4
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+            netlify-site-id: ${{ secrets.NETLIFY_SITE_ID }}
+            build-dir: 'web-app/build'
+            draft: true
+            comment-on-pull-request: true

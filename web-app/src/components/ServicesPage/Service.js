@@ -32,7 +32,7 @@ class Service extends React.Component {
             flex: "4",
             height: "42px",
             lineHeight: "42px",
-          }}>{this.data.title}</div>
+          }}>{this.data.Label}</div>
           <FormControlLabel
             control={<Checkbox name="favorite" onClick={this.handleClick} />}
             label="Favorite"
@@ -44,13 +44,13 @@ class Service extends React.Component {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails style={{flexDirection: "column"}}>
           <Address data={this.data} />
-          {this.data.phone && <div className="phone">Phone: {this.data.phone}</div>}
-          {this.data.email && <div className="email">Email: {this.data.email}</div>}
-          {this.data.website && <div className="website">Website: {this.data.website}</div>}
-          {this.data.description && <div className="description">{this.data.description}</div>}
-          {this.data.services && <div className="service-list">
+          {this.data.Phone && <div className="phone">Phone: {this.data.Phone}</div>}
+          {this.data.Email && <div className="email">Email: {this.data.Email}</div>}
+          {this.data.Website && <div className="website">Website: {this.data.Website}</div>}
+          {this.data.Description && <div className="description">{this.data.Description}</div>}
+          {this.data['Program and Services'] && <div className="service-list">
             <ul>
-              {this.data.services.map((service, i) =>
+              {this.data['Program and Services'].map((service, i) =>
                 <li key={i}>{service}</li>
               )}
             </ul>

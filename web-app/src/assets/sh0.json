@@ -1,0 +1,49 @@
+{
+  "ServiceProvider-unbzaidlhvha3fmiol3dqmyhpu-master": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "0"
+          },
+          "Label": {
+            "S": "Meta House"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Recovery Community"
+          },
+          "Description": {
+            "S": "Our Recovery Community offers a safe, affordable, and supportive place for women in early recovery to live. There are two divisions of our housing program, one that serves single women and one that serves women with children. Single women enjoy a private bedroom and share common living spaces with another woman in the program. Women with children enjoy a private two- or three-bedroom apartment based on the family’s need. Each division is clinically-supervised and offers residents a furnished apartment and access to a full array of outpatient treatment services and on-site staff. \n\nAt Meta House’s 25 furnished and supervised apartments, single women and families with children are provided a safe, clean environment while women and moms work on their recovery. Women who come to these apartments often lack a support system and safe place to live and have little to no ability to pay for housing. Our Sober Living Community will continue to offer women the opportunity to learn and practice coping skills and find appropriate long-term housing. Within this community, women and families will also have the support of Consumer Peer Specialists and peers who are committed to recovery from substance use disorder. While living in Meta House’s Sober Living Community, women will be asked to engage in 20 hours of meaningful activities per week while continuing to focus on their recovery."
+          },
+          "Tags": {
+            "SS": [
+              "Behavioral Health & Mental Health",
+              "Housing"
+            ]
+          },
+          "Address": {
+            "S": "2625 N. WEIL STREET \nMILWAUKEE, WI 53212 \n"
+          },
+          "Phone": {
+            "S": "414.962.1200"
+          },
+          "Fax": {
+            "S": "414.962.2305"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.metahouse.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    }
+  ]
+}

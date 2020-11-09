@@ -1,0 +1,880 @@
+{
+  "ServiceProvider-unbzaidlhvha3fmiol3dqmyhpu-master": [
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "41"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Alumni Support Group"
+          },
+          "Description": {
+            "S": "The Alumni Support Group meets every Tuesday at 5:00 pm. This is a re-entry support group facilitated and attended by those who have experienced incarceration and extended supervision. The purpose of this group is to address the immediate needs of each participant in a safe and supportive atmosphere. \n\n​Too often those returning from incarceration do not have a positive support network and do not know who they can express the struggles they are facing. The Alumni Group provides that supportive atmosphere that is sorely lacking in many people’s lives."
+          },
+          "Tags": {
+            "SS": [
+              "Behavioral Health & Mental Health",
+              "Support Group"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "42"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Women's Support Group"
+          },
+          "Description": {
+            "S": "Similar, to the Alumni Group, The Women’s Support Group focuses entirely on issues facing women who have returned from incarceration. Women face unique issues, often in silence. The Women’s Support Group is held every Tuesday afternoon with a meal beginning at 12:30 pm."
+          },
+          "Tags": {
+            "SS": [
+              "Women Support Group",
+              "Behavioral Health & Mental Health"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "44"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Outreach Efforts"
+          },
+          "Description": {
+            "S": "Project RETURN takes the services outlined above into the community to work with faith communities and other civic organizations. This is important as there are many natural and perceived boundaries in Milwaukee that impede the individual to make it to our offices. By coming into the community, Project RETURN and the host sites show that they are committed to re-entry and in helping the individual to become a success."
+          },
+          "Tags": {
+            "SS": [
+              "Re-entry",
+              "Outreach"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "45"
+          },
+          "Label": {
+            "S": "Project Return"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Advocacy"
+          },
+          "Description": {
+            "S": "Project RETURN is also active in advocacy efforts in an attempt to open more opportunities for our clients to be successful. Many times this comes in the form of advocacy for policy change in various government institutions. Project RETURN has partnered with many community based organizations to create positive change in our community for those who have experienced incarceration."
+          },
+          "Tags": {
+            "SS": [
+              "Advocacy"
+            ]
+          },
+          "Address": {
+            "S": "2821 Vel R Phillips Ave, Suite 223\nMilwaukee, WI 53212\n\nOffice Hours\n8:30am to 5:00pm\nMonday to Friday"
+          },
+          "Phone": {
+            "S": "(414) 374-8029"
+          },
+          "Fax": {
+            "S": "(414) 374-8033"
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://www.projectreturnmilwaukee.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "46"
+          },
+          "Label": {
+            "S": "City of Milwaukee \n\nMilwaukee Health Department-\n"
+          },
+          "Type": {
+            "S": "Govt. Org."
+          },
+          "Program and Services": {
+            "S": "Office of Violence Prevention \n"
+          },
+          "Description": {
+            "S": "Our core mission is to reduce violence in Milwaukee. The Office of Violence Prevention provides strategic direction and oversight for City efforts to reduce risk of violence through linked strategies in partnership with government, non-profit, neighborhood, and faith organizations.\n\nLearn About Our Work\n\nCommission on Domestic Violence and Sexual Assault\nThe Commission coordinates the community's response to domestic violence and sexual assault by promoting collaboration among law enforcement, victims' advocates, the justice system, health care providers, and policy makers.\n\nHuman Trafficking Task Force of Greater Milwaukee\nThe City of Milwaukee serves as a partner agency on this local effort to improve our community's response to human trafficking.\n\nGun Violence Prevention\nWe're advancing local and national efforts to reduce gun violence and access to illegal guns.\n\nWhy take a Public Health Approach to Violence?\nEach year, millions of individuals, families, and communities bear the physical, mental, and economic costs of violence. As a leading cause of injury, disability, and premature death, this issue compromises health and safety. Merely witnessing violent incidents can result in psychological disorders, such as depression, anxiety, and stress. Violence discourages economic development in troubled areas, thereby affecting the accessibility of jobs, healthy food, and safe housing. The physical wellbeing of residents, who stay indoors to avoid violent behavior in their community, can exacerbate health problems.\n\nFortunately, violence is a learned behavior and is preventable.\n\nThe public health approach uses a four-pronged framework to investigate, understand, and address violence by:\n\nDefining the nature and scope of the violence problem through data collection\nResearching why violence occurs, who it affects, risk and protective factors, and other influences that can be impacted through intervention strategies\nDesigning, implementing, and evaluating violence prevention strategies\nEnsuring widespread adoption of evidence-based practices on an individual, family, community, and societal level\nOur aim is to stop violence before it starts. Community-wide prevention is the most effective, long-term solution to violence, and the Office of Violence Prevention engages a wide range of partners to facilitate a multidisciplinary, population-level approach to influence the social, behavioral, and environmental factors that contribute to violence. The Office of Violence Prevention brings together agencies, experts, and community resources on efforts that reduce:\n\nDomestic and Intimate Partner Violence\nSexual Assault\nChild Abuse\nHuman Trafficking\nChildren Witness to Violence\nCommunity Violence\nGun Violence\nInterpersonal Violence, Intentional injury, and Homicide\nOur office also integrates prevention activities throughout Milwaukee Health Department programs for injuries not caused by violence."
+          },
+          "Tags": {
+            "SS": [
+              "VIolence Prevention",
+              "Health",
+              "Behavioral Health & Mental Health",
+              "Gun Violence Prevention",
+              "Domestic and Intimate Partner Violence",
+              "Sexual Assault",
+              "\nChild Abuse",
+              "Human Trafficking",
+              "Children Witness to Violence",
+              "Community Violence",
+              "Gun Violence",
+              "Interpersonal Violence",
+              "Intentional injury",
+              "Homicide"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Health Department Frank P. Zeidler Municipal Building 841 North Broadway, 3rd Floor Milwaukee, Wisconsin 53202"
+          },
+          "Phone": {
+            "S": "(414) 286-8553"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": "Reggie Moore\nDirector, Office of Violence Prevention\n\nReggie.Moore@milwaukee.gov"
+          },
+          "Website": {
+            "S": "https://city.milwaukee.gov/health/staysafe#.XoFnAYhKjD4"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "47"
+          },
+          "Label": {
+            "S": "City of Milwaukee \n\nMilwaukee Health Department-\n"
+          },
+          "Type": {
+            "S": "Govt. Org."
+          },
+          "Program and Services": {
+            "S": "Men's Health Center"
+          },
+          "Description": {
+            "S": "The City of Milwaukee Health Department offers a one-stop shop for Milwaukee’s men. We give assistance and referrals for a broad range of issues, from blood pressure to housing. A Public Health Nurse is available to deliver health promoting check-ups to individuals and prevention education to groups. The Men’s Health Centers provide resources to help men access assistance and live longer healthier lives.\n\nWhy is Men's Health Important? \nMen in Milwaukee have higher rates of heart disease, cancer-related deaths, homicide, and suicide as compared to Milwaukee women, Wisconsin men, and men in the US.1-8 \n\nMen in Milwaukee are twice as likely to lack healthcare coverage as compared to women in Milwaukee, and over 60% more likely to lack healthcare coverage as compared to Wisconsin men.2,9 \n\nSome 46.8% of working-age Milwaukee-area black males were not in the labor force last year, according to the Center for Economic Development at the University of Wisconsin-Milwaukee. That compares with 17.9% of white men and 22.7% of Hispanic men, based on data from the U.S. Census Bureau's American Community Survey. \n\nThese differences point to men’s health as a priority area in preventing illness, injury, and early death in Milwaukee. \n\nFor details on the references noted above, click here. \n\nWhat Services are provided at the Men’s Health Center? \nHealth Checks including blood pressure, weight, & height (when Public Health Nurse available) \n\nService needs assessments \n\nInformation to help men quit smoking \n\nGuidance and assistance to enroll in state health benefits programs \n\nReferrals to community partners for drug & alcohol counseling, medical care, housing assistance, job information, fatherhood programs, and other services aimed at helping men \n\nWho is eligible? \nAny Milwaukee male age 14 and older. Insurance is not required. \n\n"
+          },
+          "Tags": {
+            "SS": [
+              "Health"
+            ]
+          },
+          "Address": {
+            "S": "The Men’s Health Center is open at the following times and locations:\n\nKeenan Health Center, 3200 North 36th Street\nMondays from 11:30am to 4:45pm\nTuesdays, Wednesdays and Fridays from 8:00 am to 4:15 pm\nThursdays from 12:30pm to 7 pm*\n\nNorthwest Health Center, 7630 West Mill Road\nMondays from 8:15am to 4:pm*\nWednesdays from noon to 3pm*\nThursdays from 11am to 4pm\nTuesdays, and Fridays from 8:00 am to 4pm*\n\n*denotes days and locations when Public Health Nurse is available"
+          },
+          "Phone": {
+            "S": "Call 414-286-6756 with questions or to set up an appointment."
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": ""
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "48"
+          },
+          "Label": {
+            "S": "City of Milwaukee \n\nMilwaukee Health Department-\n"
+          },
+          "Type": {
+            "S": "Govt. Org."
+          },
+          "Program and Services": {
+            "S": "Communicable Disease Prevention and Control"
+          },
+          "Description": {
+            "S": "The Communicable Disease Program (CD) helps to assure the health of City of Milwaukee through surveillance, investigation, prevention, and reporting of conditions of public health concern. More than 80 conditions are reportable to public health in Wisconsin resulting in over 15,000 cases reports annually. Program staff investigate a subset of these cases to verify diagnosis, confirm treatment, determine the source of the illness, reinforce medical advice, provide contact notification as necessary, and provide education to prevent further spread of infection. Hundreds of case investigations are performed annually. In addition, disease trends are monitored in order to identify and respond to clusters or outbreaks. The CD program also serves as a resource for the general public, schools and day cares as well as community and medical entities regarding infectious diseases, infection control and prevention."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Communicable Disease Prevention & Control"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Health Department Frank P. Zeidler Municipal Building 841 North Broadway, 3rd Floor Milwaukee, Wisconsin 53202"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://city.milwaukee.gov/health/Communicable-Disease-Control-Program.htm#.XoF4qIhKjD4"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "49"
+          },
+          "Label": {
+            "S": "City of Milwaukee \n\nMilwaukee Health Department-\n"
+          },
+          "Type": {
+            "S": "Govt. Org."
+          },
+          "Program and Services": {
+            "S": "Tubercolosis Prevention and Care Program"
+          },
+          "Description": {
+            "S": "Clinic Overview \nThe Tuberculosis Prevention and Care (TBPC) Program controls tuberculosis (TB) by assuring that all cases of disease and infection are adequately treated. In addition, TBPC does extensive contact investigations that help stop the spread of TB. TBPC relies on protocols developed specifically for TBPC, as well as recommendations from authorities such as the Centers for Disease Control (CDC) and the American Thoracic Society (ATS). To learn more from these authorities, please visit them at www.cdc.gov and www.thoracic.org. \n\nReferrals accepted from health care providers, labs, AODA programs, the Health department, and the community."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Tuberculosis Prevention and Care"
+            ]
+          },
+          "Address": {
+            "S": "TBPC Clinic Hours\nMonday & Thursday 11:00 a.m. - 4:30 p.m and 5:00 p.m. - 6:30 p.m.\nTuesday, Wednesday, & Friday 8:00 a.m. - 11:30 a.m. and 12:45 p.m. - 4:15 p.m."
+          },
+          "Phone": {
+            "S": "For an appointment or additional information, call (414) 286-8630."
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://city.milwaukee.gov/health/TB-Prevention-Care#.XoF3c4hKjD4"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "50"
+          },
+          "Label": {
+            "S": "City of Milwaukee \n\nMilwaukee Health Department-\n"
+          },
+          "Type": {
+            "S": "Govt. Org."
+          },
+          "Program and Services": {
+            "S": "Substance MIsuse and Injury Prevention"
+          },
+          "Description": {
+            "S": "Substance Misuse: The World Health Organization (WHO) defines substance misuse as “...the harmful or hazardous use of psychoactive substances, including alcohol and illicit drugs.”\n\nThe most common types of substance use disorders in the U.S. include:\n\nTobacco\nMarijuana\nOpioids\nAlcohol\n\nOverdose Deaths in Milwaukee\nMilwaukee County, specifically the City of Milwaukee has been seeing an increase in overdose deaths attributed to heroin and opioid usage. \n\nThe City of Milwaukee Health Department has teamed with the City County Heroin Opioid Cocaine Task Force, the Milwaukee Fire Department, Milwaukee County Substance Abuse and Prevention (MCSAP) coalition, and many others to tackle this issue.\n\nClick here for more information on heroin \n\nThe Medical College of Wisconsin (MCW), Community Opioid Prevention Effort (COPE) reports on the Milwaukee County opioid crisis, with data from 2012-2018. For the full report, click here. https://city.milwaukee.gov/ImageLibrary/Groups/healthAuthors/SA-Prevention/Opioids/PDF/MilwaukeeCountyOpioid-RelatedOverdoseReport_v6_Final.pdf \n\nSubstance Abuse Related Complaints\nTo report any tobacco use in a restricted area, click here \nhttps://city.milwaukee.gov/health/Substance-Abuse-and-Injury-Prevention/Tobacco.htm#.XoF5bYhKjD4\n\nTo report any needles in your community, click here\nhttps://city.milwaukee.gov/Health/Health-Information/Substance-Abuse-and-Injury-Prevention/Opioids/Heroin-.htm#.XoF5fYhKjD4"
+          },
+          "Tags": {
+            "SS": [
+              "Health"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Health Department Frank P. Zeidler Municipal Building 841 North Broadway, 3rd Floor Milwaukee, Wisconsin 53202"
+          },
+          "Phone": {
+            "S": ""
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://city.milwaukee.gov/health/Substance-Abuse-and-Injury-Prevention.htm#.XoF5kYhKjD4"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "51"
+          },
+          "Label": {
+            "S": "City of Milwaukee \n\nMilwaukee Health Department-\n"
+          },
+          "Type": {
+            "S": "Govt. Org."
+          },
+          "Program and Services": {
+            "S": "Community Healthcare Access"
+          },
+          "Description": {
+            "S": "For years, CHAP employees have been dedicated to assisting community members in accessing the health care coverage they need. Today, CHAP can help all community members determine their options under the Affordable Care Act by evaluating whether they qualify for free or low-cost health insurance, or helping them find a health insurance plan that fits their needs and their budget.\n\n\nServices are available in Spanish, Lao, Thai, and Hmong. If you need assistance in a language other than Spanish, Lao, Thai, or Hmong, please contact us today and we will make an appointment with a translator.\n\nWhat programs can the Community Healthcare Access Program assist me in applying for?\nCHAP employees are Certified Application Counselors under the Affordable Care Act, meaning they are trained to assist you in enrolling under the new health care law, the Affordable Care Act (ACA). While the ACA provides new health coverage options for qualified individuals, CHAP will help you every step of the way to determine what programs and services you qualify for, or what low-cost plans are available to you.\n\nCHAP can help you determine if you qualify for:\n\nHealth Insurance Marketplace (private insurance)\nBadgerCare (Medicaid)\nFamily Planning Waiver\nSenior Care\nTitle 19\nExpress Enrollment for pregnant women and children\nCHAP can also assist in enrollment or provide referrals for enrollment in FoodShare, WIC, energy assistance, tax preparation, dental services, and free and sliding-fee clinics.\n\n\nIf you have questions, call (414) 286-8620.\n\nSupport in more than 150 languages is available 24 hours a day at: www.healthcare.gov or 1-800-318-2596.\n\nTo find an enrollment site near you, Milwaukee County residents can also call 2-1-1 for assistance.\n\nHow will the Affordable Care Act (Health Care Reform) affect me?\nToday, thanks to the Affordable Care Act (ACA), there are more options than ever for individuals and families to obtain affordable health insurance.\nImportant things you need to know are:\n\nEffective January 1, 2014, everyone (with few exceptions) is required by law to have health insurance, or pay a fine. Under the new law, everyone can get health insurance, even if you have a pre-existing condition.\nEach year during an open enrollment period, you can begin accessing the Health Insurance Marketplace – a website where you can sign up for affordable insurance plans approved by the federal government. There will be many different health insurance plans with different costs to choose from.\nThe Health Insurance Marketplace (www.healthcare.gov) is one application that determines if you are eligible for other programs, such as Medicaid/BadgerCare.\nIf you are currently covered under Medicaid/BadgerCare, you may receive a letter stating that you have to enroll for coverage through the Health Insurance Marketplace. If you receive this letter, it is very important to act or you may lose your health insurance coverage.\nIf you are covered under Medicare (disabled or 65 and older), your insurance coverage does NOT change, and you do NOT need to go to the Health Insurance Marketplace for coverage.\nMany people will qualify for assistance to help pay for their health insurance through government subsidies. To determine if you are eligible for a subsidy, contact an enrollment assistor near you. Find assistance near you by calling 2-1-1 or visiting www.healthcare.gov.\nFor more information, visit www.healthcare.gov or call 1-800-318-2596. For in-person assistance in the City of Milwaukee, contact (414) 286-8620.\n\nWhen and where are Community Healthcare Access Program consultations held?\nCHAP employees are available to assist individuals daily at three City of Milwaukee Health Department Clinic locations. \nHow do I know if I qualify for free or low-cost health insurance?\nIf you are ready to enroll in a health insurance plan, please have recent financial information available including tax returns, pay stubs, or other income statements. Also be aware of how many dependents you have under the age of 26, as adult children may be eligible for coverage as well. Finally, if health insurance if offered as a benefit of employment, you must document that the cost of that insurance is more than 9.5% of your income. If your work insurance is higher than 9.5% of your income, you may be eligible to purchase insurance in the Marketplace. Your Certified Application Counselor can assist you in entering your information online to check what insurance options are available to you, and if any subsidy may be available.\n\nWho can I contact for more information?\nFor questions or assistance with enrollment in state or federal programs, call the City of Milwaukee Health Department Community Healthcare Access Program at (414) 286-8620.\n\nAssistance and over-the-phone enrollment is also available in more than 150 languages at www.healthcare.gov or 1-800-318-2596.\n\nTo find an enrollment site near you, Milwaukee County residents can also call 2-1-1 for assistance."
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Healthcare"
+            ]
+          },
+          "Address": {
+            "S": "Milwaukee Health Department Frank P. Zeidler Municipal Building 841 North Broadway, 3rd Floor Milwaukee, Wisconsin 53202"
+          },
+          "Phone": {
+            "S": "If you have questions, call (414) 286-8620 today."
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://city.milwaukee.gov/health/medassist#.XoF8RohKjD4"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "52"
+          },
+          "Label": {
+            "S": "Word of Hope"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "ATODA"
+          },
+          "Description": {
+            "S": "ATODA-Dually Certified Mental Health and ATODA Clinicians \n\nIndividual Counseling: Faith based and conventional evidence-based modalities of treatment, trauma informed curriculum-based treatment. \n\nTherapy Groups: Psycho-educational, Men/Women Trauma and Twelve-Step Facilitation. \n\nIntervention & Prevention: Department of Corrections, Diversion and Deferred Prosecution Agreement, OWI, Probation and Parole Referred. \n\nDay Treatment: Comprehensive evidence-based group therapy to assist individuals in breaking the cycle of daily chemical use. \n\nMild-Moderate Mental Health Counseling: Individual Counseling"
+          },
+          "Tags": {
+            "SS": [
+              "Health",
+              "Mental Health"
+            ]
+          },
+          "Address": {
+            "S": "22677 N. 40th Street \nMilwaukee, WI 53210"
+          },
+          "Phone": {
+            "S": "414-447-1967"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://wordofhopeministriesinc.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "53"
+          },
+          "Label": {
+            "S": "Word of Hope"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Health Care Department"
+          },
+          "Description": {
+            "S": "The Health Care Department features a “Free” Clinic for the Uninsured That’s partnered with Columbia St. Mary’scropped-ucw1 Community-Based Chronic Disease Management Clinic for anyone suffering with Hypertension, Cholesterol & Diabetes. \n\nHours of Operations: Monday 10am-2pm with a Nurse Practitioner/Doctor available. Tuesday-Friday 9am-3pm Preliminary screenings. Located at Ebenezer COGIC, 3132 N Dr Martin Luther King Dr; Milwaukee, Wisconsin. \n\nWALK-INS WELCOME \n\nFree Blood Pressure and Diabetic screenings and education classes. HIV/AIDS Education; Breast Cancer Education and Referrals/Assistance with Health Insurance: Word of Hope (414) 447-1967 ext. 247 \n\nFree HIV/AIDS Testing Site Black Health Coalition Wisconsin \n\nBlack Health Coalition of Wisconsin, Inc. \n\n3020 W. Vliet Street \n\nMilwaukee, Wisconsin 53208 \n\nPhone: (414) 933-0064 Fax: (414) 933-0084 \n\nDental Services \n\nUrgent Dental Care for the uninsured contact St. Elizabeth Ann Seton Dental clinic \n\nThe St. Elizabeth Ann Seton Dental Clinic \n1730 S. 13th St. \nMilwaukee, WI 53204 \n\nRobyn Kibler, Clinic Manager \nT: (414)383-3220 \nF: (414)383-3363 \n\nClinic Hours \nMonday through Thursday 8:00 am to 4:30 pm \nFriday 8:00 am to 12:00 pm"
+          },
+          "Tags": {
+            "SS": [
+              "Health"
+            ]
+          },
+          "Address": {
+            "S": "22677 N. 40th Street \nMilwaukee, WI 53210"
+          },
+          "Phone": {
+            "S": "414-447-1967"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://wordofhopeministriesinc.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "54"
+          },
+          "Label": {
+            "S": "Word of Hope"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Fast Forward Training Workshop"
+          },
+          "Description": {
+            "S": "THE TRAINING DEPARTMENT SERVES AS THE BRIDGE FOR INDIVIDUALS TO ACQUIRE A SKILL THAT WILL RESULT IN A LIVABLE WAGE CAREER. \nWORD OF HOPE IS FUNDED BY THE U.S. DEPARTMENT OF LABOR THAT PROVIDES SPECIALIZED SKILL TRAINING, JOB PLACEMENT, MENTORING, CASE MANAGEMENT, AND CAREER FOCUSED COUNSELING FOR RETURNING CITIZENS. QUALIFYING PARTICIPANTS MUST HAVE A MINIMUM OF ONE MOTH UP TO 9 MONTHS REMAINING ON SENTENCING, PREFERABLE UNDER SUPERVISION FOR A MINIMUM OF 6 MONTHS, AND HAVE NO PRIOR HISTORY OF COMMITTING ANY VIOLENT OR SEXUAL CRIME. \nWOHM PROGRAM \nWORD OF HOPE ALSO RECEIVES FUNDING FROM STATE AND CITY ENTITIES FOR RESIDENTS IN CERTAIN PROMISED ZONES. PARTNERED WITH SCHOOLS LIKE MATC (MILWAUKEE AREA TECHNICAL COLLEGE), WCS AND OTHER EDUCATIONAL TRAINING INSTITUTIONS, WE ARE ABLE TO OFFER CERTIFIED TRAINING OPPORTUNITIEAS CARPENTRY, WELDING, CNC, HOSPITALITY, BRICK LAYING, ETC"
+          },
+          "Tags": {
+            "SS": [
+              "Employment",
+              "Reentry"
+            ]
+          },
+          "Address": {
+            "S": "22677 N. 40th Street \nMilwaukee, WI 53210"
+          },
+          "Phone": {
+            "S": "414-447-1967"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://wordofhopeministriesinc.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "55"
+          },
+          "Label": {
+            "S": "Word of Hope"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Mentoring Matters"
+          },
+          "Description": {
+            "S": "Word of Hope has a strong mentoring component that will maintain regular contact with program participants, to assist with program retention. The mentoring program sessions are aimed to encourage positive thinking and behavior through self-examination, accountability and role modeling. mentors will support participants in maintaining a career path, family reunification and social skill development. the mentoring sessions are curriculum based and primarily focus on the 7 key areas in one’s life: Family, Community, Health, Personal Development, Financial, Social and Professional. Participants will identify with change and reduction of the recidivism rate."
+          },
+          "Tags": {
+            "SS": [
+              "Employment",
+              "Mental Health",
+              "Health"
+            ]
+          },
+          "Address": {
+            "S": "22677 N. 40th Street \nMilwaukee, WI 53210"
+          },
+          "Phone": {
+            "S": "414-447-1967"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "https://wordofhopeministriesinc.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "56"
+          },
+          "Label": {
+            "S": "Blue FIre Wilderness Therapy"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Wilderness Therapy"
+          },
+          "Description": {
+            "S": "1) Assess the Situation – Our Learning Styles Assessment will give us the knowledge and proper understanding of your child’s current situation to move forward in a productive manner. Often times, we are performing educational assessments that have never been done at a home school. We can offer a level of insight many families have never known were available. \n\n2) Address educational challenges – After the initial Learning Styles Assessment, we work to use wilderness not only as a therapeutic process for behavioral change, but also to address points of contention. In accordance with state and national standards, each client will have academic goals listed in their treatment plan, based on their Learning Styles Assessment and their Youth Outcome Questionnaire. \n\n\n3) Using nature as a unique and hands on learning environment – Through the use of our wilderness school, every day provides an opportunity to learn in a real, experiential way. For instance, we see and touch science or learn social sciences by traversing the same paths as previous generations. This experiential element helps to drive home lessons and create a lasting education environment. \n\nExperience-based educational programs can have a significant, positive impact on the social, psychological and intellectual development of adolescents. \n\n-Daniel Conrad & Diane Hedin, The Impact of Experimental Education on Adolescent Development \n\n4) Focusing on the transition home – Living in the wilderness is not a long-term solution, but it is a strong tool making positive life-long changes behaviorally and educationally. We focus on teaching translatable skills in academics, as well as emotional and behavioral growth. This eases the transition from our wilderness school program back to the “real world.” \n\n**Please note, for our young adult program, our experience is that our clients first and foremost must re-engage and find motivation before they pursue formal or even more informal forms of education. To learn more about we help instill confidence and direction in young adults, please visit our Pulsar site. \n\nTo learn more about the educational focus of blueFire Wilderness, please call us today (208) 502-2677."
+          },
+          "Tags": {
+            "SS": [
+              "Mental Health",
+              "Health",
+              "Education"
+            ]
+          },
+          "Address": {
+            "S": ""
+          },
+          "Phone": {
+            "S": "844-413-1999"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "Website\nhttps://bluefirewilderness.com/b/wilderness-therapy/wisconsin/milwaukee/\n\nhttps://www.facebook.com/bluefirewilderness/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "57"
+          },
+          "Label": {
+            "S": "Blue FIre Wilderness Therapy"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Equine Therapy"
+          },
+          "Description": {
+            "S": "Horses Reflect a Child’s Emotional and Physical Reactions \nEquine therapy is a well-respected, effective therapeutic intervention for teens that utilizes horses to help create positive changes such as: \n\nImproved communication and relationships \nFacing fears and past trauma \nIdentifying unhealthy behaviors through mirroring \nEstablishing connections \nResponsibility \nGiving back \n\n\nMuch of equine therapy is facilitated by non-verbal communication skills. Horses, like many other animals, communicate non-verbally. This helps build: \n\nProblem solving \nStrong work ethic \nPersonal responsibility \nTeamwork \nConfidence \nPositive attitude \nEmotional growth \nWhat is C.R.E.A.T.E? \nC- Clarity, the most basic starting point. Have an overall focus. \nR- Recognize a Response and Reward it. \nE- Enthusiasm without Excitement. \nA- Assertiveness without Aggression. \nT- Time without Tension. \nE- Evolve, Evaluate, then Evolve again. \nTo learn more about how we use C.R.E.A.T.E. at blueFire see the video at the top of this page. \n\nDoes Equine Assisted Therapy Work? \n\nSeveral studies have been done as to the effectiveness of equine assisted therapy versus traditional therapeutic sessions. In nearly all cases adolescents who received equine therapy on average experienced greater total therapeutic change in psychosocial function than those who received no training. \n\nWe utilize an EAGALA-certified equine specialist, teamed up with a therapist, to work with your child. Equine therapy is a proven treatment for: \n\nDepression \nAnxiety \nTrauma \nBehavioral issues \nAttention deficit disorders \nRelational problems \nAutism spectrum disorders \nPersonality disorders \nGeneral lack of insight"
+          },
+          "Tags": {
+            "SS": [
+              "Mental Health",
+              "Education",
+              "Health"
+            ]
+          },
+          "Address": {
+            "S": ""
+          },
+          "Phone": {
+            "S": "844-413-1999"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "Website\nhttps://bluefirewilderness.com/b/wilderness-therapy/wisconsin/milwaukee/\n\nhttps://www.facebook.com/bluefirewilderness/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "58"
+          },
+          "Label": {
+            "S": "Blue FIre Wilderness Therapy"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Family Work"
+          },
+          "Description": {
+            "S": "Dr. Murray Bowen, the father of family systems theory, suggests that individuals cannot be understood in isolation from one another, but need to be evaluated as a whole family unit. Therefore, our family systems program assesses how the client and the family interact in and out of their environment to identify new systems, tools and goals for future interactions. \n\nOur goal is not to assign blame. Rather, our goal is to help chart a new way forward. \n\nSimply, in our experience, without changes back at home, the success at blueFire rarely lasts once a child returns. \n\nWe invite all families to participate in family therapy during the therapeutic wilderness program and at the Family Spark Workshop near the middle of their child’s stay. In addition to the great work that will be done on-site during this workshop, families enjoy reconnecting with their child and witnessing the changes underway. \n\n\nThe “Spark” of Family Changes \nOur beautiful wilderness backdrop provides the perfect setting for the families to come together while addressing family issues at a 4-day intensive family retreat called Family Spark. \n\nThe Family Spark therapeutic wilderness program occurs approximately halfway through a client’s time at blueFire. This provides enough time for clients to make progress in program and evaluate the current treatment plan. By having the families participate near the halfway mark of the program, this provides family members back home ample time to develop and practice new skills and prep for their child’s eventual return. \n\nDuring the Family Spark Workshop, we work on: \n\nFamily reunification \nEquine therapy \nAdventure activities and processing \nFamily therapy with primary therapist \nParent workshop to provide tools for future success \nReview of psychological testing when appropriate \nComfortable overnight camping \nEvaluation and planning for future plans \nRepairing and Rebuilding Family Relationships \nThe family is the core unit. Our blueFire team starts with the child to help rebuild their relationships. Then, we work to repair family relations and strive to reintegrate clients into the family unit. We do this with weekly video journaling with clients to communicate the successes and struggles that they’ve had while participating in the different activities. Parents get to see and hear the changes that are occurring week to week. Parents are asked to participate in weekly phone calls with the primary therapist, as well as correspond with their child through video messages and letters. \n\nThe Family Spark therapeutic wilderness program is an integral part of rebuilding the family dynamic and beginning the changes that can occur after the blueFire therapeutic wilderness program experience ends. \n\nWe seldom see lasting change occur without strong family involvement. No one exists in a vacuum; therefore, it is by the support of family members that the individual is able to carry the change that happens at blueFire onto the next chapter of their life."
+          },
+          "Tags": {
+            "SS": [
+              "Mental Health",
+              "Health",
+              "Education"
+            ]
+          },
+          "Address": {
+            "S": ""
+          },
+          "Phone": {
+            "S": "844-413-1999"
+          },
+          "Fax": {
+            "S": ""
+          },
+          "Email": {
+            "S": ""
+          },
+          "Website": {
+            "S": "Website\nhttps://bluefirewilderness.com/b/wilderness-therapy/wisconsin/milwaukee/\n\nhttps://www.facebook.com/bluefirewilderness/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "59"
+          },
+          "Label": {
+            "S": "Nia Imani Family"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Transitional Housing Program"
+          },
+          "Description": {
+            "S": "Nia Imani Family, Inc. is Milwaukee’s only long-term transitional housing facility (up to 24 months) with wrap-around services for it residents. It is for homeless, pregnant or young mothers between the ages of 18 and 25 most of whom are without a job or the income to support themselves and their children.\n\nWrap Around Life skills training: Women Who Live at Nia Imani Family, Inc. must commit to the following:\n\nAdhere to the rules and regulations of the program/building\nDeal with the mental health and trauma issues that their life experiences might have caused\nTake part honestly in Nia Imani Family support groups, as well as one-on-one reviews\nDevelop short and long-term goals for themselves and their families and learn to apply the CALN cycle to themselves (plan, act, observe, reflect, and start again)\nWork on self-examination and figure out their core values and life goals, so that they develop resiliency in the face of life’s adversity\nLearn self-care, responsibility and money management\nPay monthly program fees as they are able ,so they learn the importance of paying rent and not to become homeless again\nAttend PIWI classes (Parents Interaction With Infants)\nWork toward a better understanding of their and their child/children’s health and developmental stages\nLearn to be a responsible long-term tenant\nParticipate in nutritional and cooking classes\nMaintain a drug and alcohol-free home; quitting smoking is encouraged\nMaintain a clean, orderly and safe living environment\nParticipate in in-house and outside social activities and requirements of good citizenship as a part of Women of Hope\nUnderstand that there are different circles of Family, that co-participants are ”sisters” and that a support group is critical to living and learning in a good life\nProgram participants, with staff, set personal, professional and education goals for themselves and their children. Each woman utilizes programs and support services based on her individual needs and goals. Their progress is evaluated every 30 days using The Development Compass, a tool developed by Prof. Daniel Folkman , University of Wisconsin-Milwaukee (ret) and Ms. Pittman-McGee., which measures a participants ongoing progress in eight key areas.\n\nOur Residents Typically Are:\n\nHomeless, between ages of 18 and 26\nPregnant or young mothers from 53205 - 53206 zip codes and African American\nAll are working to overcome some of the following:\n\nChildhood trauma\nChronic homelessness\nViolence & sexual abuse\nUnemployment\nMental health issues\nEducational and job training deficiencies\nMilwaukee’s homelessness problem is significant and growing. In the last couple of years, Nia Imani Family calls for housing have increased 50% compared to past years.\n\nOur clients have some of the most troubled, traumatic histories of any group. These mothers’ troubles will become their children’s troubles, unless the cycle is broken. Few, if any, Milwaukee organizations help address this range of profound and chronic needs onsite, while also providing safe housing.Our Residents Typically Are:\n\nHomeless, between ages of 18 and 26\nPregnant or young mothers from 53205 - 53206 zip codes and African American\nAll are working to overcome some of the following:\n\nChildhood trauma\nChronic homelessness\nViolence & sexual abuse\nUnemployment\nMental health issues\nEducational and job training deficiencies\nMilwaukee’s homelessness problem is significant and growing. In the last couple of years, Nia Imani Family calls for housing have increased 50% compared to past years.\n\nOur clients have some of the most troubled, traumatic histories of any group. These mothers’ troubles will become their children’s troubles, unless the cycle is broken. Few, if any, Milwaukee organizations help address this range of profound and chronic needs onsite, while also providing safe housing."
+          },
+          "Tags": {
+            "SS": [
+              "Housing",
+              "Mental Health",
+              "Health",
+              "Employment"
+            ]
+          },
+          "Address": {
+            "S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205"
+          },
+          "Phone": {
+            "S": "414-933-1633"
+          },
+          "Fax": {
+            "S": "414-933-1638"
+          },
+          "Email": {
+            "S": "niaimanifamily19@yahoo.com"
+          },
+          "Website": {
+            "S": "https://www.niaimanifamily.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "id": {
+            "S": "60"
+          },
+          "Label": {
+            "S": "Nia Imani Family"
+          },
+          "Type": {
+            "S": "Non-Profit"
+          },
+          "Program and Services": {
+            "S": "Independent Living Skills"
+          },
+          "Description": {
+            "S": "\nSecond Chance Project (Job Training): The Second Chance Project provides hands-on job training experience. A key component is the Life Skills Curriculum, a three-month skill-building program that focuses on job training and employment basics. In 2005, the Second Chance Project expanded to include the Dress for Less Boutique, a small clothing store operated by a part-time staff member and women who have completed the Life Skills Curriculum. Women who participate in the operation of the store, which sells donated new or slightly used clothing, receive small stipends and gain valuable on-the-job training. Working in the Boutique is a stepping-stone to jobs outside of Nia Imani Family. The program is supported by volunteers from the business and faith communities and supervised and implemented by Nia Imani Family staff. \n\nAll women who successfully participate in the Second Chance Project will: \n\n- complete the Life Skills Curriculum (job skills training) \n- acquire hands-on job skills by working at the on-site Dress for Less Boutique or elsewhere, \n- work with Nia Imani Family staff to create a sustainability plan for themselves and their children (including plans for housing, employment, and supporting their children’s academic success). \n\nBesides the obvious job training for our residents, the Dress for Less Boutique provides a valuable community asset in Milwaukee’s central city. There is no sizable clothing store in the entire zip code where Nia Imani Family is located, so many of our neighbors are fans of its high quality clothing at very affordable prices. \n\nThe Second Chance Project, of which the Dress for Less Boutique and the Life Skills Curriculum are large parts, has led Nia Imani Family graduates to successful, stable lives in which women live independently and support themselves and their children. \n\nNutrition and Culinary Class: Residents learn how to plan and cook nutritious and affordable meals in our on-site kitchen/culinary area. Volunteers come in twice monthly to teach the mothers how to prepare and cook cook meals that are affordable there are many pitfalls on the road to good nutrition for very low income families they learn how to grocery shop and to utilize community farmer markets and preparing nutritious meal for there child/children it makes a difference in how they learn and focus. \n\nEducation Support/Referrals: Many of the children have special educational needs related to family instability and infrequent school attendance and daycare. Mothers are helped by the Nia Imani Family program staff to establish a relationship with school officials to ensure the best academic outcomes for their children. \n\nComputer Training: A volunteer come in as needed to help women learn the basic necessary computer skills for updating there resumes and doing employment searches. \n\nFinancial Management: A volunteer from PNC Bank comes in once weekly and the Women learn budgeting, banking, and general financial planning to help ensure their future success and independence, they also meet once monthly with Nia Imani program staff. \n\nCommunity In House Meeting: Monthly meeting for all residents to address building and community issues within the environment in which they live."
+          },
+          "Tags": {
+            "SS": [
+              "Employment",
+              "Education",
+              "Housing",
+              "Family",
+              "Trauma",
+              "Childhood Tauma",
+              "Chronic Homelessness \nViolence & Sexual Abuse",
+              "Mental Health",
+              "Educational and job training deficiencies"
+            ]
+          },
+          "Address": {
+            "S": "Nia Imani Family, Inc.\n1353 N. 25th Street\nMilwaukee, WI 53205"
+          },
+          "Phone": {
+            "S": "414-933-1633"
+          },
+          "Fax": {
+            "S": "414-933-1638"
+          },
+          "Email": {
+            "S": "niaimanifamily19@yahoo.com"
+          },
+          "Website": {
+            "S": "https://www.niaimanifamily.org/"
+          },
+          "Attributions": {
+            "S": ""
+          }
+        }
+      }
+    }
+  ]
+}
