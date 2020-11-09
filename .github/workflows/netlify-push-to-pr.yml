@@ -22,16 +22,6 @@ jobs:
           uses: actions/checkout@v1
             
         - name: Replace Secrets
-          run: |
-            sed -Ei 's/FIREBASE_APP_ID/$ENV{FIREBASE_APP_ID}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_API_KEY/$ENV{FIREBASE_API_KEY}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_AUTH_DOMAIN/$ENV{FIREBASE_AUTH_DOMAIN}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_DB_URL/$ENV{FIREBASE_DB_URL}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_MESSAGING_SENDER_ID/$ENV{FIREBASE_MESSAGING_SENDER_ID}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_PROJECT_ID/$ENV{FIREBASE_PROJECT_ID}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_STORAGE_BUCKET/$ENV{FIREBASE_STORAGE_BUCKET}/' web-app/src/config.js
-            sed -Ei 's/MEASUREMENT_ID/$ENV{MEASUREMENT_ID}/' web-app/src/config.js
-            sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/$ENV{REACT_APP_GOOGLE_MAPS_API_KEY}/' web-app/src/config.js
           env:
             CI: false
             AWS_APP_ID: ${{ secrets.AWS_APP_ID }}
@@ -50,6 +40,17 @@ jobs:
             #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
             #PROVIDERS: "{\"awscloudformation\":$AWSCLOUDFORMATIONCONFIG}"
             #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
+          run: |
+            sed -Ei 's/FIREBASE_APP_ID/$ENV{FIREBASE_APP_ID}/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_API_KEY/$ENV{FIREBASE_API_KEY}/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_AUTH_DOMAIN/$ENV{FIREBASE_AUTH_DOMAIN}/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_DB_URL/$ENV{FIREBASE_DB_URL}/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_MESSAGING_SENDER_ID/$ENV{FIREBASE_MESSAGING_SENDER_ID}/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_PROJECT_ID/$ENV{FIREBASE_PROJECT_ID}/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_STORAGE_BUCKET/$ENV{FIREBASE_STORAGE_BUCKET}/' web-app/src/config.js
+            sed -Ei 's/MEASUREMENT_ID/$ENV{MEASUREMENT_ID}/' web-app/src/config.js
+            sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/$ENV{REACT_APP_GOOGLE_MAPS_API_KEY}/' web-app/src/config.js
+          
         - name: Build
           run: |
             cd web-app
