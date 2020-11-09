@@ -42,15 +42,15 @@ jobs:
             #CATEGORIES: "{\"notifications\":$NOTIFICATIONSCONFIG}"
           run: |
             echo 
-            sed -Ei 's/FIREBASE_APP_ID/${FIREBASE_APP_ID}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_API_KEY/${FIREBASE_API_KEY}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_AUTH_DOMAIN/${FIREBASE_AUTH_DOMAIN}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_DB_URL/${FIREBASE_DB_URL}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_MESSAGING_SENDER_ID/${FIREBASE_MESSAGING_SENDER_ID}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_PROJECT_ID/${FIREBASE_PROJECT_ID}/' web-app/src/config.js
-            sed -Ei 's/FIREBASE_STORAGE_BUCKET/${FIREBASE_STORAGE_BUCKET}/' web-app/src/config.js
-            sed -Ei 's/MEASUREMENT_ID/${MEASUREMENT_ID}/' web-app/src/config.js
-            sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/${REACT_APP_GOOGLE_MAPS_API_KEY}/' web-app/src/config.js
+            sed -Ei 's,FIREBASE_APP_ID,$FIREBASE_APP_ID,' web-app/src/config.js
+            sed -Ei 's/FIREBASE_API_KEY/$FIREBASE_API_KEY/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_AUTH_DOMAIN/$FIREBASE_AUTH_DOMAIN/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_DB_URL/$FIREBASE_DB_URL/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_MESSAGING_SENDER_ID/$FIREBASE_MESSAGING_SENDER_ID/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_PROJECT_ID/$FIREBASE_PROJECT_ID/' web-app/src/config.js
+            sed -Ei 's/FIREBASE_STORAGE_BUCKET/$FIREBASE_STORAGE_BUCKET/' web-app/src/config.js
+            sed -Ei 's/MEASUREMENT_ID/$MEASUREMENT_ID/' web-app/src/config.js
+            sed -Ei 's/REACT_APP_GOOGLE_MAPS_API_KEY/$REACT_APP_GOOGLE_MAPS_API_KEY/' web-app/src/config.js
           
         - name: Build
           run: |
