@@ -5,6 +5,7 @@ import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
 import { GoogleApiWrapper, Map, Marker } from "google-maps-react";
 // import { API, graphqlOperation } from "aws-amplify";
 // import { listServiceProviders } from "../../graphql/queries";
+import Config from '../../config';
 
 import Service from "./Service";
 import { myServices } from "../../constants/services"
@@ -12,16 +13,22 @@ import { myServices } from "../../constants/services"
 const ServicesPage = (props) => {
   const [windowWidth, setWindowWidth] = useState(1000);
   const [expanded, setExpanded] = useState(1);
-  const [segments, setSegments] = useState([]);
+  const [segments, setSegments] = useState(['reentry']);
 
-  const [services, setServices] = useState([]);
-  // const [services, setServices] = useState(myServices);
+  const [services, setServices] = useState(myServices);
+  const [shownServices, setShownServices] = useState(myServices);
   const [selectedServices, setSelectedServices] = useState([]);
 
   const fetchServices = async () => {
     const snapshot = await props.db.collection('service_providers').get()
-    console.log(snapshot.docs.map(doc => doc.data()));
-    setServices(snapshot.docs);
+    const servs = snapshot.docs.map(doc => doc.data());
+    servs.forEach((serv, i) => {
+      if (typeof serv['Program and Services'] == 'undefined') {
+        servs[i] = {...serv[i], 'Program and Services': ""};
+      }
+    });
+    setServices(servs);
+    setShownServices(servs);
     // try {
     //   const serviceProviderData = await API.graphql(
     //     graphqlOperation(listServiceProviders)
@@ -39,6 +46,7 @@ const ServicesPage = (props) => {
 
   useEffect(() => {
     fetchServices();
+    // console.log("curr services after fetch", services);
   }, []);  
 
   const handleCheck = (service) => (event) => {
@@ -59,7 +67,7 @@ const ServicesPage = (props) => {
     }
     // TODO event.target.checked contains state of checkbox with id of service param
     // service param will be "service0", "service1", etc based on position in list
-    console.log("checked", service, setSelectedServices);
+    // console.log("checked", service, setSelectedServices);
   };
 
   const handleExpand = (service) => (event, isExpanded) => {
@@ -68,27 +76,22 @@ const ServicesPage = (props) => {
 
   const handleSegments = (event, newSegments) => {
     setSegments(newSegments);
-    // TODO filter services by segment
 
-    setServices(myServices.filter((service) => {
-      let found = service['Program and Services'].forEach((program) => program.toLowerCase().includes(newSegments.toLowerCase()))
-      return (
-        found ||
-        service.Description.toLowerCase().includes(newSegments.toLowerCase())
-      );
-    }))
-
-    console.log("handleSegments", event, newSegments);
+    if (services && services[0] && services[0]['Program and Services']) {
+      setShownServices(services.filter((service) => {
+        // all services which have the newSegments word (health, reentry) etc. in their description will be included and not filtered out
+        return (service['Program and Services'] !== undefined && service['Program and Services'] !== null && service['Program and Services'].toLowerCase().includes(newSegments.toLowerCase())) || 
+        (service.Description !== undefined && service.Description !== null && service.Description.toLowerCase().includes(newSegments.toLowerCase()));
+      }));
+    }
   };
-
-  useEffect(() => { }, [expanded, selectedServices]);
 
   //Activates resize listener to update grid size
   window.addEventListener('resize', (e) => {
     setWindowWidth(window.innerWidth);
   });
 
-
+  // console.log("now curr services are", services);
   return (
     <Container
       className="services main"
@@ -114,14 +117,14 @@ const ServicesPage = (props) => {
             value={segments}
             exclusive={true}
           >
+            <ToggleButton value="reentry">Reentry</ToggleButton>
             <ToggleButton value="food">Food</ToggleButton>
             <ToggleButton value="health">Health</ToggleButton>
             <ToggleButton value="jobs">Jobs</ToggleButton>
             <ToggleButton value="housing">Housing</ToggleButton>
-            <ToggleButton value="reentry">Reentry</ToggleButton>
           </ToggleButtonGroup>
         </Box>
-        {services.map((service, i) => {
+        {shownServices.map((service, i) => {
           return (
             <Service
               key={i}
@@ -174,5 +177,5 @@ const ServicesPage = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: 'REACT_APP_GOOGLE_MAPS_API_KEY',
+  apiKey: Config.google.REACT_APP_GOOGLE_MAPS_API_KEY,
 })(ServicesPage);
