@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Box, Container } from "@material-ui/core";
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
 import { GoogleApiWrapper, Map, Marker } from "google-maps-react";
+import Geocode from "react-geocode";
 // import { API, graphqlOperation } from "aws-amplify";
 // import { listServiceProviders } from "../../graphql/queries";
 import Config from '../../config';
@@ -14,7 +15,8 @@ const ServicesPage = (props) => {
   const [windowWidth, setWindowWidth] = useState(1000);
   const [expanded, setExpanded] = useState(1);
   const [segments, setSegments] = useState(['health']);
-
+  Geocode.setApiKey(Config.google.REACT_APP_GOOGLE_GEOCODING);
+  Geocode.setLanguage('en');
   const [services, setServices] = useState(myServices);
   const [shownServices, setShownServices] = useState(myServices);
   const [selectedServices, setSelectedServices] = useState([]);
@@ -25,6 +27,19 @@ const ServicesPage = (props) => {
     servs.forEach((serv, i) => {
       if (typeof serv['Program and Services'] == 'undefined') {
         servs[i] = {...serv[i], 'Program and Services': ""};
+      }
+      if (serv.Address !== undefined) {
+        Geocode.fromAddress(serv).then(
+          response => {
+            const { lat, lng } = response.results[0].geometry.location;
+            
+            serv[i].lat = lat
+            serv[i].lng = lng;
+          },
+          error => {
+            console.error("could not retrieve latlng for address:", serv.Address, "err:", error);
+          }
+        );
       }
     });
     setServices(servs);

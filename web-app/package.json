@@ -16,6 +16,7 @@
     "react": "^16.13.1",
     "react-big-calendar": "^0.26.0",
     "react-dom": "^16.13.1",
+    "react-geocode": "^0.2.2",
     "react-image-resizer": "^1.3.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
