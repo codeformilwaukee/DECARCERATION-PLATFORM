@@ -17,5 +17,8 @@ export default {
     messagingSenderId: "FIREBASE_MESSAGING_SENDER_ID",
     appId: "FIREBASE_APP_ID",
     measurementId: "MEASUREMENT_ID"
+  },
+  google: {
+    REACT_APP_GOOGLE_MAPS_API_KEY: "REACT_APP_GOOGLE_MAPS_API_KEY"
   }
 };
