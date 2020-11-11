@@ -1,38 +1,39 @@
 import React from 'react';
 
-import { ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails,
+import { Accordion, AccordionSummary, AccordionDetails,
   Checkbox, FormControlLabel } from '@material-ui/core';
-
 import Address from '../Common/Address';
 
 class Service extends React.Component {
   constructor(props) {
     super(props);
-    this.id = props.data.id;
-    this.data = props.data;
+
+    console.log("props:", props);
+    
     this.handleClick = this.handleClick.bind(this);
   }
   
   handleClick(event) {
-    const handleCheck = this.props.handleCheck(this.id);
+    const handleCheck = this.props.handleCheck(this.props.data.id);
     handleCheck(event);
   }
   
   render() {
     return (
-      <ExpansionPanel
+      <Accordion
         className="service detail"
-        expanded={this.props.expanded === this.id}
-        onChange={this.props.handleExpand(this.id)}>
-        <ExpansionPanelSummary className="title" style={{
+        expanded={this.props.expanded === this.props.data.id}
+        onChange={this.props.handleExpand(this.props.data.id)}>
+        <AccordionSummary className="title" style={{
           display: "flex",
+          backgroundColor: "#F2F2F2" // 9BD5E8 // 69B9D4
         }}>
           <div style={{
             display: "inline-block",
             flex: "4",
             height: "42px",
             lineHeight: "42px",
-          }}>{this.data.Label}</div>
+          }}>{this.props.data.Label}</div>
           <FormControlLabel
             control={<Checkbox name="favorite" onClick={this.handleClick} />}
             label="Favorite"
@@ -41,22 +42,20 @@ class Service extends React.Component {
               height: "42px",
             }}
             />
-        </ExpansionPanelSummary>
-        <ExpansionPanelDetails style={{flexDirection: "column"}}>
-          <Address data={this.data} />
-          {this.data.Phone && <div className="phone">Phone: {this.data.Phone}</div>}
-          {this.data.Email && <div className="email">Email: {this.data.Email}</div>}
-          {this.data.Website && <div className="website">Website: {this.data.Website}</div>}
-          {this.data.Description && <div className="description">{this.data.Description}</div>}
-          {this.data['Program and Services'] && <div className="service-list">
+        </AccordionSummary>
+        <AccordionDetails style={{flexDirection: "column", backgroundColor: "#F2F2F2"}}>
+          <Address data={this.props.data} />
+          {this.props.data.Phone && <div className="phone">Phone: {this.props.data.Phone}</div>}
+          {this.props.data.Email && <div className="email">Email: {this.props.data.Email}</div>}
+          {this.props.data.Website && <div className="website">Website: {this.props.data.Website}</div>}
+          {this.props.data.Description && <div className="description">{this.props.data.Description}</div>}
+          {this.props.data['Program and Services'] && <div className="service-list">
             <ul>
-              {this.data['Program and Services'].map((service, i) =>
-                <li key={i}>{service}</li>
-              )}
+              <li key={this.props.data['Program and Services']}>{this.props.data['Program and Services']}</li>
             </ul>
           </div>}
-        </ExpansionPanelDetails>
-      </ExpansionPanel>
+        </AccordionDetails>
+      </Accordion>
     );
   }
 }
