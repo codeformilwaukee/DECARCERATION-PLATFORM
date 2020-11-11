@@ -13,7 +13,7 @@ import { myServices } from "../../constants/services"
 const ServicesPage = (props) => {
   const [windowWidth, setWindowWidth] = useState(1000);
   const [expanded, setExpanded] = useState(1);
-  const [segments, setSegments] = useState(['reentry']);
+  const [segments, setSegments] = useState(['health']);
 
   const [services, setServices] = useState(myServices);
   const [shownServices, setShownServices] = useState(myServices);
@@ -78,11 +78,15 @@ const ServicesPage = (props) => {
     setSegments(newSegments);
 
     if (services && services[0] && services[0]['Program and Services']) {
-      setShownServices(services.filter((service) => {
-        // all services which have the newSegments word (health, reentry) etc. in their description will be included and not filtered out
-        return (service['Program and Services'] !== undefined && service['Program and Services'] !== null && service['Program and Services'].toLowerCase().includes(newSegments.toLowerCase())) || 
-        (service.Description !== undefined && service.Description !== null && service.Description.toLowerCase().includes(newSegments.toLowerCase()));
-      }));
+      if (newSegments !== "other") {
+        setShownServices(services.filter((service) => {
+          // all services which have the newSegments word (health, reentry) etc. in their description will be included and not filtered out
+          return (service['Program and Services'] !== undefined && service['Program and Services'] !== null && service['Program and Services'].toLowerCase().includes(newSegments.toLowerCase())) || 
+          (service.Description !== undefined && service.Description !== null && service.Description.toLowerCase().includes(newSegments.toLowerCase()));
+        }));
+      } else {
+        return true;
+      }
     }
   };
 
@@ -116,12 +120,14 @@ const ServicesPage = (props) => {
             onChange={handleSegments}
             value={segments}
             exclusive={true}
+            style={{backgroundColor: "#2176D2"}}
           >
-            <ToggleButton value="reentry">Reentry</ToggleButton>
-            <ToggleButton value="food">Food</ToggleButton>
-            <ToggleButton value="health">Health</ToggleButton>
-            <ToggleButton value="jobs">Jobs</ToggleButton>
-            <ToggleButton value="housing">Housing</ToggleButton>
+            <ToggleButton style={{color: "white"}} value="reentry">Reentry</ToggleButton>
+            <ToggleButton style={{color: "white"}} value="food">Food</ToggleButton>
+            <ToggleButton style={{color: "white"}} value="health">Health</ToggleButton>
+            <ToggleButton style={{color: "white"}} value="jobs">Jobs</ToggleButton>
+            <ToggleButton style={{color: "white"}} value="housing">Housing</ToggleButton>
+            <ToggleButton style={{color: "white"}} value="all">All</ToggleButton>
           </ToggleButtonGroup>
         </Box>
         {shownServices.map((service, i) => {

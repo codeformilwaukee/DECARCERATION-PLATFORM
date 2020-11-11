@@ -26,6 +26,7 @@ class Service extends React.Component {
         onChange={this.props.handleExpand(this.props.data.id)}>
         <AccordionSummary className="title" style={{
           display: "flex",
+          backgroundColor: "#F2F2F2" // 9BD5E8 // 69B9D4
         }}>
           <div style={{
             display: "inline-block",
@@ -42,7 +43,7 @@ class Service extends React.Component {
             }}
             />
         </AccordionSummary>
-        <AccordionDetails style={{flexDirection: "column"}}>
+        <AccordionDetails style={{flexDirection: "column", backgroundColor: "#F2F2F2"}}>
           <Address data={this.props.data} />
           {this.props.data.Phone && <div className="phone">Phone: {this.props.data.Phone}</div>}
           {this.props.data.Email && <div className="email">Email: {this.props.data.Email}</div>}
