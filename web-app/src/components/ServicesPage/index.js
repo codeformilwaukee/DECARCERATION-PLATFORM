@@ -28,8 +28,8 @@ const ServicesPage = (props) => {
       if (typeof serv['Program and Services'] == 'undefined') {
         servs[i] = {...serv[i], 'Program and Services': ""};
       }
-      if (serv.Address !== undefined) {
-        Geocode.fromAddress(serv).then(
+      if (serv.Address !== undefined && serv.Address[0] !== "") {
+        Geocode.fromAddress(serv.Address[0]).then(
           response => {
             const { lat, lng } = response.results[0].geometry.location;
             

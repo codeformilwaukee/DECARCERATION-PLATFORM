@@ -43,6 +43,7 @@ jobs:
           FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
           MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
           REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
+          REACT_APP_GOOGLE_GEOCODING: ${{ secrets.REACT_APP_GOOGLE_GEOCODING }}
           #AWSCLOUDFORMATIONCONFIG: "{\"configLevel\":\"project\",\"useProfile\":true,\"profileName\":\"default\"}"
           #NOTIFICATIONSCONFIG: "{\"Pinpoint\":{\"SMS\":{\"Enabled\":true},\"Email\":{\"Enabled\":true,\"FromAddress\":\"xxx@amzon.com\",\"Identity\":\"identityArn\",\"RoleArn\":\"roleArn\"}, \"APNS\":{\"Enabled\":true,\"DefaultAuthenticationMethod\":\"Certificate\",\"P12FilePath\":\"p12filePath\",\"Password\":\"p12FilePasswordIfAny\"},\"FCM\":{\"Enabled\":true,\"ApiKey\":\"fcmapikey\"}}}"
           #AMPLIFY: "{\"appId\":\"$AWS_APP_ID\", \"envName\":\"$AWS_BACKEND_ENV_NAME\"}"
@@ -58,7 +59,8 @@ jobs:
           sed -Ei "s,FIREBASE_PROJECT_ID,${FIREBASE_PROJECT_ID}," web-app/src/config.js
           sed -Ei "s,FIREBASE_STORAGE_BUCKET,${FIREBASE_STORAGE_BUCKET}," web-app/src/config.js
           sed -Ei "s,MEASUREMENT_ID,${MEASUREMENT_ID}," web-app/src/config.js
-          sed -Ei "s,REACT_APP_GOOGLE_MAPS_API_KEY,${REACT_APP_GOOGLE_MAPS_API_KEY}," web-app/src/components/ServicesPage/index.js
+          sed -Ei "s,REACT_APP_GOOGLE_MAPS_API_KEY,${REACT_APP_GOOGLE_MAPS_API_KEY}," web-app/src/config.js
+          sed -Ei "s,REACT_APP_GOOGLE_GEOCODING,${REACT_APP_GOOGLE_GEOCODING}," web-app/src/config.js
 
       #- name: configure amplify
       #  uses: ambientlight/amplify-cli-action@0.2.1
@@ -98,6 +100,7 @@ jobs:
           FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
           MEASUREMENT_ID: ${{ secrets.MEASUREMENT_ID }}
           REACT_APP_GOOGLE_MAPS_API_KEY: ${{ secrets.REACT_APP_GOOGLE_MAPS_API_KEY }}
+          REACT_APP_GOOGLE_GEOCODING: ${{ secrets.REACT_APP_GOOGLE_GEOCODING }}
     #- run: amplify init --appId "$AWS_APP_ID" --envName "$AWS_BACKEND_ENV_NAME" --yes
     #- run: amplify init --amplify $AMPLIFY --providers $PROVIDERS -categories $CATEGORIES --yes
     #- run: npm ci
