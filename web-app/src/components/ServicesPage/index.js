@@ -33,8 +33,8 @@ const ServicesPage = (props) => {
           response => {
             const { lat, lng } = response.results[0].geometry.location;
             
-            serv[i].lat = lat
-            serv[i].lng = lng;
+            servs[i].lat = lat
+            servs[i].lng = lng;
           },
           error => {
             console.error("could not retrieve latlng for address:", serv.Address, "err:", error);
@@ -169,7 +169,7 @@ const ServicesPage = (props) => {
           zoom={10}
           xs={12}
           item
-          initialCenter={{ lat: 43.057806, lng: -88.1075128 }}
+          center={{ lat: 43.0389, lng: -87.9065 }}
           containerStyle={{
             position: "relative",
             display: "flex",
@@ -181,8 +181,9 @@ const ServicesPage = (props) => {
         >
           {
             selectedServices.map(serviceId => {
-              console.log(serviceId);
-              const currService = services.filter(service => service.id === serviceId)[0];
+              console.log("sId:", serviceId);
+              const currService = shownServices.filter(service => service.id === serviceId)[0];
+              console.log("servSelected", currService);
               return (
                 <Marker
                   title={currService.Label}
