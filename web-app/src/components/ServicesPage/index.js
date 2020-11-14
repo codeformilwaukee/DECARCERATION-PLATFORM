@@ -145,17 +145,19 @@ const ServicesPage = (props) => {
             <ToggleButton style={{color: "white"}} value="all">All</ToggleButton>
           </ToggleButtonGroup>
         </Box>
-        {shownServices.map((service, i) => {
-          return (
-            <Service
-              key={i}
-              expanded={expanded}
-              handleCheck={() => handleCheck(service.id)}
-              handleExpand={() => handleExpand(service.id)}
-              data={service}
-            />
-          );
-        })}
+        <div style={{maxHeight: "100%", overflow: 'auto'}}>
+          {shownServices.map((service, i) => {
+            return (
+              <Service
+                key={i}
+                expanded={expanded}
+                handleCheck={() => handleCheck(service.id)}
+                handleExpand={() => handleExpand(service.id)}
+                data={service}
+              />
+            );
+          })}
+        </div>
       </Box>
       <Box
         className="map"

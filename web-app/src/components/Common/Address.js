@@ -25,7 +25,7 @@ const Address = (props) => {
 
   return (
     <div className="address">
-      Address: {data.Address}
+      🏠 {data.Address}
       {data.unit && data.unit.trim().length > 0 && <br />}
       {data.unit && data.unit.trim().length > 0 && data.unit }
       {isMultiLine() && <br />}
