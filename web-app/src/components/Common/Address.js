@@ -25,7 +25,7 @@ const Address = (props) => {
 
   return (
     <div className="address">
-      🏠 {data.Address}
+      <span role="img" aria-label="house">🏠</span> {data.Address}
       {data.unit && data.unit.trim().length > 0 && <br />}
       {data.unit && data.unit.trim().length > 0 && data.unit }
       {isMultiLine() && <br />}

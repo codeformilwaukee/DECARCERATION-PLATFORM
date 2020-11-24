@@ -96,7 +96,7 @@ const ServicesPage = (props) => {
       if (newSegments !== "other") {
         setShownServices(services.filter((service) => {
           // all services which have the newSegments word (health, reentry) etc. in their description will be included and not filtered out
-          return (service['Program and Services'] !== undefined && service['Program and Services'] !== null && service['Program and Services'].toLowerCase().includes(newSegments.toLowerCase())) || 
+          return (service['Program and Services'] !== undefined && service['Program and Services'] !== null && typeof service['Program and Services'] === 'string' && service['Program and Services'].toLowerCase().includes(newSegments.toLowerCase())) || 
           (service.Description !== undefined && service.Description !== null && service.Description.toLowerCase().includes(newSegments.toLowerCase()));
         }));
       } else {
