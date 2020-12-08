@@ -47,7 +47,9 @@ class Service extends React.Component {
           <Address data={this.props.data} />
           {this.props.data.Phone && <div className="phone"><span role="img" aria-label="telephone">📞</span> <a href={"tel:"+this.props.data.Phone}>{this.props.data.Phone}</a></div>}
           {this.props.data.Email && <div className="email"><span role="img" aria-label="envelope">✉️</span> <a href={"mailto:"+this.props.data.Email}>{this.props.data.Email}</a></div>}
-          {this.props.data.Website && <div className="website"><span role="img" aria-label="button with i for information">ℹ️</span> <a href={"https://"+this.props.data.Website} target="_blank" rel="noopener noreferrer">{this.props.data.Website}</a></div>}
+          {this.props.data.Website && 
+            <div className="website"><span role="img" aria-label="button with i for information">ℹ️</span> <a href={"https://"+this.props.data.Website} target="_blank" rel="noopener noreferrer">{this.props.data.Website}</a></div>
+            }
           {(this.props.data.Phone || this.props.data.Email || this.props.data.Website || this.props.data.Address) && this.props.data.Description && <Divider style={{margin: 10}}/>}
           {this.props.data.Description && <div className="description">{this.props.data.Description}</div>}
           {this.props.data['Program and Services'] && <div className="service-list">

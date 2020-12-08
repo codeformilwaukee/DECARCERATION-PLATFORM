@@ -125,8 +125,8 @@ const ServicesPage = (props) => {
       <Box
         className="left sidebar"
         style={{
-          flex: "1",
-          paddingRight: "5%",
+          flex: "2",
+          paddingRight: "2.5%",
           marginBottom: "20px",
         }}
       >
@@ -171,7 +171,7 @@ const ServicesPage = (props) => {
           zoom={10}
           xs={12}
           item
-          center={{ lat: 43.0389, lng: -87.9065 }}
+          center={{ lat: 43.0389, lng: 87.9065 }}
           containerStyle={{
             position: "relative",
             display: "flex",

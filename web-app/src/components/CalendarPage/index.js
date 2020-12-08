@@ -5,6 +5,20 @@ import 'react-big-calendar/lib/css/react-big-calendar.css';
 import NewCalendarEntryModal from './NewCalendarEntryModal';
 import ExistingCalendarEntryModal from './ExistingCalendarEntryModal';
 
+const getEvents = async () => {
+  let url = 'https://api.sheety.co/eec8e466a41d19c1856d37f3a49d8fb2/wdp:CalendarEvents/formResponses1';
+  
+  fetch(url)
+  .then((response) => response.json())
+  .then(json => {
+    let events = []
+    // Do something with the data
+    json.formResponses1S.forEach((formResponse) => {
+
+    });
+  });
+}
+
 const localizer = momentLocalizer(moment);
 //initialData
 const myEvents = [
