@@ -11,6 +11,7 @@ import CalendarPage from "../CalendarPage";
 import ServicesPage from "../ServicesPage";
 import PrivacyPolicyPage from "../PrivacyPolicyPage";
 import TermsAndConditionsPage from "../TermsAndConditionsPage";
+import AboutPage from "../AboutPage";
 
 import * as ROUTES from "../../constants/routes";
 
@@ -33,6 +34,8 @@ const App = (props) => (
         path={ROUTES.TERMS_AND_CONDITIONS}
         component={TermsAndConditionsPage}
       />
+      
+      <Route exact path={ROUTES.ABOUT} component={AboutPage} />
 
       <Footer />
     </div>
