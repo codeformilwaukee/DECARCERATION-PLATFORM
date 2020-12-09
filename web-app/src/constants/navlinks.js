@@ -5,7 +5,7 @@ export const DEFAULTS = [
   [ROUTES.SERVICES, "Reentry Services"],
   [ROUTES.CALENDAR, "Events"],
   ["#", "Help"],
-  [ROUTES.SIGN_IN, "Sign In"]
+  [ROUTES.ABOUT, "About"]
 ];
 
 // e.g. ROUTES.HOME: DEFAULTS

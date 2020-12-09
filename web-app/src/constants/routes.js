@@ -1,8 +1,8 @@
 export const LANDING = '/'
 export const SIGN_UP = '/signup';
 export const SIGN_IN = '/signin';
-export const CALENDAR= '/calendar';
-export const INSIDE_OUT ='/insideout';
+export const CALENDAR = '/calendar';
+export const INSIDE_OUT = '/insideout';
 export const DATA = '/data';
 export const ABOUT = '/about';
 export const MOVEMENT = '/movement';
