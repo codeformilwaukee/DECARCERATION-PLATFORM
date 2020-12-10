@@ -4,7 +4,7 @@ export const DEFAULTS = [
   [ROUTES.LANDING, "Home"],
   [ROUTES.SERVICES, "Reentry Services"],
   [ROUTES.CALENDAR, "Events"],
-  ["#", "Help"],
+  [ROUTES.CIRCLES_OF_SUPPORT, "Circles of Support"],
   [ROUTES.ABOUT, "About"]
 ];
 

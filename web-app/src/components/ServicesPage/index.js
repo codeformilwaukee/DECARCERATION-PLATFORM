@@ -67,7 +67,7 @@ const ServicesPage = (props) => {
   useEffect(() => {
     fetchServices();
     // console.log("curr services after fetch", services);
-  }, []);
+  });
 
   const handleCheck = (service) => (event) => {
     event.stopPropagation();

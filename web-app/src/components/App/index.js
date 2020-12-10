@@ -14,6 +14,7 @@ import TermsAndConditionsPage from "../TermsAndConditionsPage";
 import AboutPage from "../AboutPage";
 
 import * as ROUTES from "../../constants/routes";
+import SupportCirclePage from "../SupportCircles";
 
 const App = (props) => (
   <Router>
@@ -34,9 +35,8 @@ const App = (props) => (
         path={ROUTES.TERMS_AND_CONDITIONS}
         component={TermsAndConditionsPage}
       />
-      
       <Route exact path={ROUTES.ABOUT} component={AboutPage} />
-
+      <Route exact path={ROUTES.CIRCLES_OF_SUPPORT} component={SupportCirclePage} />
       <Footer />
     </div>
   </Router>

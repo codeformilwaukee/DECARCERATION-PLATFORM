@@ -8,8 +8,6 @@ class Service extends React.Component {
   constructor(props) {
     super(props);
 
-    console.log("props:", props);
-    
     this.handleClick = this.handleClick.bind(this);
   }
   
