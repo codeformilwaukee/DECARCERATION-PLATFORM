@@ -3,7 +3,7 @@ import { Container, Typography } from '@material-ui/core';
 
 const AboutPage = () => {
     return (
-        <Container>
+        <Container style={{textAlign: 'center'}}>
             <Typography variant="h3" component="h3" gutterBottom>VISION</Typography>
             <Typography gutterBottom>A Wisconsin with connected resources to create effective alternatives to and within the criminal justice system to promote healthy and peaceful communities.</Typography>
             <Typography variant="h3" component="h3" gutterBottom>MISSION</Typography>
@@ -12,23 +12,22 @@ const AboutPage = () => {
             <Typography gutterBottom>The WDP was conceptualized in 2018 and has been in development for the past two years by a collaborative group of community members, philanthropists, activists, and academics from MSOE, UWM, Marquette University, Wisconsin Justice Initiative, Project RETURN, WISDOM, EXPO, the Milwaukee Turners’ Confronting Mass Incarceration project, Community Advocates, and many more Wisconsin organizations. </Typography>
             <br/>
             <Typography variant="h5"component="h5" gutterBottom>The Team</Typography>
-            <Typography gutterBottom>
-                Conor Williams, Community Advocates 
-                <br/>Gretchen Schuldt, Wisconsin Justice Initiative
-                <br/>Julilly Kohler, Milwaukee Turners Confronting Mass Incarceration Committee
-                <br/>Paul Rinaldi, Milwaukee School of Engineering
-                <br/>Michael Carriere, Milwaukee School of Engineering
-                <br/>Wendel Hruska, Project Return
-                <br/>Robert S. Smith, Marquette University
-                <br/>Marisola Xhelili Ciaccio, Marquette University
-                <br/>Timothy Ehlinger, University of Wisconsin-Milwaukee  
-                <br/>Natraj Shanker, Rotary
-                <br/>Sylvester Jackson, EXPO
-                <br/>Milton Bond, Milwaukee Area Technical College
-                <br/>David Liners, WISDOM
-                <br/>Shannon Ross, The Community & University of Wisconsin-Milwaukee  
-                <br/>Sara Onitsuka, University of Wisconsin-Milwaukee  
-                <br/>Jeremy McClain, University of Wisconsin-Milwaukee  
+            <Typography gutterBottom style={{textAlign:'center'}}>
+            David Liners, <a target="_blank" rel="noopener noreferrer" href="https://wisdomwisconsin.org"><b>WISDOM</b></a>
+            <br/>Gretchen Schuldt, Wisconsin Justice Initiative (<a target="_blank" rel="noopener noreferrer" href="https://www.wjiinc.org"><b>WJI</b></a>)
+            <br/>Jeremy McClain, <a target="_blank" rel="noopener noreferrer" href="https://uwm.edu/icfw/community-engagement-systems-change/"><b>University of Wisconsin-Milwaukee</b></a>
+            <br/>Julilly Kohler, <a target="_blank" rel="noopener noreferrer" href="https://www.milwaukeeturners.org/cmi"><b>Milwaukee Turners Confronting Mass Incarceration Committee</b></a>
+            <br/>Marisola Xhelili Ciaccio, <a target="_blank" rel="noopener noreferrer" href="https://www.marquette.edu"><b>Marquette University</b></a>
+            <br/>Michael Carriere, <a target="_blank" rel="noopener noreferrer" href="https://www.msoe.edu"><b>Milwaukee School of Engineering</b></a> (<a href="mailto:carriere@msoe.edu"><b>carriere@msoe.edu</b></a>)
+            <br/>Milton Bond, <a target="_blank" rel="noopener noreferrer" href="https://www.matc.edu"><b>Milwaukee Area Technical College</b></a>
+            <br/>Natraj Shanker, <a target="_blank" rel="noopener noreferrer" href="http://milwaukeerotary.com"><b>Milwaukee Rotary</b></a>
+            <br/>Paul Rinaldi, <a target="_blank" rel="noopener noreferrer" href="https://www.msoe.edu"><b>Milwaukee School of Engineering</b></a>
+            <br/>Robert S. Smith, <a target="_blank" rel="noopener noreferrer" href="https://www.marquette.edu"><b>Marquette University</b></a>
+            <br/>Sara Onitsuka, <a target="_blank" rel="noopener noreferrer" href="https://uwm.edu/icfw/community-engagement-systems-change/"><b>University of Wisconsin-Milwaukee</b></a>
+            <br/>Shannon Ross, <a target="_blank" rel="noopener noreferrer" href="http://thecommunitynow.us/about-us/"><b>The Community</b></a>
+            <br/>Sylvester Jackson, <a target="_blank" rel="noopener noreferrer" href="https://wisdomwisconsin.org/expo-ex-prisoners-organizing/"><b>EXPO</b></a>
+            <br/>Timothy Ehlinger, <a target="_blank" rel="noopener noreferrer" href="https://uwm.edu/icfw/community-engagement-systems-change/"><b>University of Wisconsin-Milwaukee</b></a>)
+            <br/>Wendel Hruska, <a target="_blank" rel="noopener noreferrer" href="https://www.projectreturnmilwaukee.org"><b>Project Return</b></a>
             </Typography>
         </Container>
     )
