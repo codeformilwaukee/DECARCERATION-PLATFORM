@@ -21,5 +21,13 @@ export default {
   google: {
     REACT_APP_GOOGLE_MAPS_API_KEY: "REACT_APP_GOOGLE_MAPS_API_KEY",
     REACT_APP_GOOGLE_GEOCODING: "REACT_APP_GOOGLE_GEOCODING"
+  },
+  airtable: {
+    apiKey: "AIRTABLE_API_KEY",
+    endpointUrl: "https://api.airtable.com",
+    serviceProvidersBase: "AIRTABLE_SERVICE_PROVIDERS_BASE",
+    serviceProvidersTableName: "AIRTABLE_SERVICE_PROVIDERS_TABLE_NAME",
+    calendarEventsBase: "AIRTABLE_CALENDAR_EVENTS_BASE",
+    calendarEventsTableName: "AIRTABLE_CALENDAR_EVENTS_TABLE_NAME"
   }
 };

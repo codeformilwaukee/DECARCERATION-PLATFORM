@@ -6,6 +6,7 @@ import NewCalendarEntryModal from './NewCalendarEntryModal';
 import ExistingCalendarEntryModal from './ExistingCalendarEntryModal';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Config from '../../config';
 
 const googleFormDateTimeToJSDate = (date, time) => {
   // CST only
@@ -39,51 +40,96 @@ const googleFormDateTimeToJSDate = (date, time) => {
   return datetime;
 }
 
-const getEvents = () => {
+const getSheetyEvents = () => {
   let events = [];
-  let url = 'https://api.sheety.co/eec8e466a41d19c1856d37f3a49d8fb2/wdp:CalendarEvents/formResponses1';
-  
-  fetch(url)
-  .then((response) => {
-      if (response.status !== 200) {
-        console.log('Looks like there was a problem. Status Code: ' + response.status);
-        return [];
-      }
-      
-      response.json().then((data) => {
-        if (data.formResponses1) {
-          data.formResponses1.forEach((formResponse) => {
-            if (formResponse.dateOfTheEvent && formResponse.timeWhenTheEventBegins && formResponse.timeWhenTheEventEnds) {
-              const start = googleFormDateTimeToJSDate(formResponse.dateOfTheEvent, formResponse.timeWhenTheEventBegins);
-              const end = googleFormDateTimeToJSDate(formResponse.dateOfTheEvent, formResponse.timeWhenTheEventEnds);
 
-              const event = {
-                title: formResponse.nameOfTheEvent,
-                start: start, // more work to do here
-                end: end,
-                hostOrg: formResponse.sponsoringOrganization,
-                registration: formResponse['onlineRegistrationLink (orAContactEmail)'],
-                chargeYesNo: formResponse['isThereAMonetaryChargeForAttendingTheEvent?'],
-                frequency: formResponse.howOftenDoesThisEventOccur,
-                description: formResponse['description (include:What,Why,AndThePurposeOfTheEvent)'],
-                address: formResponse['addressOfEvent (ifApplicable)']
-              };
-    
-              events.push(event);
-            } else {
-              // console.log("could not accept, ", data);
-            }
-          });
-        }
-      })
-      .catch(err => {
-        console.log("json() err", err);
-      });
+  const sheetyURL = 'https://api.sheety.co/eec8e466a41d19c1856d37f3a49d8fb2/wdp:CalendarEvents/formResponses1';
+  
+  fetch(sheetyURL)
+  .then((response) => {
+    if (response.status !== 200) {
+      console.log('Looks like there was a problem. Status Code: ' + response.status);
+      return [];
     }
-  )
+    
+    response.json().then((data) => {
+      if (data.formResponses1) {
+        data.formResponses1.forEach((formResponse) => {
+          if (formResponse.dateOfTheEvent && formResponse.timeWhenTheEventBegins && formResponse.timeWhenTheEventEnds) {
+            const start = googleFormDateTimeToJSDate(formResponse.dateOfTheEvent, formResponse.timeWhenTheEventBegins);
+            const end = googleFormDateTimeToJSDate(formResponse.dateOfTheEvent, formResponse.timeWhenTheEventEnds);
+
+            const event = {
+              title: formResponse.nameOfTheEvent,
+              start: start, // more work to do here
+              end: end,
+              hostOrg: formResponse.sponsoringOrganization,
+              registration: formResponse['onlineRegistrationLink (orAContactEmail)'],
+              chargeYesNo: formResponse['isThereAMonetaryChargeForAttendingTheEvent?'],
+              frequency: formResponse.howOftenDoesThisEventOccur,
+              description: formResponse['description (include:What,Why,AndThePurposeOfTheEvent)'],
+              address: formResponse['addressOfEvent (ifApplicable)']
+            };
+  
+            events.push(event);
+          } else {
+            // console.log("could not accept, ", data);
+          }
+        });
+      }
+    })
+    .catch(err => {
+      console.log("json() err", err);
+    });
+  })
   .catch(function(err) {
     console.log('Fetch Error :-S', err);
   });
+  
+  return events;
+}
+
+const getAirtableEvents = (airtableEndpointURL, airtableBase, airtableAPIKey, tableName) => {
+  let events = [];
+  const airtableURL = airtableEndpointURL + "/v0/" + airtableBase + "/" + tableName + "/?api_key=" + airtableAPIKey;
+  
+  fetch(airtableURL)
+    .then(res => res.json())
+    .then(res => {
+      console.log(res.records);
+      events = res.records;
+      if (res.records !== undefined && res.records.length > 0) {
+        const eventsStripppedFromTotalTable = events.filter(eventObj => eventObj.fields["Event Starts"] !== undefined)
+        // console.log(eventsStripppedFromTotalTable);
+        
+        const calEvents = eventsStripppedFromTotalTable.map(e => {
+          return {
+            title: e.fields['Name of the Event'],
+            description: e.fields['Description (Include: What, Why, and the purpose of the event)'],
+            start: new Date(e.fields['Event Starts']), // more work to do here
+            end: new Date(e.fields['Event Ends']),
+            hostOrg: e.fields['Sponsoring Organization'],
+            registration: e.fields['Online Registration Link'],
+            email: e.fields['Email Contact'],
+            charge: e.fields['If there is a charge, how much is it in USD? (ex. $20.00)'],
+            frequency: e.fields['How often does this event occur?'],
+            address: e.fields['Address of Event (if applicable)']
+          };
+        })
+        console.log("calEvents", calEvents);
+        
+        return calEvents;
+      }
+    })
+    .catch(error => {
+      console.log("err", error);
+    });
+  return events;
+}
+
+const getEvents = () => {
+  let events = [];
+  events = getAirtableEvents(Config.airtable.endpointUrl, Config.airtable.calendarEventsBase, Config.airtable.apiKey, Config.airtable.calendarEventsTableName);
   return events;
 }
 
@@ -114,6 +160,7 @@ const CalendarPage = () => {
   const [events, setEvents] = useState(myEvents);
   const [currEvent, setCurrEvent] = useState(initialCurrEvent);
   const [selectedEvent, setSelectedEvent] = useState(initialCurrEvent);
+  
 
   //functions
   const toggleNew = () => {setNewEventModal(!newEventModal)}
@@ -143,10 +190,7 @@ const CalendarPage = () => {
 
   useEffect(() => {
     const formEvents = getEvents();
-    console.log("got events", formEvents);
-    if (formEvents.length > 0) {
-      setEvents(formEvents);
-    } else {
+    if (formEvents.length === 0) {
       toast.error("Whoops. The website had a problem accessing WDP's events.\nSorry about this. We're working hard to get this fixed.", {
         position: "bottom-center",
         autoClose: 5000,
@@ -157,8 +201,10 @@ const CalendarPage = () => {
         progress: undefined,
       });
     }
-    
-  }, [])
+    console.log("set events", formEvents);
+    setEvents(formEvents);
+    console.log("now events", events);
+  }, events)
 
   //this makes sure that currEvent isn't added to events before currEvents receives data from child
   useEffect(() => {
@@ -169,6 +215,7 @@ const CalendarPage = () => {
     }
   }, [events, currEvent]);
 
+  console.log("finna render", events);
   return (
     <div 
       className="calendar"
