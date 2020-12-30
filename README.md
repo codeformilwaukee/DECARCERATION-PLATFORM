@@ -12,6 +12,8 @@ This project (1) equips service providers with the tools they need to have a pos
 
 We believe that many reentry organizations nationally could have a more transformative impact on mass incarceration if they are provided with more incentives, reminders, and notices to collaborate as well as if they had fewer gates to reach the individuals they wish to help. We also believe many people formerly incarcerated can and will lead law-abiding lives if their reentry journeys were filled with less hurdles, more positivity, and clearer tasks. Therefore, we seek to create a platform that meets those needs.
 
+We envision this tool to someday be launchable and customizable by any Code for America team in any state in the Unites States of America. 
+
 # Installation
 This project uses NPM and was started with create-react-app.
 
