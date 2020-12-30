@@ -1,6 +1,9 @@
 # DECARCERATION-PLATFORM
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7b0aa6fb-1ff1-447c-a408-c3c9b1d7012e/deploy-status)](https://app.netlify.com/sites/widp/deploys)
 
+# We launched.
+* [https://wisdp.com/](https://wisdp.com/)
+
 # Live Deployed Previews
 * [https://widp.netlify.app/](https://widp.netlify.app/)
 
