@@ -37,8 +37,9 @@ const App = (props) => (
       />
       <Route exact path={ROUTES.ABOUT} component={AboutPage} />
       <Route exact path={ROUTES.CIRCLES_OF_SUPPORT} component={SupportCirclePage} />
-      <Footer />
+      
     </div>
+  <Footer />
   </Router>
 );
 
